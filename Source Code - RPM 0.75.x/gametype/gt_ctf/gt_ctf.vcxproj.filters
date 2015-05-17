@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{647aa080-6dbf-42f0-aa9b-df1639457c57}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\nv">
+      <UniqueIdentifier>{d78b2fc0-75f3-47fe-871a-ecf85e35341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e6d26e5a-a79e-40ba-bd86-4c72eace79f6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{95ca463f-a4b3-4a9d-bb8d-5a87989087be}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\game\bg_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gt_syscalls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\q_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\game\q_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_actf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_cctf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_con.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_ctf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_dom.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_koth.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_octf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_rush.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_tctf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_dctf.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_op.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="gt_vip.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="gt_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gt_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gt_syscalls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\sof2_gametype.def">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

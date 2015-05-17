@@ -1,0 +1,18 @@
+-o "gt_ctf"
+
+gt_main
+gt_ctf
+gt_cctf
+gt_tctf
+gt_rush
+gt_con
+gt_dom
+gt_actf
+gt_octf
+gt_koth
+gt_op
+gt_vip
+bg_lib
+..\..\gt_syscalls
+q_math
+q_shared

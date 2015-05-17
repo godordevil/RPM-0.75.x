@@ -1,0 +1,9 @@
+-o "gt_elim"
+
+gt_main
+gt_elim
+gt_tft
+bg_lib
+q_math
+q_shared
+..\..\gt_syscalls

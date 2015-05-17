@@ -1,0 +1,438 @@
+
+{
+"classname" "worldspawn"
+"redteam" "colombian"
+"blueteam"	"marine"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6864 3264 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6768 3056 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6976 3264 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7104 3264 3720"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7168 3200 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7168 3120 3720"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7056 3056 3720"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6960 3024 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6864 3024 3720"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7008 2480 3720"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6928 2336 3720"
+"angles" "0 45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3590 7047 3732"
+"angles" "0 -99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3405 7180 3740"
+"angles" "0 -101 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3580 6814 3726"
+"angles" "0 -98 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3563 6575 3726"
+"angles" "0 -171 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3311 6843 3843"
+"angles" "0 -138 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3236 6702 3843"
+"angles" "0 -172 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3078 6692 3843"
+"angles" "0 -98 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2945 6897 3843"
+"angles" "0 -93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3175 6824 3843"
+"angles" "0 -104 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3125 7122 3726"
+"angles" "0 -87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2814 7151 3726"
+"angles" "0 -85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2626 6946 3726"
+"angles" "0 8 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2643 6741 3726"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2851 6427 3726"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3278 6435 3726"
+"angles" "0 -167 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3751 6941 3886"
+"angles" "0 -14 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3822 6561 3886"
+"angles" "0 -173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7078 3445 3726"
+"angles" "0 101 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6709 3406 3726"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6806 3485 3726"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6893 3362 3726"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "7254 2798 3726"
+"angles" "0 126 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6991 2832 3726"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "6872 2897 3726"
+"angles" "0 86 0"
+}
+
+{
+"classname" "info_player_intermission"
+"origin" "2224 5704 4318"
+"target" "t3"
+}
+{
+"model" "*23"
+"classname" "func_static"
+"origin" "37 -49 -55"
+"speed" "100.0"
+"mins" "2703 6478 3671"
+"maxs" "3505 7153 3845"
+}
+{
+"classname" "target_location"
+"origin" "6888 2976 3848"
+"message" "Deserted Camp"
+"health" "1"
+}
+{
+"classname" "info_notnull"
+"origin" "5344 5856 3868"
+"targetname" "t2"
+}
+{
+"classname" "target_location"
+"origin" "6712 2248 4016"
+"message" "Camp Tower"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "5128 4424 4016"
+"message" "Path Tower"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "7232 4152 3760"
+"message" "Abandoned Building"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "7168 2360 3760"
+"message" "Abandoned Tent"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "6144 2104 3760"
+"message" "Camp Tunnel Entrance"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "5184 1768 3760"
+"message" "Camp Tunnels"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "4432 2248 3760"
+"message" "Camp Tunnel Entrance"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "752 4248 3904"
+"message" "Small Mayan Ruins"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "3056 6824 4160"
+"message" "Copter"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "4512 6632 3928"
+"message" "Mayan Tunnel Entrance"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "6048 5264 3776"
+"message" "Northen Camp Tunnel Entrance"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "5400 5856 3776"
+"message" "Pool"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "2248 3040 3904"
+"message" "South Path"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "3464 4440 3904"
+"message" "North Path"
+"health" "15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "3576 4762 3719"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "200"
+"angles" "0 47 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Armory/virus.md3"
+"classname" "nv_model"
+"origin" "3576 4762 3715"
+"angles" "0 47 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/barrels/barrel_hk.md3"
+"classname" "nv_model"
+"origin" "3576 4762 3673"
+"spawnflags" "1"
+"angles" "0 47 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "3576 4762 3673"
+"angles" "0 47 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "*23"
+"classname" "func_static"
+"origin" "2304 -950 -56"
+"speed" "100.0"
+"mins" "2703 6478 3671"
+"maxs" "3505 7153 3845"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "5588 4808 3718"
+"target" "demolish2"
+"targetname" "briefcase_destination_red"
+"health" "201"
+"angles" "0 86 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "nv_model"
+"origin" "5588 4808 3671"
+"spawnflags" "1"
+"angles" "0 86 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "5588 4808 3671"
+"angles" "0 86 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "4535 4053 3722"
+"targetname" "briefcase"
+"angles" "0 102 0"
+}

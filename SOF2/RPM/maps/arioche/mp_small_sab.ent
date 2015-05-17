@@ -1,0 +1,647 @@
+
+{
+"classname" "worldspawn"
+"redteam" "prometheus"
+"blueteam"	"marine"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5764 49 656"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5314 425 656"
+"angles" "0 95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3949 229 656"
+"angles" "0 74 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "4113 487 635"
+"angles" "0 56 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "4586 113 813"
+"angles" "0 75 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5647 87 656"
+"angles" "0 97 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5781 230 656"
+"angles" "0 98 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5911 378 656"
+"angles" "0 165 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3697 777 603"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "4476 442 717"
+"angles" "0 32 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "4418 -121 977"
+"angles" "0 80 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "4968 -18 1032"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5540 -617 763"
+"angles" "0 83 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5852 -537 705"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "5369 -217 672"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "3958 6144 619"
+"angles" "0 -87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4182 6151 620"
+"angles" "0 -87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4211 5748 615"
+"angles" "0 -8 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4437 5818 615"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "3677 5505 627"
+"angles" "0 -5 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5370 5645 638"
+"angles" "0 -162 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5219 6448 803"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4447 6271 646"
+"angles" "0 -99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4727 5955 615"
+"angles" "0 -102 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4732 6541 790"
+"angles" "0 -93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4902 6411 1020"
+"angles" "0 -93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4052 5931 615"
+"angles" "0 -84 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5242 5593 615"
+"angles" "0 -173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5721 5981 851"
+"angles" "0 -136 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5331 5998 668"
+"angles" "0 -106 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5864 5688 866"
+"angles" "0 -150 0"
+}
+
+{
+"densitymap" "heightmaps/density_small"
+ "heightmap" "heightmaps/random_small"
+"numpatches" "210"
+"shader" "0"
+"terxels" "4"
+"texturescale" "0.037500"
+"model" "*1"
+"classname" "terrain"
+"mins" "-8193 -8193 -1"
+"maxs" "8193 8193 2049"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "3910 2454 770"
+"angles" "-8 91 1"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "4995 2454 768"
+"angles" "-8 91 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "5767 2451 765"
+"angles" "-8 91 0"
+"mins" "-16 24 0"
+"maxs" "16 -24 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "5885 3860 771"
+"angles" "-8 -89 -1"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "4795 3866 773"
+"angles" "-8 -88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "4724 6171 772"
+"angles" "0 89 0"
+"mins" "-16 -11 0"
+"maxs" "16 11 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "5127 280 806"
+"angles" "0 -90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "4776 277 806"
+"angles" "0 -88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "5047 6168 772"
+"angles" "0 90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "5860 1990 656"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "200"
+"angles" "0 175 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Armory/virus.md3"
+"classname" "nv_model"
+"origin" "5860 1990 651"
+"angles" "0 175 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/barrels/barrel_hk.md3"
+"classname" "nv_model"
+"origin" "5860 1990 609"
+"spawnflags" "1"
+"angles" "0 175 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "5860 1990 609"
+"angles" "0 175 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "4887 3154 807"
+"targetname" "briefcase"
+"angles" "0 85 0"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "3927 4290 656"
+"target" "demolish2"
+"targetname" "briefcase_destination_red"
+"health" "201"
+"angles" "0 83 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "nv_model"
+"origin" "3927 4290 609"
+"spawnflags" "1"
+"angles" "0 83 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "3927 4290 609"
+"angles" "0 83 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6323 -1401 933"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4797 1950 821"
+"mins" "-1217 -257 -65"
+"maxs" "1089 321 1"
+"bspmodel" "INSTANCES/test/bridge"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4710 2350 561"
+"mins" "-2292 -130 -337"
+"maxs" "2292 130 329"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5117 1610 561"
+"angles" "0 180 0"
+"mins" "-2313 -130 -329"
+"maxs" "2313 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3687 5495 612"
+"angles" "0 270 0"
+"mins" "-2305 -128 -329"
+"maxs" "2305 128 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4657 4658 569"
+"mins" "-2305 -130 -329"
+"maxs" "2305 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5085 3965 567"
+"angles" "0 180 0"
+"mins" "-2305 -130 -329"
+"maxs" "2305 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5105 4273 825"
+"mins" "-1217 -257 -65"
+"maxs" "1089 321 1"
+"bspmodel" "INSTANCES/test/bridge"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "4031 3867 776"
+"angles" "-7 -90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4889 3161 617"
+"mins" "-385 -154 -65"
+"maxs" "385 154 145"
+"bspmodel" "INSTANCES/generic/ctf3"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5021 197 548"
+"angles" "0 91 0"
+"mins" "-353 -257 -129"
+"maxs" "129 385 441"
+"bspmodel" "INSTANCES/kamchatka/tower2"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4813 6253 512"
+"angles" "0 -91 0"
+"mins" "-353 -257 -129"
+"maxs" "129 385 441"
+"bspmodel" "INSTANCES/kamchatka/tower2"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4538 511 714"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5679 698 675"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4887 996 629"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4291 5656 628"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4930 5225 588"
+"angles" "0 179 0"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5344 5544 623"
+"mins" "-193 -17 -65"
+"maxs" "213 17 45"
+"bspmodel" "INSTANCES/kamchatka/vaultwall"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6135 772 613"
+"angles" "0 90 0"
+"mins" "-2305 -130 -329"
+"maxs" "2305 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6135 5531 626"
+"angles" "0 90 0"
+"mins" "-2293 -128 -329"
+"maxs" "2293 128 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3508 5353 908"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3687 772 627"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6327 4974 933"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3588 -437 909"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6243 4989 926"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3585 5384 910"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6243 1812 924"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6325 1733 933"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3515 -426 908"
+"angles" "0 270 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3511 2305 907"
+"angles" "0 450 0"
+"mins" "-2280 -130 -329"
+"maxs" "2280 130 321"
+"bspmodel" "INSTANCES/kamchatka/defense_wall01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3579 2317 905"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}

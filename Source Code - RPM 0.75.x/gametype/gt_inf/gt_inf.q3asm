@@ -1,0 +1,13 @@
+-o "gt_inf"
+
+gt_main
+gt_inf
+gt_sab
+gt_dem
+gt_raze
+gt_cr
+gt_ctc
+bg_lib
+..\..\gt_syscalls
+q_math
+q_shared

@@ -1,0 +1,907 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+"doors" "0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2176 616 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2704 616 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2704 -616 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2176 -608 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3080 -288 110"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3080 296 110"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1824 360 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1824 -360 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2416 -344 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2408 360 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2008 360 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1992 -360 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6592 -1640 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7120 -1640 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7120 -408 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6592 -416 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7496 -736 110"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7496 -1320 110"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6240 -1384 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6240 -664 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6832 -680 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6824 -1384 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6424 -1384 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6408 -664 46"
+"angles" "0 270 0"
+}
+
+{
+"classname" "info_notnull"
+"origin" "-1964 -596 100"
+"targetname" "t1"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-2552 -416 86"
+"target" "t1"
+}
+{
+"classname" "target_location"
+"origin" "-1336 -320 -184"
+"message" "blue lower tunnel"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "-1040 0 104"
+"message" "blue upper tunnel"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-3376 -1024 104"
+"message" "red upper tunnel"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-6676 -1024 88"
+"message" "red base"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "128 16 120"
+"message" "blue bridge"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "2264 0 88"
+"message" "blue base"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-4544 -1008 120"
+"message" "red bridge"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "-2904 -688 104"
+"message" "red upper tunnel"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "-1512 -336 104"
+"message" "blue upper tunnel"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "-1424 -40 -184"
+"message" "blue lower tunnel"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-1888 -32 -184"
+"message" "blue lower tunnel"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-2216 0 -184"
+"message" "blue lower tunnel"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-2216 -1024 -184"
+"message" "red lower tunnel"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "-3000 -992 -184"
+"message" "red lower tunnel"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "-3016 -704 -184"
+"message" "red lower tunnel"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "-3464 -704 -152"
+"message" "red lower tunnel"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "-952 -320 -184"
+"message" "blue lower tunnel"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "-5162 -736 262"
+"message" "Chronic Snipe Tower"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "-5101 -1318 46"
+"message" "Poison's Runaway"
+"health" "19"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-420 -1 46"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "200"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "-420 -1 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "-420 -1 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "-420 -1 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "-420 -1 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_blue.md3"
+"classname" "nv_model"
+"origin" "-420 -1 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/Common/barrels/barrel_hk.md3"
+"classname" "nv_model"
+"origin" "-420 -1 0"
+"spawnflags" "1"
+"angles" "0 177 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-420 -1 0"
+"angles" "0 177 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "-2213 -509 46"
+"targetname" "briefcase"
+"angles" "0 -85 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-4016 -1022 46"
+"target" "demolish2"
+"targetname" "briefcase_destination_red"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/flags/flag_red.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 46"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 0"
+"spawnflags" "1"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-4016 -1022 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "target_location"
+"origin" "-4562 -991 46"
+"message" "Milf Bridge"
+"health" "20"
+}
+{
+"classname" "target_location"
+"origin" "-3983 -1012 46"
+"message" "Red Bomb Spot"
+"health" "21"
+}
+{
+"classname" "target_location"
+"origin" "-4536 -1025 46"
+"message" "Red Bomb Plant Brigde"
+"health" "22"
+}
+{
+"classname" "target_location"
+"origin" "-4604 -1027 46"
+"message" "Red Bomb Plant Bridge"
+"health" "23"
+}
+{
+"classname" "target_location"
+"origin" "-4323 -1027 46"
+"message" "Red Bomb Plant Bridge"
+"health" "24"
+}
+{
+"model" "models/chunks/glass/glchunks_5.md3"
+"classname" "nv_model"
+"origin" "-4901 -836 0"
+"angles" "0 -165 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "target_location"
+"origin" "-6569 -1022 46"
+"message" "Red Milf Hunters"
+"health" "25"
+}
+{
+"classname" "target_location"
+"origin" "-6655 -1083 82"
+"message" "Red Milf Hunters"
+"health" "26"
+}
+{
+"classname" "target_location"
+"origin" "-7405 -1130 146"
+"message" "Red Milf Hunters"
+"health" "27"
+}
+{
+"classname" "target_location"
+"origin" "-6752 -488 57"
+"message" "Red Milf Hunters"
+"health" "28"
+}
+{
+"classname" "target_location"
+"origin" "2902 38 154"
+"message" "Blue Gang Bangers"
+"health" "29"
+}
+{
+"classname" "target_location"
+"origin" "2047 -2 71"
+"message" "Blue Gang Bangers"
+"health" "30"
+}
+{
+"classname" "target_location"
+"origin" "2156 256 88"
+"message" "Blue Gang Bangers"
+"health" "31"
+}
+{
+"classname" "target_location"
+"origin" "2202 -208 105"
+"message" "Blue Gang Bangers"
+"health" "32"
+}
+{
+"classname" "target_location"
+"origin" "876 300 131"
+"message" "Seph's Sexy Club Entrance"
+"health" "33"
+}
+{
+"classname" "target_location"
+"origin" "212 6 74"
+"message" "Blue Bomb Plant Bridge"
+"health" "34"
+}
+{
+"classname" "target_location"
+"origin" "-49 37 90"
+"message" "Blue Bomb Plant Bridge"
+"health" "35"
+}
+{
+"classname" "target_location"
+"origin" "-527 -3 43"
+"message" "Blue Bomb Plant Spot"
+"health" "36"
+}
+{
+"classname" "target_location"
+"origin" "-1810 -519 108"
+"message" "Clon's Little Russia"
+"health" "37"
+}
+{
+"classname" "target_location"
+"origin" "-6639 -912 82"
+"message" "Red Milf Hunters"
+"health" "38"
+}
+{
+"classname" "target_location"
+"origin" "-6989 -1083 92"
+"message" "Red Milf Hunters"
+"health" "39"
+}
+{
+"classname" "target_location"
+"origin" "2453 -560 41"
+"message" "Blue Gang Bangers"
+"health" "40"
+}
+{
+"classname" "target_location"
+"origin" "2407 551 56"
+"message" "Blue Gang Bangers"
+"health" "41"
+}
+{
+"classname" "target_location"
+"origin" "2337 6 80"
+"message" "Blue Gang Bangers"
+"health" "42"
+}
+{
+"classname" "target_location"
+"origin" "-1183 20 136"
+"message" "Entrance to Blue Jockey"
+"health" "43"
+}
+{
+"classname" "target_location"
+"origin" "-3361 -1037 55"
+"message" "Entrance to Red Magic"
+"health" "44"
+}
+{
+"classname" "target_location"
+"origin" "-2602 -507 107"
+"message" "Free's Little Canada"
+"health" "45"
+}
+{
+"classname" "target_location"
+"origin" "-388 3 46"
+"message" "Blue Bomb Spot"
+"health" "46"
+}
+{
+"classname" "target_location"
+"origin" "-619 54 46"
+"message" "Blue Bomb Spot"
+"health" "47"
+}
+{
+"classname" "target_location"
+"origin" "-889 44 46"
+"message" "Entrance to Blue Jockey"
+"health" "48"
+}
+{
+"classname" "target_location"
+"origin" "-1049 1 46"
+"message" "Entrance to Blue Jockey"
+"health" "49"
+}
+{
+"classname" "target_location"
+"origin" "-3585 -1031 46"
+"message" "Entrance to Red Magic"
+"health" "50"
+}
+{
+"classname" "target_location"
+"origin" "-2521 -1027 -217"
+"message" "Devil Zone"
+"health" "51"
+}
+{
+"classname" "target_location"
+"origin" "-2197 -1070 -217"
+"message" "Devil Zone"
+"health" "52"
+}
+{
+"classname" "target_location"
+"origin" "-2231 -531 -217"
+"message" "Angel or Devil"
+"health" "53"
+}
+{
+"classname" "target_location"
+"origin" "-2246 -306 -217"
+"message" "Angel or Devil Zone"
+"health" "54"
+}
+{
+"classname" "target_location"
+"origin" "-2213 -539 -217"
+"message" "Angel or Devil Zone"
+"health" "55"
+}
+{
+"classname" "target_location"
+"origin" "-2221 -644 -217"
+"message" "Angel or Devil Zone"
+"health" "56"
+}
+{
+"classname" "target_location"
+"origin" "-2241 -689 -217"
+"message" "Angel or Devil Zone"
+"health" "57"
+}
+{
+"classname" "target_location"
+"origin" "-2203 -680 -217"
+"message" "Angel or Devil Zone"
+"health" "58"
+}
+{
+"classname" "target_location"
+"origin" "-2285 -569 -217"
+"message" "Angel or Devil Zone"
+"health" "59"
+}
+{
+"classname" "target_location"
+"origin" "-1955 -49 -217"
+"message" "Angel Zone"
+"health" "60"
+}
+{
+"classname" "target_location"
+"origin" "-2119 -34 -217"
+"message" "Angel Zone"
+"health" "61"
+}
+{
+"classname" "target_location"
+"origin" "-1716 -34 -217"
+"message" "Angel Zone"
+"health" "62"
+}
+{
+"classname" "target_location"
+"origin" "-2371 -989 -217"
+"message" "Devil Zone"
+"health" "63"
+}
+{
+"classname" "target_location"
+"origin" "-2697 -984 -217"
+"message" "Devil Zone"
+"health" "64"
+}
+{
+"classname" "target_location"
+"origin" "-2855 -1014 -217"
+"message" "Devil Zone"
+"health" "65"
+}
+{
+"classname" "target_location"
+"origin" "-2233 -703 -217"
+"message" "Angel or Devil"
+"health" "66"
+}
+{
+"classname" "target_location"
+"origin" "-2237 -706 -217"
+"message" "Angel or Devil Zone"
+"health" "67"
+}
+{
+"classname" "target_location"
+"origin" "-2223 -475 -217"
+"message" "Angel or Devil Zone"
+"health" "68"
+}
+{
+"classname" "target_location"
+"origin" "-2256 -26 -217"
+"message" "Angel Zone"
+"health" "69"
+}
+{
+"classname" "target_location"
+"origin" "-1678 -19 -217"
+"message" "Angel Zone"
+"health" "70"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "target_location"
+"origin" "-6624 -1062 46"
+"message" "Red Hunters"
+"health" "71"
+"bspmodel" "INSTANCES/colombia/defense_wall01"
+}
+{
+"model" "models/objects/Armory/virus.md3"
+"classname" "nv_model"
+"origin" "-420 -1 41"
+"angles" "0 177 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-101 183 -276"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "377 190 -281"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "329 -176 -274"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-2541 -645 -28"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1866 -373 -74"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-100 -183 -274"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1854 -169 -278"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-2544 -856 -272"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-2011 -247 -34"
+"angles" "0 -91 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-4746 -843 -269"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "target_location"
+"origin" "-6898 -1565 83"
+"message" "Red Milf Hunters"
+"health" "72"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-4304 -839 -270"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-4312 -1202 -271"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-4741 -1203 -270"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "target_location"
+"origin" "743 -301 281"
+"message" "Egypt's Helping Hand Tower"
+"health" "73"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-2407 -799 -53"
+"angles" "0 -90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "target_location"
+"origin" "-2207 -504 46"
+"message" "Case Meet Point"
+"health" "74"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "target_location"
+"origin" "-2140 -957 -217"
+"message" "Devil Zone"
+"health" "75"
+"bspmodel" "INSTANCES/generic/fence01"
+}

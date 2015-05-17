@@ -1,0 +1,84 @@
+//your bot settings...
+
+{
+name		"1"
+funname		"^-H8erx"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/sc.bot
+ip		"192.168.000.111"
+color1	0
+}
+{
+name		"2"
+funname		"^GSkeletor"
+identity	mullinssuit
+personality	/botfiles/nv.bot
+ip		"196.16.136.12"
+color1	0
+}
+{
+name		"3"
+funname		"^_MoFo0311"
+identity	mullinssuit
+personality	/botfiles/nv.bot
+ip		"92.146.16.92"
+color1	0
+}
+{
+name		"4"
+funname		"^iBubba0311"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/sc.bot
+ip		"92.146.16.92"
+color1	0
+}
+
+{
+name		"5"
+funname		"^nPO^SIS^nON"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/sc.bot
+ip		"217.146.41.16"
+color1	0
+}
+{
+name		"6"
+funname		"^CApe^nOr^CMan"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/nv.bot
+ip		"92.146.16.92"
+color1	0
+}
+{
+name		"7"
+funname		"^dCackk"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/nv.bot
+ip		"192.146.16.92"
+color1	0
+}
+{
+name		"8"
+funname		"^3Trunck"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/sc.bot
+ip		"2.1.12.18"
+color1	0
+}
+{
+name		"9"
+funname		"^6Bisch"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/nv.bot
+ip		"92.16.16.92"
+color1	0
+}
+{
+name		"10"
+funname		"^_God^7Or^_Devil"
+identity	NPC_Virus_Male/virus_male
+personality	/botfiles/sc.bot
+ip		"92.146.6.92"
+color1	0
+}
+

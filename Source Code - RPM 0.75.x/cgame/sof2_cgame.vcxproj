@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug SoF2|Win32">
+      <Configuration>Debug SoF2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release SoF2|Win32">
+      <Configuration>Release SoF2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SH Debug SoF2|Win32">
+      <Configuration>SH Debug SoF2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Sof2mp_cgamex86</ProjectName>
+    <ProjectGuid>{9F684081-013D-43BC-BA28-CA005F1A286C}</ProjectGuid>
+    <RootNamespace>SoF2cgame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">$(TargetPath)..\..\SOF2\RPM\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">.\..\Debug\SoF2cgame\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">.\../Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">.\..\Release/SoF2cgame\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">.\SoF2cgame___Win32_SH_Debug_SoF2\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">.\..\SHDebug\SoF2cgame\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_Debug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\..\Debug/sof2_cgame.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/D_CRT_SECURE_NO_DEPRECATE /D_CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_MAPEDITOR;WIN32;_WINDOWS;MISSIONPACK;_SOF2;CGAME;_DEMO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)$(TargetName)/</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)$(TargetName)/</ObjectFileName>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName)/</ProgramDataBaseFileName>
+      <BrowseInformation>false</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <XMLDocumentationFileName>$(IntDir)$(TargetName).xml</XMLDocumentationFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_Debug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\SoF2_cgame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <GenerateMapFile>false</GenerateMapFile>
+      <MapFileName>$(OutDir)$(TargetName).map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x30000000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>$(IntDir)$(TargetName).lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\..\Debug/sof2_cgame.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDebug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../Release/sof2_cgame.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;MISSIONPACK;_SOF2;CGAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\..\Release/SoF2cgame/sof2_cgame.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\Release/SoF2cgame/</AssemblerListingLocation>
+      <ObjectFileName>.\..\Release/SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\Release/SoF2cgame/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDebug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>../Release/sof2mp_cgamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\SoF2_cgame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\../Release/sof2mp_cgamex86.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>..\Release/sof2mp_cgamex86.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x30000000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\../Release/sof2mp_cgamex86.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../Release/sof2_cgame.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_Debug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\SoF2cgame___Win32_SH_Debug_SoF2/sof2_cgame.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;WIN32;_WINDOWS;MISSIONPACK;_SOF2;MEM_DEBUG;CGAME;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\..\SHDebug\SoF2cgame/sof2_cgame.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\..\SHDebug\SoF2cgame/</AssemblerListingLocation>
+      <ObjectFileName>.\..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName>.\..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_Debug SoF2;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <OutputFile>.\..\..\..\..\..\Games\sof2/RPMServer/sof2mp_cgamex86.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ModuleDefinitionFile>.\SoF2_cgame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\SHDebug/sof2mp_cgamex86.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapFileName>..\SHDebug\sof2mp_cgamex86.map</MapFileName>
+      <SubSystem>Windows</SubSystem>
+      <BaseAddress>0x30000000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <ImportLibrary>.\SoF2cgame___Win32_SH_Debug_SoF2/sof2mp_cgamex86.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\SoF2cgame___Win32_SH_Debug_SoF2/sof2_cgame.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\game\bg_gametype.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_lib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">true</ExcludedFromBuild>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">true</ExcludedFromBuild>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">true</ExcludedFromBuild>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_misc.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_player.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_pmove.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_slidemove.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\bg_weapons.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_consolecmds.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_draw.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_drawtools.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_effects.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_ents.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_event.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_gametype.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_gore.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_info.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_light.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_localents.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_main.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_miscents.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_newDraw.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_players.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_playerstate.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_predict.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_scoreboard.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_servercmds.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_snapshot.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_syscalls.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_view.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_weaponinit.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="cg_weapons.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="nv\nvc_demoCams.c" />
+    <ClCompile Include="nv\nvc_demoCmds.c" />
+    <ClCompile Include="nv\nvc_demoKeys.c" />
+    <ClCompile Include="..\game\q_math.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="..\game\q_shared.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+    <ClCompile Include="rpm_cgmain.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="rpm_draw.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\ui\ui_shared.c">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ObjectFileName>
+      <ProgramDataBaseFileName Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">..\SHDebug\SoF2cgame/</ProgramDataBaseFileName>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animtable.h" />
+    <ClInclude Include="..\game\bg_local.h" />
+    <ClInclude Include="..\game\bg_public.h" />
+    <ClInclude Include="..\game\bg_weapons.h" />
+    <ClInclude Include="cg_lights.h" />
+    <ClInclude Include="cg_local.h" />
+    <ClInclude Include="cg_public.h" />
+    <ClInclude Include="..\qcommon\disablewarnings.h" />
+    <ClInclude Include="..\ghoul2\G2.h" />
+    <ClInclude Include="..\ghoul2\G2_gore_shared.h" />
+    <ClInclude Include="..\game\g_local.h" />
+    <ClInclude Include="..\game\g_public.h" />
+    <ClInclude Include="..\game\g_team.h" />
+    <ClInclude Include="..\ui\keycodes.h" />
+    <ClInclude Include="..\..\ui\menudef.h" />
+    <ClInclude Include="nv\nvc_demo.h" />
+    <ClInclude Include="..\game\q_shared.h" />
+    <ClInclude Include="rpm_cglocal.h" />
+    <ClInclude Include="..\game\surfaceflags.h" />
+    <ClInclude Include="..\qcommon\tags.h" />
+    <ClInclude Include="tr_types.h" />
+    <ClInclude Include="..\ui\ui_shared.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cgame.bat" />
+    <None Include="cgame.q3asm" />
+    <CustomBuildStep Include="SoF2_cgame.def">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug SoF2|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SH Debug SoF2|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

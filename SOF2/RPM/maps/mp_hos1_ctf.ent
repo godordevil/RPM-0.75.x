@@ -1,0 +1,430 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "399 -1108 -315"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "244 -1107 -288"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "255 -995 -288"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "497 -1059 -288"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-73 -861 -256"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-67 -793 -256"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "86 -744 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "500 -749 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "337 -563 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "418 -572 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "412 -669 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "328 -664 -320"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "341 -789 -295"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "404 -800 -292"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "308 -900 -288"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "449 -909 -288"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "755 840 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "751 752 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "748 673 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "745 601 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "741 509 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "642 818 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "550 818 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "445 818 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "349 818 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "271 818 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "271 730 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "271 651 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "271 521 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "270 585 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "530 762 0"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "441 760 0"
+"angles" "0 -95 0"
+}
+
+{
+"classname" "info_player_intermission"
+"origin" "808 880 174"
+"target" "t38"
+}
+{
+"classname" "target_location"
+"origin" "384 -832 -264"
+"message" "Lecture Hall"
+"health" "1"
+}
+{
+"model" "*3"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "25 -439 -183"
+"maxs" "29 -373 -87"
+}
+{
+"model" "*4"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "163 -447 -185"
+"maxs" "485 -443 -103"
+}
+{
+"model" "*5"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "413 -317 -325"
+"maxs" "471 -313 -287"
+}
+{
+"model" "*6"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "1000"
+"mins" "-577 -1 -993"
+"maxs" "-319 257 -975"
+}
+{
+"classname" "target_location"
+"origin" "360 -288 -128"
+"message" "Observatory Room"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-32 272 -184"
+"message" "Elevator"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-240 704 -184"
+"message" "North Stairway"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "-824 -424 -184"
+"message" "South Stairway"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "-712 152 -184"
+"message" "Back Elevator"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-232 216 -184"
+"message" "Hallway"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "304 248 -184"
+"message" "Hall"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "544 472 0"
+"message" "Helicopter Pad"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "216 -256 184"
+"message" "Building Roof"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-584 824 0"
+"message" "North Roof Top"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-440 120 0"
+"message" "Roof Shaft"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-1128 280 0"
+"message" "West Roof Elevator"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "-1136 -456 0"
+"message" "South Roof Stair Entrance"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "-488 -552 0"
+"message" "West Roof Building Access"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "760 -40 0"
+"message" "East Roof Building Access"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "1040 -544 80"
+"message" "Roof Stairway"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "-280 -384 0"
+"message" "Wheelchair Room"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "64 -528 0"
+"message" "Roof Building Hallway"
+"health" "19"
+}
+{
+"classname" "target_location"
+"origin" "336 -288 -288"
+"message" "Morgue"
+"health" "20"
+}
+{
+"classname" "pickup_backpack"
+"origin" "105 550 -239"
+"angles" "0 -5 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-589 -518 -239"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-209 -594 -9"
+"angles" "0 -90 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "gametype_item"
+"origin" "64 579 -17"
+"targetname" "blue_flag"
+"angles" "0 179 0"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "64 579 -17"
+"targetname" "blue_capture_point"
+"health" "201"
+"angles" "0 179 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "64 579 -64"
+"angles" "0 179 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "-667 -423 -273"
+"targetname" "red_flag"
+"angles" "0 0 0"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-667 -423 -273"
+"targetname" "red_capture_point"
+"health" "200"
+"angles" "0 0 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-667 -423 -320"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-75 699 -46"
+"angles" "0 1 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}

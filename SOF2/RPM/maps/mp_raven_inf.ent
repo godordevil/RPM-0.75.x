@@ -1,0 +1,2140 @@
+
+{
+"classname" "worldspawn"
+"redteam" "civilian"
+"blueteam"	"prometheus"
+"doors" "0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5168 3184 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5232 3184 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5296 3184 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5360 3184 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5424 3184 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5168 3440 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5232 3440 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5296 3440 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5360 3440 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5424 3440 184"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5568 3592 184"
+"angles" "0 225 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5632 3536 184"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5520 3504 184"
+"angles" "0 135 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5560 3192 184"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5552 3128 184"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2544 3296 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2488 3296 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2648 3296 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2496 3048 568"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2696 3048 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5616 3160 184"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2640 3248 608"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2584 3248 608"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2640 3184 608"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2584 3184 608"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2640 3136 608"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2584 3136 608"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2544 3048 568"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2600 3296 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2696 3296 568"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2592 3048 568"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2648 3048 568"
+"angles" "0 90 0"
+}
+
+{
+"model" "*1"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4327 3533 199"
+"maxs" "4393 3537 233"
+}
+{
+"model" "*2"
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "1000"
+"mins" "1861 3165 653"
+"maxs" "1969 3171 761"
+}
+{
+"classname" "info_notnull"
+"origin" "5668 2292 380"
+"targetname" "t188"
+}
+{
+"classname" "info_player_intermission"
+"origin" "6056 2072 542"
+"target" "t188"
+}
+{
+"model" "*3"
+"classname" "func_static"
+"origin" "2560 3172 704"
+"speed" "100.0"
+"mins" "-665 -95 -189"
+"maxs" "245 95 31"
+}
+{
+"model" "*4"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2407 3252 615"
+"maxs" "2469 3256 657"
+}
+{
+"model" "*5"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2475 3252 615"
+"maxs" "2537 3256 657"
+}
+{
+"model" "*6"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2475 3088 615"
+"maxs" "2537 3092 657"
+}
+{
+"model" "*7"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2407 3088 615"
+"maxs" "2469 3092 657"
+}
+{
+"model" "*8"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2751 3173 555"
+"maxs" "2805 3255 591"
+}
+{
+"model" "*9"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2751 3089 555"
+"maxs" "2805 3175 591"
+}
+{
+"model" "*10"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2735 3095 599"
+"maxs" "2765 3177 669"
+}
+{
+"model" "*11"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2735 3175 599"
+"maxs" "2765 3249 669"
+}
+{
+"model" "*12"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2737 3248 607"
+"maxs" "2749 3252 650"
+}
+{
+"model" "*13"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2689 3248 607"
+"maxs" "2737 3252 653"
+}
+{
+"model" "*14"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2689 3092 607"
+"maxs" "2737 3096 653"
+}
+{
+"model" "*15"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2737 3092 607"
+"maxs" "2749 3096 650"
+}
+{
+"model" "*16"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2705 3095 655"
+"maxs" "2743 3153 675"
+}
+{
+"model" "*17"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2705 3191 655"
+"maxs" "2743 3249 675"
+}
+{
+"model" "*22"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2471 3111 703"
+"maxs" "2609 3225 785"
+}
+{
+"model" "*23"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2671 3095 559"
+"maxs" "2697 3233 673"
+}
+{
+"model" "*24"
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "1000"
+"mins" "1991 2615 711"
+"maxs" "3105 3729 785"
+}
+{
+"model" "*25"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3373 3097 199"
+"maxs" "3377 3111 223"
+}
+{
+"model" "*26"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3811 3621 199"
+"maxs" "3825 3625 223"
+}
+{
+"model" "*27"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "6591 3841 199"
+"maxs" "6595 3855 223"
+}
+{
+"model" "*28"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5047 3457 199"
+"maxs" "5051 3471 223"
+}
+{
+"model" "*30"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3468 2383 293"
+"maxs" "3481 2393 313"
+}
+{
+"model" "*31"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3375 2383 285"
+"maxs" "3393 2393 313"
+}
+{
+"model" "*32"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3499 2383 147"
+"maxs" "3549 2393 257"
+}
+{
+"model" "*33"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3483 2383 259"
+"maxs" "3549 2393 313"
+}
+{
+"model" "*34"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3483 2383 259"
+"maxs" "3498 2393 282"
+}
+{
+"model" "*35"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3433 2383 259"
+"maxs" "3481 2393 313"
+}
+{
+"model" "*36"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3375 2383 259"
+"maxs" "3431 2393 313"
+}
+{
+"model" "*37"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3433 2383 315"
+"maxs" "3463 2393 361"
+}
+{
+"model" "*38"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3398 2383 315"
+"maxs" "3431 2393 362"
+}
+{
+"model" "*39"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3483 2383 315"
+"maxs" "3541 2393 369"
+}
+{
+"model" "*40"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3433 2383 315"
+"maxs" "3481 2393 369"
+}
+{
+"model" "*41"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3483 2383 371"
+"maxs" "3509 2393 389"
+}
+{
+"model" "*42"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3451 2383 371"
+"maxs" "3481 2393 389"
+}
+{
+"model" "*43"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3395 2383 371"
+"maxs" "3453 2393 413"
+}
+{
+"model" "*44"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3375 2383 315"
+"maxs" "3430 2393 369"
+}
+{
+"model" "*45"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3375 2383 371"
+"maxs" "3397 2393 389"
+}
+{
+"model" "*46"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3355 2383 371"
+"maxs" "3373 2393 389"
+}
+{
+"model" "*47"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3323 2383 315"
+"maxs" "3373 2393 369"
+}
+{
+"model" "*48"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3361 2383 259"
+"maxs" "3373 2393 275"
+}
+{
+"model" "*49"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3315 2383 259"
+"maxs" "3373 2393 313"
+}
+{
+"model" "*50"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3315 2383 147"
+"maxs" "3361 2393 257"
+}
+{
+"model" "*51"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 463"
+"maxs" "5977 2505 577"
+}
+{
+"model" "*52"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5807 2495 431"
+"maxs" "5869 2505 461"
+}
+{
+"model" "*53"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 431"
+"maxs" "5977 2505 461"
+}
+{
+"model" "*54"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5979 2495 431"
+"maxs" "6041 2505 461"
+}
+{
+"model" "*55"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 375"
+"maxs" "5977 2505 429"
+}
+{
+"model" "*56"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5979 2495 375"
+"maxs" "6041 2505 429"
+}
+{
+"model" "*57"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "6043 2495 375"
+"maxs" "6105 2505 429"
+}
+{
+"model" "*58"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5894 2495 315"
+"maxs" "5927 2505 362"
+}
+{
+"model" "*59"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5929 2495 315"
+"maxs" "5959 2505 361"
+}
+{
+"model" "*60"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5927 2495 315"
+"maxs" "5977 2505 373"
+}
+{
+"model" "*61"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5979 2495 315"
+"maxs" "6041 2505 373"
+}
+{
+"model" "*62"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "6043 2495 315"
+"maxs" "6133 2505 373"
+}
+{
+"model" "*63"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "6043 2495 259"
+"maxs" "6133 2505 313"
+}
+{
+"model" "*64"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5964 2495 293"
+"maxs" "5977 2505 313"
+}
+{
+"model" "*65"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5979 2495 259"
+"maxs" "5994 2505 282"
+}
+{
+"model" "*66"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5979 2495 259"
+"maxs" "6041 2505 313"
+}
+{
+"model" "*67"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5929 2495 259"
+"maxs" "5977 2505 313"
+}
+{
+"model" "*68"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "6043 2495 143"
+"maxs" "6133 2505 257"
+}
+{
+"model" "*69"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5995 2495 143"
+"maxs" "6041 2505 257"
+}
+{
+"model" "*70"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 259"
+"maxs" "5927 2505 313"
+}
+{
+"model" "*71"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 285"
+"maxs" "5889 2505 313"
+}
+{
+"model" "*72"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5871 2495 315"
+"maxs" "5929 2505 373"
+}
+{
+"model" "*73"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5807 2495 375"
+"maxs" "5869 2505 429"
+}
+{
+"model" "*74"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5743 2495 375"
+"maxs" "5805 2505 429"
+}
+{
+"model" "*75"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5807 2495 315"
+"maxs" "5869 2505 373"
+}
+{
+"model" "*76"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5715 2495 315"
+"maxs" "5805 2505 373"
+}
+{
+"model" "*77"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5857 2495 259"
+"maxs" "5869 2505 275"
+}
+{
+"model" "*78"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5807 2495 259"
+"maxs" "5869 2505 313"
+}
+{
+"model" "*79"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5715 2495 259"
+"maxs" "5805 2505 313"
+}
+{
+"model" "*80"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5715 2495 143"
+"maxs" "5805 2505 257"
+}
+{
+"model" "*81"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "5807 2495 143"
+"maxs" "5857 2505 257"
+}
+{
+"model" "*82"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3383 3759 191"
+"maxs" "3457 3793 195"
+}
+{
+"classname" "info_notnull"
+"origin" "4436 2798 202"
+"targetname" "t179"
+}
+{
+"model" "*83"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4175 2463 143"
+"maxs" "4209 2513 227"
+}
+{
+"model" "*84"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3711 3011 169"
+"maxs" "3761 3045 261"
+}
+{
+"model" "*85"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3255 3822 218"
+"maxs" "3277 3961 285"
+}
+{
+"model" "*86"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3707 3883 223"
+"maxs" "3725 3901 241"
+}
+{
+"model" "*87"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3952 3842 193"
+"maxs" "3965 3850 211"
+}
+{
+"model" "*88"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3952 3850 193"
+"maxs" "3965 3858 211"
+}
+{
+"model" "*89"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4351 3503 191"
+"maxs" "4425 3537 195"
+}
+{
+"model" "*90"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4262 3455 191"
+"maxs" "4321 3537 195"
+}
+{
+"model" "*91"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4271 3263 191"
+"maxs" "4329 3305 195"
+}
+{
+"classname" "info_notnull"
+"origin" "4292 2800 284"
+"targetname" "t178"
+}
+{
+"model" "*92"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4326 3263 142"
+"maxs" "4401 3285 209"
+}
+{
+"classname" "info_notnull"
+"origin" "2004 2380 236"
+"targetname" "t177"
+}
+{
+"model" "*93"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3815 3119 191"
+"maxs" "3849 3233 195"
+}
+{
+"model" "*94"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3779 3199 191"
+"maxs" "3817 3233 195"
+}
+{
+"model" "*95"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3982 3695 151"
+"maxs" "4113 3753 273"
+}
+{
+"model" "*96"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4035 3759 191"
+"maxs" "4121 3793 195"
+}
+{
+"model" "*97"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3881 3761 143"
+"maxs" "3965 3873 193"
+}
+{
+"model" "*98"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3879 3759 191"
+"maxs" "3965 3793 195"
+}
+{
+"model" "*99"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3931 3791 191"
+"maxs" "3965 3873 195"
+}
+{
+"model" "*100"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5855 2495 143"
+"maxs" "5997 2601 373"
+}
+{
+"model" "*101"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5711 2495 135"
+"maxs" "6137 2505 465"
+}
+{
+"model" "*102"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5015 3927 191"
+"maxs" "5121 3961 195"
+}
+{
+"model" "*103"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5287 2481 143"
+"maxs" "5367 2625 193"
+}
+{
+"model" "*104"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4679 3814 191"
+"maxs" "4713 3961 195"
+}
+{
+"model" "*105"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4353 2705 143"
+"maxs" "4457 2817 193"
+}
+{
+"model" "*106"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4313 3393 143"
+"maxs" "4457 3537 193"
+}
+{
+"model" "*107"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4423 3391 191"
+"maxs" "4457 3537 195"
+}
+{
+"model" "*108"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4583 3927 191"
+"maxs" "4681 3961 195"
+}
+{
+"model" "*109"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4351 2783 191"
+"maxs" "4425 2817 195"
+}
+{
+"model" "*110"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4423 2703 191"
+"maxs" "4457 2817 195"
+}
+{
+"model" "*111"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4262 3263 218"
+"maxs" "4401 3285 285"
+}
+{
+"model" "*112"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4263 3262 219"
+"maxs" "4285 3537 285"
+}
+{
+"model" "*113"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4255 2622 143"
+"maxs" "4277 2817 209"
+}
+{
+"model" "*114"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4254 2623 143"
+"maxs" "4401 2645 209"
+}
+{
+"model" "*115"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5054 3590 150"
+"maxs" "5221 3625 273"
+}
+{
+"classname" "info_notnull"
+"origin" "3524 3500 388"
+"targetname" "t91"
+}
+{
+"classname" "info_notnull"
+"origin" "2116 3476 292"
+"targetname" "t89"
+}
+{
+"classname" "info_notnull"
+"origin" "5916 2868 164"
+"targetname" "t85"
+}
+{
+"classname" "info_notnull"
+"origin" "5472 3688 204"
+"targetname" "t1"
+}
+{
+"classname" "info_notnull"
+"origin" "3392 2616 204"
+"targetname" "t72"
+}
+{
+"classname" "info_notnull"
+"origin" "3616 2616 204"
+"targetname" "t73"
+}
+{
+"classname" "info_notnull"
+"origin" "3776 2552 204"
+"targetname" "t74"
+}
+{
+"classname" "info_notnull"
+"origin" "3616 2488 204"
+"targetname" "t75"
+}
+{
+"classname" "info_notnull"
+"origin" "5392 3328 204"
+"targetname" "t76"
+}
+{
+"classname" "info_notnull"
+"origin" "5168 3296 204"
+"targetname" "t77"
+}
+{
+"classname" "info_notnull"
+"origin" "5168 3424 204"
+"targetname" "t78"
+}
+{
+"classname" "info_notnull"
+"origin" "5392 3456 204"
+"targetname" "t79"
+}
+{
+"classname" "info_notnull"
+"origin" "5392 3200 204"
+"targetname" "t80"
+}
+{
+"classname" "info_notnull"
+"origin" "4684 2532 292"
+"targetname" "t90"
+}
+{
+"classname" "info_notnull"
+"origin" "5280 3688 204"
+"targetname" "t101"
+}
+{
+"classname" "info_notnull"
+"origin" "5600 3752 204"
+"targetname" "t102"
+}
+{
+"classname" "info_notnull"
+"origin" "5600 3336 204"
+"targetname" "t103"
+}
+{
+"classname" "info_notnull"
+"origin" "5600 2920 204"
+"targetname" "t104"
+}
+{
+"classname" "info_notnull"
+"origin" "5120 3688 204"
+"targetname" "t105"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 3688 204"
+"targetname" "t106"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 3672 204"
+"targetname" "t107"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 3448 204"
+"targetname" "t109"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 3448 204"
+"targetname" "t110"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 3256 204"
+"targetname" "t111"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 3256 204"
+"targetname" "t112"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 3000 204"
+"targetname" "t113"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 3000 204"
+"targetname" "t114"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 2808 204"
+"targetname" "t115"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 2808 204"
+"targetname" "t116"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 2552 204"
+"targetname" "t117"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 2552 204"
+"targetname" "t118"
+}
+{
+"classname" "info_notnull"
+"origin" "4992 2696 204"
+"targetname" "t119"
+}
+{
+"classname" "info_notnull"
+"origin" "5312 2680 204"
+"targetname" "t120"
+}
+{
+"classname" "info_notnull"
+"origin" "5600 2696 204"
+"targetname" "t121"
+}
+{
+"model" "*116"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "5287 2591 191"
+"maxs" "5369 2625 195"
+}
+{
+"classname" "info_notnull"
+"origin" "5492 3152 220"
+"targetname" "t123"
+}
+{
+"classname" "info_notnull"
+"origin" "5476 3548 208"
+"targetname" "t124"
+}
+{
+"classname" "info_notnull"
+"origin" "5824 2524 356"
+"targetname" "t125"
+}
+{
+"classname" "info_notnull"
+"origin" "6048 2524 356"
+"targetname" "t126"
+}
+{
+"classname" "info_notnull"
+"origin" "5920 2524 484"
+"targetname" "t127"
+}
+{
+"classname" "info_notnull"
+"origin" "5760 2524 260"
+"targetname" "t128"
+}
+{
+"classname" "info_notnull"
+"origin" "5984 2524 260"
+"targetname" "t129"
+}
+{
+"classname" "info_notnull"
+"origin" "5856 2524 228"
+"targetname" "t130"
+}
+{
+"classname" "info_notnull"
+"origin" "4352 3704 204"
+"targetname" "t131"
+}
+{
+"classname" "info_notnull"
+"origin" "5776 3296 204"
+"targetname" "t132"
+}
+{
+"classname" "info_notnull"
+"origin" "5904 3296 204"
+"targetname" "t133"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 3672 204"
+"targetname" "t140"
+}
+{
+"classname" "info_notnull"
+"origin" "3776 3688 204"
+"targetname" "t141"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 3448 204"
+"targetname" "t142"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 3320 204"
+"targetname" "t143"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 3064 204"
+"targetname" "t144"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 2936 204"
+"targetname" "t145"
+}
+{
+"classname" "info_notnull"
+"origin" "3840 2728 204"
+"targetname" "t146"
+}
+{
+"classname" "info_notnull"
+"origin" "4032 2744 204"
+"targetname" "t147"
+}
+{
+"classname" "info_notnull"
+"origin" "4608 3568 204"
+"targetname" "t148"
+}
+{
+"classname" "info_notnull"
+"origin" "4864 3568 204"
+"targetname" "t149"
+}
+{
+"classname" "info_notnull"
+"origin" "3584 3696 204"
+"targetname" "t150"
+}
+{
+"classname" "info_notnull"
+"origin" "3328 3696 204"
+"targetname" "t151"
+}
+{
+"classname" "info_notnull"
+"origin" "3072 3696 204"
+"targetname" "t152"
+}
+{
+"classname" "info_notnull"
+"origin" "2816 3696 204"
+"targetname" "t153"
+}
+{
+"classname" "info_notnull"
+"origin" "2560 3696 204"
+"targetname" "t154"
+}
+{
+"classname" "info_notnull"
+"origin" "2304 3696 204"
+"targetname" "t155"
+}
+{
+"classname" "info_notnull"
+"origin" "2112 3696 204"
+"targetname" "t156"
+}
+{
+"classname" "info_notnull"
+"origin" "2560 3544 204"
+"targetname" "t157"
+}
+{
+"classname" "info_notnull"
+"origin" "2560 3408 204"
+"targetname" "t158"
+}
+{
+"classname" "info_notnull"
+"origin" "2304 3408 204"
+"targetname" "t159"
+}
+{
+"classname" "info_notnull"
+"origin" "2304 3544 204"
+"targetname" "t160"
+}
+{
+"classname" "info_notnull"
+"origin" "2848 3544 204"
+"targetname" "t161"
+}
+{
+"classname" "info_notnull"
+"origin" "2848 3400 204"
+"targetname" "t162"
+}
+{
+"classname" "info_notnull"
+"origin" "3072 3544 204"
+"targetname" "t163"
+}
+{
+"classname" "info_notnull"
+"origin" "3072 3408 204"
+"targetname" "t164"
+}
+{
+"classname" "info_notnull"
+"origin" "3456 2808 204"
+"targetname" "t165"
+}
+{
+"classname" "info_notnull"
+"origin" "3456 3032 204"
+"targetname" "t166"
+}
+{
+"classname" "info_notnull"
+"origin" "3456 3192 204"
+"targetname" "t167"
+}
+{
+"classname" "info_notnull"
+"origin" "3408 3544 204"
+"targetname" "t168"
+}
+{
+"classname" "info_notnull"
+"origin" "3408 3416 204"
+"targetname" "t169"
+}
+{
+"classname" "info_notnull"
+"origin" "3536 3416 204"
+"targetname" "t170"
+}
+{
+"classname" "info_notnull"
+"origin" "3664 3544 204"
+"targetname" "t171"
+}
+{
+"classname" "info_notnull"
+"origin" "3664 3416 204"
+"targetname" "t172"
+}
+{
+"classname" "info_notnull"
+"origin" "3536 3320 204"
+"targetname" "t173"
+}
+{
+"classname" "info_notnull"
+"origin" "3664 3320 204"
+"targetname" "t174"
+}
+{
+"classname" "info_notnull"
+"origin" "3408 3320 204"
+"targetname" "t175"
+}
+{
+"classname" "info_notnull"
+"origin" "3280 3320 204"
+"targetname" "t176"
+}
+{
+"model" "*117"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4289 3457 143"
+"maxs" "4293 3461 193"
+}
+{
+"model" "*118"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4265 3457 143"
+"maxs" "4269 3461 193"
+}
+{
+"model" "*119"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4265 3529 143"
+"maxs" "4269 3533 193"
+}
+{
+"model" "*120"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "4289 3505 143"
+"maxs" "4293 3509 193"
+}
+{
+"model" "*121"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3259 3939 143"
+"maxs" "3453 3961 209"
+}
+{
+"model" "*122"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3431 3887 143"
+"maxs" "3453 3961 209"
+}
+{
+"model" "*123"
+"classname" "gametype_trigger"
+"targetname" "briefcase_destination"
+"health" "200"
+"mins" "2567 3095 563"
+"maxs" "2673 3249 661"
+}
+{
+"model" "*124"
+"classname" "func_rotating"
+"origin" "2540 3172 794"
+"speed" "-1024.0"
+"dmg" "2"
+"mins" "-67 -557 -101"
+"maxs" "67 557 -11"
+}
+{
+"classname" "gametype_item"
+"origin" "4024 3620 218"
+"targetname" "briefcase"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "*125"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2735 3091 555"
+"maxs" "2805 3249 617"
+}
+{
+"classname" "target_location"
+"origin" "5288 3328 152"
+"message" "Maria's Main Conference Room"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "5376 2880 152"
+"message" "Spork's Small Conference Room"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "5360 2544 152"
+"message" "Quagmire's Orifice"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "4856 2824 152"
+"message" "Beer's Brew Cube"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "4696 2824 152"
+"message" "Chronic's Smokey Cube"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "4696 2984 152"
+"message" "Dopefreak's Ganja Cube"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "4840 2984 152"
+"message" "Egypthelp's Video Edit Cube"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "4840 3288 152"
+"message" "Mada's Cube"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "4696 3288 152"
+"message" "Petit's Parisien Cube"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "4856 3400 152"
+"message" "QueTierno's Cute Cube"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "4856 3544 152"
+"message" "TheCock's Cube"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "4680 3544 152"
+"message" "DrJone's Kosher Cube"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "4328 3416 152"
+"message" "Doom's ID Software Office"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "4648 3864 152"
+"message" "Joekill Manboob's Office"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "5064 3848 152"
+"message" "Adon's Office"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "4040 3832 152"
+"message" "Juan's Office"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "3880 3848 152"
+"message" "Geforce's Spilled Beer Office"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "4184 3416 152"
+"message" "MikeP's Cube"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "4040 3416 152"
+"message" "Felony's Cube"
+"health" "19"
+}
+{
+"classname" "target_location"
+"origin" "4040 3288 152"
+"message" "Spanish Armada's Cube"
+"health" "20"
+}
+{
+"classname" "target_location"
+"origin" "4184 3288 152"
+"message" "Getsum's Camping Cube"
+"health" "21"
+}
+{
+"classname" "target_location"
+"origin" "4184 3080 152"
+"message" "Infectuzz's Psychadelic Cube"
+"health" "22"
+}
+{
+"classname" "target_location"
+"origin" "4024 3080 152"
+"message" "Keyboardcat's YouCube"
+"health" "23"
+}
+{
+"classname" "target_location"
+"origin" "4024 2952 152"
+"message" "Sickdude's Cube"
+"health" "24"
+}
+{
+"classname" "target_location"
+"origin" "4168 2952 152"
+"message" "Lovebep's Heavy Metal Cube"
+"health" "25"
+}
+{
+"classname" "target_location"
+"origin" "4168 2744 152"
+"message" "Makiaveli's Manwhoring Cube"
+"health" "26"
+}
+{
+"classname" "target_location"
+"origin" "4040 2536 152"
+"message" "Deedlenick's Homoerotica Office"
+"health" "27"
+}
+{
+"classname" "target_location"
+"origin" "3768 3128 152"
+"message" "Shinedown's Rave Office"
+"health" "28"
+}
+{
+"classname" "target_location"
+"origin" "3400 3848 152"
+"message" "Golden Shower's Office"
+"health" "29"
+}
+{
+"classname" "target_location"
+"origin" "2664 3912 152"
+"message" "Maiden's Massage Parlor"
+"health" "30"
+}
+{
+"classname" "target_location"
+"origin" "2200 3880 152"
+"message" "Moose's Loose Office"
+"health" "31"
+}
+{
+"classname" "target_location"
+"origin" "3064 3400 152"
+"message" "Reef's Interview Cube"
+"health" "32"
+}
+{
+"classname" "target_location"
+"origin" "3064 3544 152"
+"message" "Masilla's Cube"
+"health" "33"
+}
+{
+"classname" "target_location"
+"origin" "2872 3544 152"
+"message" "MasterDJ's Cube"
+"health" "34"
+}
+{
+"classname" "target_location"
+"origin" "2872 3384 152"
+"message" "Mooloo's Kiwi Kube"
+"health" "35"
+}
+{
+"classname" "target_location"
+"origin" "2728 3384 152"
+"message" "Mork's Cube"
+"health" "36"
+}
+{
+"classname" "target_location"
+"origin" "2728 3544 152"
+"message" "MrX's Cube"
+"health" "37"
+}
+{
+"classname" "target_location"
+"origin" "2504 3400 152"
+"message" "Wally's ROTC Cube"
+"health" "38"
+}
+{
+"classname" "target_location"
+"origin" "2376 3544 152"
+"message" "Math's Secession Cube"
+"health" "39"
+}
+{
+"classname" "target_location"
+"origin" "2376 3400 152"
+"message" "Royking's Greeting Cube"
+"health" "40"
+}
+{
+"classname" "target_location"
+"origin" "2120 3496 184"
+"message" "Team Taco Conference Room"
+"health" "41"
+}
+{
+"classname" "target_location"
+"origin" "2600 3176 536"
+"message" "Roof West"
+"health" "42"
+}
+{
+"classname" "target_location"
+"origin" "3432 3160 536"
+"message" "Roof Middle"
+"health" "43"
+}
+{
+"classname" "target_location"
+"origin" "4648 3160 536"
+"message" "Roof East"
+"health" "44"
+}
+{
+"classname" "target_location"
+"origin" "6520 3680 144"
+"message" "Baked Brah's Back Hallway"
+"health" "45"
+}
+{
+"classname" "target_location"
+"origin" "4696 2536 152"
+"message" "Johnny5's Junk Area"
+"health" "46"
+}
+{
+"classname" "target_location"
+"origin" "4344 2712 152"
+"message" "BananaMan's Ballgag Office"
+"health" "47"
+}
+{
+"classname" "target_location"
+"origin" "3416 3464 152"
+"message" "Crusty's Kitchen"
+"health" "48"
+}
+{
+"classname" "target_location"
+"origin" "3448 2584 152"
+"message" "Sephiroth's Sexy Side Entrance"
+"health" "49"
+}
+{
+"classname" "target_location"
+"origin" "4096 4288 152"
+"message" "Outside North"
+"health" "50"
+}
+{
+"classname" "target_location"
+"origin" "2048 4032 152"
+"message" "Outside North West"
+"health" "51"
+}
+{
+"classname" "target_location"
+"origin" "5888 4224 152"
+"message" "Outside North East"
+"health" "52"
+}
+{
+"classname" "target_location"
+"origin" "1664 3200 152"
+"message" "Outside West"
+"health" "53"
+}
+{
+"classname" "target_location"
+"origin" "1856 2112 152"
+"message" "Outside South West"
+"health" "54"
+}
+{
+"classname" "target_location"
+"origin" "3456 2048 152"
+"message" "Outside South"
+"health" "55"
+}
+{
+"classname" "target_location"
+"origin" "5760 2048 152"
+"message" "Outside South East"
+"health" "56"
+}
+{
+"classname" "target_location"
+"origin" "5120 1280 152"
+"message" "Heckler's Hill"
+"health" "57"
+}
+{
+"classname" "target_location"
+"origin" "3526 3023 190"
+"message" "Brad's Bullshit Bathroom"
+"health" "58"
+}
+{
+"classname" "target_location"
+"origin" "6299 3231 190"
+"message" "Baked Brah's Back Hallway"
+"health" "59"
+}
+{
+"classname" "target_location"
+"origin" "3619 2728 254"
+"message" "Wilbo's Water Fountain"
+"health" "60"
+}
+{
+"classname" "target_location"
+"origin" "4271 2087 182"
+"message" "CBitch's Car"
+"health" "61"
+}
+{
+"classname" "target_location"
+"origin" "4923 2219 182"
+"message" "Outside South East"
+"health" "62"
+}
+{
+"classname" "target_location"
+"origin" "3702 2127 182"
+"message" "Woolfman's White Car"
+"health" "63"
+}
+{
+"classname" "target_location"
+"origin" "2311 2180 182"
+"message" "Marine's Igloo"
+"health" "64"
+}
+{
+"classname" "target_location"
+"origin" "1760 3683 246"
+"message" "Peak's Picnic Table"
+"health" "65"
+}
+{
+"classname" "target_location"
+"origin" "5486 2804 456"
+"message" "Access to Life's Call Center"
+"health" "66"
+}
+{
+"classname" "target_location"
+"origin" "5768 3475 430"
+"message" "ELZOLO's Electrical Box"
+"health" "67"
+}
+{
+"classname" "target_location"
+"origin" "5943 3366 190"
+"message" "Chameleon's SPAM Copier"
+"health" "68"
+}
+{
+"classname" "target_location"
+"origin" "6528 3565 190"
+"message" "Vikrant's Vending Machine"
+"health" "69"
+}
+{
+"classname" "target_location"
+"origin" "4579 4222 182"
+"message" "Frosty the Snowman"
+"health" "70"
+}
+{
+"classname" "target_location"
+"origin" "4051 3680 190"
+"message" "BadNews's Briefcase Area"
+"health" "71"
+}
+{
+"classname" "target_location"
+"origin" "3824 2407 190"
+"message" "Gator's Plant"
+"health" "72"
+}
+{
+"classname" "target_location"
+"origin" "6400 2778 662"
+"message" "Grillking's Glitch Spot"
+"health" "73"
+}
+{
+"classname" "target_location"
+"origin" "5747 2899 190"
+"message" "Life's Call Center"
+"health" "74"
+}
+{
+"classname" "target_location"
+"origin" "2669 4227 182"
+"message" "Naughty's Northwest Ladder"
+"health" "75"
+}
+{
+"classname" "target_location"
+"origin" "3284 4248 182"
+"message" "Outside North West"
+"health" "76"
+}
+{
+"classname" "target_location"
+"origin" "4215 4164 182"
+"message" "NoisyBoy's North Ladder"
+"health" "77"
+}
+{
+"classname" "target_location"
+"origin" "4479 3050 190"
+"message" "Gal's Janitor Closet"
+"health" "78"
+}
+{
+"classname" "target_location"
+"origin" "3790 3650 460"
+"message" "Roof Middle"
+"health" "79"
+}
+{
+"classname" "target_location"
+"origin" "4928 2733 507"
+"message" "Roof East"
+"health" "80"
+}
+{
+"classname" "target_location"
+"origin" "3640 2561 442"
+"message" "Roof Middle"
+"health" "81"
+}
+{
+"classname" "target_location"
+"origin" "2726 2501 466"
+"message" "Roof West"
+"health" "82"
+}
+{
+"classname" "target_location"
+"origin" "6421 3550 646"
+"message" "Grillking's Glitch Spot"
+"health" "83"
+}
+{
+"classname" "target_location"
+"origin" "5596 4251 182"
+"message" "Evil's Entrance to Red Spawn"
+"health" "84"
+}
+{
+"classname" "target_location"
+"origin" "4918 1804 182"
+"message" "Heckler's Hill"
+"health" "85"
+}
+{
+"classname" "target_location"
+"origin" "1563 3172 239"
+"message" "Snake's Warning Sign"
+"health" "86"
+}
+{
+"classname" "target_location"
+"origin" "1907 2605 182"
+"message" "Waffen's West Ladder"
+"health" "87"
+}
+{
+"classname" "target_location"
+"origin" "5086 3806 472"
+"message" "Roof East"
+"health" "88"
+}
+{
+"classname" "target_location"
+"origin" "4062 2356 182"
+"message" "Selecta's South East Ladder"
+"health" "89"
+}
+{
+"model" "*126"
+"classname" "func_rotating"
+"origin" "1916 3169 708"
+"spawnflags" "8"
+"speed" "2000.0"
+"dmg" "2"
+"mins" "-3 -4 -53"
+"maxs" "3 6 53"
+}
+{
+"classname" "target_location"
+"origin" "2611 3168 610"
+"message" "Heckler's Helicopter"
+"health" "90"
+}

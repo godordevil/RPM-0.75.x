@@ -1,0 +1,10 @@
+-o "gt_dm"
+
+gt_main
+gt_dm
+gt_ft
+gt_gg
+bg_lib
+q_math
+q_shared
+..\..\gt_syscalls

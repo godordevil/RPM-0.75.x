@@ -1,0 +1,372 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"redteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-569 2181 36"
+"angles" "-11 -86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-473 2154 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-350 2140 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-250 2129 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-122 2115 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-54 2015 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-112 2022 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-246 2037 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-350 2048 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-467 2061 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-575 2073 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-649 2050 58"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-659 1962 60"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-740 1971 73"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-561 1930 56"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-258 1995 56"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-163 1950 54"
+"angles" "8 -86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-45 1957 54"
+"angles" "8 -86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"origin" "519 -674 250"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "443 -472 250"
+"angles" "6 81 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "584 -458 250"
+"angles" "6 81 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "608 -307 250"
+"angles" "6 81 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "285 -897 118"
+"angles" "0 83 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "431 -900 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "556 -904 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "679 -907 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "794 -911 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "864 -800 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "742 -796 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "747 -605 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "858 -608 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "862 -452 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "740 -448 118"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "808 -293 83"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "162 -784 118"
+"angles" "9 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "284 -666 118"
+"angles" "9 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "166 -492 118"
+"angles" "9 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "345 -828 118"
+"angles" "0 -0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "576 -828 118"
+"angles" "0 -0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "807 -716 118"
+"angles" "0 90 0"
+}
+{
+"classname" "info_notnull"
+"targetname" "t4"
+"origin" "-444 1788 244"
+}
+{
+"classname" "info_player_intermission"
+"target" "t4"
+"origin" "-560 2160 438"
+}
+{
+"classname" "target_location"
+"origin" "504 -552 104"
+"message" "House 1st Floor"
+}
+{
+"classname" "target_location"
+"origin" "1128 712 104"
+"message" "Apartment"
+}
+{
+"classname" "target_location"
+"origin" "88 296 280"
+"message" "Corner Room"
+}
+{
+"classname" "target_location"
+"origin" "-296 248 104"
+"message" "Main Back Alley"
+}
+{
+"classname" "target_location"
+"origin" "-1352 680 104"
+"message" "Storage Room"
+}
+{
+"classname" "target_location"
+"origin" "-456 1784 104"
+"message" "Park"
+}
+{
+"classname" "target_location"
+"origin" "56 1096 264"
+"message" "Mouse Room"
+}
+{
+"classname" "target_location"
+"origin" "440 1448 136"
+"message" "North East Alley"
+}
+{
+"classname" "target_location"
+"origin" "792 88 136"
+"message" "South East Alley"
+}
+{
+"classname" "target_location"
+"origin" "-792 -136 136"
+"message" "South West Alley"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-362 1948 41"
+"angles" "0 -88 0"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-433 1950 41"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_item"
+"targetname" "red_flag"
+"origin" "-387 1432 20"
+"angles" "0 89 0"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-1448 402 145"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_trigger"
+"targetname" "red_capture_point"
+"origin" "-387 1432 19"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"model" "NV_MODEL"
+}
+{
+"classname" "gametype_item"
+"targetname" "blue_flag"
+"origin" "860 15 20"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_trigger"
+"targetname" "blue_capture_point"
+"origin" "860 15 17"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"model" "NV_MODEL"
+}
+{
+"classname" "pickup_backpack"
+"origin" "662 -659 81"
+"angles" "0 1 0"
+}
+{
+"classname" "pickup_backpack"
+"origin" "662 -524 81"
+"angles" "0 1 0"
+}
+
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-388 1432 3"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "861 15 3"
+"angles" "0 180 0"
+}

@@ -1,0 +1,881 @@
+
+{
+"classname" "worldspawn"
+"redteam" "shop"
+"blueteam"	"prometheus"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-413 2373 642"
+"angles" "0 -68 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-449 2237 642"
+"angles" "0 11 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-174 2113 642"
+"angles" "0 82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-59 2198 642"
+"angles" "0 151 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-216 2379 642"
+"angles" "0 -5 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-370 2445 866"
+"angles" "0 -99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-437 2250 866"
+"angles" "0 2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-217 2479 866"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-42 2266 866"
+"angles" "0 -93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "37 2400 866"
+"angles" "0 5 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "38 2232 866"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-498 1461 674"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-513 1335 674"
+"angles" "0 3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-300 1120 674"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-533 1016 674"
+"angles" "0 60 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-505 1435 874"
+"angles" "0 -11 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-463 1204 874"
+"angles" "0 47 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-701 1195 1074"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-423 1043 1074"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-483 1359 1074"
+"angles" "0 2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-224 1201 1074"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1628 472 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1706 469 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1802 467 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1959 460 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2092 469 54"
+"angles" "0 -124 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1622 -55 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1706 -55 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1793 -55 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1870 -55 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "1967 -55 54"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "3082 -359 86"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "3057 -450 86"
+"angles" "0 166 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2618 -448 86"
+"angles" "0 20 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2606 -352 86"
+"angles" "0 2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2849 -413 86"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2849 -282 86"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2849 -197 86"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2852 -79 86"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "2852 38 86"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "3124 180 86"
+"angles" "0 178 0"
+}
+
+{
+"classname" "info_player_intermission"
+"origin" "-552 -480 622"
+"target" "t16"
+"angles" "0 45 0"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "1000"
+"mins" "-2169 -2553 -897"
+"maxs" "5497 4601 -887"
+}
+{
+"model" "*2"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3647 1539 227"
+"maxs" "3657 1661 333"
+}
+{
+"model" "*25"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "10 486 247"
+"maxs" "213 593 305"
+}
+{
+"classname" "target_location"
+"origin" "1896 216 56"
+"message" "Kitchen"
+"health" "1"
+"effect" "Kitchen"
+}
+{
+"model" "*28"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-983 2019 227"
+"maxs" "-977 2141 341"
+}
+{
+"model" "*29"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "311 659 419"
+"maxs" "321 741 445"
+}
+{
+"model" "*30"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-13 639 323"
+"maxs" "109 649 437"
+}
+{
+"model" "*31"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-317 639 323"
+"maxs" "-195 649 437"
+}
+{
+"model" "*32"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "511 -497 55"
+"maxs" "961 -279 65"
+}
+{
+"model" "*34"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "603 1653 -1217"
+"maxs" "609 1687 417"
+}
+{
+"model" "*35"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 711 -1217"
+"maxs" "3345 717 417"
+}
+{
+"model" "*36"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 1203 -1217"
+"maxs" "3345 1209 417"
+}
+{
+"model" "*37"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2585 1597 95"
+"maxs" "3395 1731 393"
+}
+{
+"model" "*38"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "675 1379 59"
+"maxs" "797 1501 65"
+}
+{
+"model" "*41"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "31 587 -1"
+"maxs" "65 593 305"
+}
+{
+"classname" "target_location"
+"origin" "744 72 56"
+"message" "Main Conference Hall"
+"health" "2"
+"effect" "Main Conference Hall"
+}
+{
+"classname" "target_location"
+"origin" "-200 -56 56"
+"message" "Patio"
+"health" "3"
+"effect" "Patio"
+}
+{
+"classname" "target_location"
+"origin" "760 1224 104"
+"message" "Entrance To Hall"
+"health" "4"
+"effect" "Entrance To Hall"
+}
+{
+"classname" "target_location"
+"origin" "728 1672 328"
+"message" "Small Elevator Shaft"
+"health" "5"
+"effect" "Small Elevator Shaft"
+}
+{
+"classname" "target_location"
+"origin" "2848 168 104"
+"message" "Back Kitchen Access"
+"health" "6"
+"effect" "Back Kitchen Access"
+}
+{
+"classname" "target_location"
+"origin" "2856 -408 104"
+"message" "Security Elevator"
+"health" "7"
+"effect" "Security Elevator"
+}
+{
+"classname" "target_location"
+"origin" "2864 1000 184"
+"message" "Stairway Access"
+"health" "8"
+"effect" "Stairway Access"
+}
+{
+"classname" "target_location"
+"origin" "3328 960 304"
+"message" "Cargo Elevator"
+"health" "9"
+"effect" "Cargo Elevator"
+}
+{
+"classname" "target_location"
+"origin" "2135 1351 191"
+"message" "Main Hall East Side"
+"health" "10"
+"effect" "Main Hall East Side"
+}
+{
+"classname" "target_location"
+"origin" "-377 1647 191"
+"message" "Main Hall West Side"
+"health" "11"
+"effect" "Main Hall West Side"
+}
+{
+"classname" "target_location"
+"origin" "-704 1800 248"
+"message" "North Office"
+"health" "12"
+"effect" "North Office"
+}
+{
+"classname" "target_location"
+"origin" "-200 848 320"
+"message" "South Office"
+"health" "13"
+"effect" "South Office"
+}
+{
+"classname" "target_location"
+"origin" "136 2760 248"
+"message" "Outside Building By North Scaffold"
+"health" "14"
+"effect" "Outside Building By North Scaffold"
+}
+{
+"classname" "target_location"
+"origin" "3856 512 248"
+"message" "Outside Building By East Scaffold"
+"health" "15"
+"effect" "Outside Building By East Scaffold"
+}
+{
+"classname" "target_location"
+"origin" "3528 1656 184"
+"message" "Main Roof Stairs"
+"health" "16"
+"effect" "Main Roof Stairs"
+}
+{
+"classname" "target_location"
+"origin" "2176 1728 488"
+"message" "Main Roof Stairs Access"
+"health" "17"
+"effect" "Main Roof Stairs Access"
+}
+{
+"classname" "target_location"
+"origin" "2840 1024 488"
+"message" "On Roof East Side"
+"health" "18"
+"effect" "On Roof East Side"
+}
+{
+"classname" "target_location"
+"origin" "1992 976 488"
+"message" "On Roof Center"
+"health" "19"
+"effect" "On Roof Center"
+}
+{
+"classname" "target_location"
+"origin" "-280 1232 680"
+"message" "Helicopter Pad"
+"health" "20"
+"effect" "Helicopter Pad"
+}
+{
+"classname" "target_location"
+"origin" "1128 1088 488"
+"message" "Roof West"
+"health" "21"
+"effect" "Roof West"
+}
+{
+"classname" "target_location"
+"origin" "392 -368 488"
+"message" "Roff South West"
+"health" "22"
+"effect" "Roff South West"
+}
+{
+"classname" "target_location"
+"origin" "3592 -368 488"
+"message" "Roof South East"
+"health" "23"
+"effect" "Roof South East"
+}
+{
+"classname" "target_location"
+"origin" "1800 -112 488"
+"message" "Roof South"
+"health" "24"
+"effect" "Roof South"
+}
+{
+"classname" "target_location"
+"origin" "3528 2000 488"
+"message" "Roof North East"
+"health" "25"
+"effect" "Roof North East"
+}
+{
+"classname" "target_location"
+"origin" "1416 1744 488"
+"message" "Roof North"
+"health" "26"
+"effect" "Roof North"
+}
+{
+"model" "*42"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2787 -511 227"
+"maxs" "2909 -505 301"
+}
+{
+"model" "*47"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "15 491 251"
+"maxs" "209 525 255"
+}
+{
+"model" "*48"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "79 523 251"
+"maxs" "209 589 255"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "153 1078 622"
+"targetname" "blue_capture_point"
+"health" "201"
+"angles" "0 3 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "gametype_item"
+"origin" "272 1074 622"
+"targetname" "blue_flag"
+"angles" "0 2 0"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "272 1074 622"
+"targetname" "blue_capture_point"
+"health" "201"
+"angles" "0 2 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "gametype_item"
+"origin" "1922 216 46"
+"targetname" "red_flag"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "1922 216 46"
+"targetname" "red_capture_point"
+"health" "200"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "1922 216 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "272 1074 576"
+"angles" "0 2 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1909 125 17"
+"angles" "0 -90 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1914 307 17"
+"angles" "0 92 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-350 1862 592"
+"spawnflags" "9"
+"angles" "0 270 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-350 1650 592"
+"spawnflags" "9"
+"angles" "0 90 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3969 1375 -887"
+"angles" "0 -90 0"
+"mins" "-1233 -257 -1"
+"maxs" "2161 257 1105"
+"bspmodel" "instances/JORDAN/BRIDGE_LRG"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2400 -832 -887"
+"mins" "-1233 -257 -1"
+"maxs" "2161 257 1105"
+"bspmodel" "instances/JORDAN/BRIDGE_LRG"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "1555 2318 -888"
+"angles" "0 360 0"
+"mins" "-1233 -257 -1"
+"maxs" "2161 257 1105"
+"bspmodel" "instances/JORDAN/BRIDGE_LRG"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-521 1239 620"
+"mins" "-505 -289 -65"
+"maxs" "425 289 729"
+"bspmodel" "instances/HONGKONG/BUILDING01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-889 704 31"
+"angles" "0 90 0"
+"mins" "-321 -321 -65"
+"maxs" "321 321 385"
+"bspmodel" "instances/HONGKONG/COVER1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2121 -649 343"
+"angles" "0 271 0"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "instances/GENERIC/WATERTOWER"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-209 2336 580"
+"angles" "0 -180 0"
+"mins" "-441 -305 -65"
+"maxs" "441 305 521"
+"bspmodel" "instances/HONGKONG/BUILDING02"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "206 -554 187"
+"angles" "0 -1 0"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "instances/GENERIC/WATERTOWER"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "1659 1788 403"
+"angles" "0 90 0"
+"mins" "-225 -225 -65"
+"maxs" "225 225 409"
+"bspmodel" "instances/HONGKONG/TOWER2"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2548 1020 483"
+"angles" "0 1 0"
+"mins" "-465 -465 -65"
+"maxs" "497 337 433"
+"bspmodel" "instances/HONGKONG/BUILDING04"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-695 744 218"
+"angles" "0 178 0"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "instances/GENERIC/WATERTOWER"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2646 399 965"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3276 399 965"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2900 399 964"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2517 20 965"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2519 -232 965"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2518 274 965"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2218 808 908"
+"angles" "0 -89 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3153 399 965"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2347 684 907"
+"angles" "0 1 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2520 -282 965"
+"angles" "0 -90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2601 687 906"
+"angles" "0 1 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2795 691 907"
+"angles" "0 1 0"
+"mins" "-129 -3 19"
+"maxs" "129 3 243"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2214 1062 908"
+"angles" "0 -89 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-777 -749 224"
+"mins" "-80 -20 -73"
+"maxs" "16 84 -63"
+"bspmodel" "instances/COLOMBIA/DEMOGOALSQUAD"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "2210 1221 908"
+"angles" "0 91 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "instances/GENERIC/FENCE01"
+}
+

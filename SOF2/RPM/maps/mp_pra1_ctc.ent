@@ -1,0 +1,583 @@
+
+{
+"classname" "worldspawn"
+"redteam" "civilian"
+"blueteam"	"prometheus"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1392 537 126"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1386 647 125"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1380 751 125"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1375 822 125"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1369 899 124"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1362 990 124"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1356 1064 123"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1350 1146 123"
+"angles" "0 -174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1343 1226 123"
+"angles" "0 -174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1268 1235 118"
+"angles" "0 -85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1417 1153 127"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1418 1085 127"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1419 1023 127"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1422 937 127"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1427 833 128"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1430 766 128"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1434 668 128"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1437 596 128"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1440 526 129"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1315 1123 121"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1315 1058 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 963 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 880 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 797 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 710 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 620 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1316 548 121"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-999 40 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-997 120 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-996 169 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-996 196 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-996 246 118"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-996 300 118"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-995 325 118"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-996 369 118"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-997 402 118"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1034 415 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1035 363 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1035 339 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1036 289 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1037 233 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1037 190 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1038 142 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1038 93 118"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1038 32 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 32 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 82 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 127 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 179 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 224 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 278 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 336 118"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1102 375 118"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1103 418 118"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-948 557 86"
+"angles" "0 1 0"
+}
+
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"dmg" "2"
+"mins" "827 443 155"
+"maxs" "837 453 161"
+}
+{
+"classname" "info_notnull"
+"origin" "-444 1788 244"
+"targetname" "t4"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-560 2160 438"
+"target" "t4"
+}
+{
+"classname" "target_location"
+"origin" "504 -552 264"
+"message" "House 2nd Floor"
+"health" "1"
+}
+{
+"model" "*5"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "575 1067 159"
+"maxs" "769 1077 165"
+}
+{
+"classname" "info_notnull"
+"origin" "280 832 196"
+"targetname" "t3"
+}
+{
+"classname" "info_notnull"
+"origin" "-156 240 316"
+"targetname" "t2"
+}
+{
+"classname" "info_notnull"
+"origin" "428 -588 96"
+"targetname" "t1"
+}
+{
+"classname" "target_speaker"
+"origin" "-908 -732 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-972 452 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-812 1900 124"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "-52 2188 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1432 1312 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "1432 240 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "968 -128 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "840 -920 120"
+"spawnflags" "1"
+}
+{
+"classname" "target_speaker"
+"origin" "168 -920 120"
+"spawnflags" "1"
+}
+{
+"model" "*6"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "397 -193 127"
+"maxs" "403 1 131"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "-1153 469 223"
+"maxs" "-967 475 229"
+}
+{
+"classname" "target_location"
+"origin" "504 -552 104"
+"message" "House 1st Floor"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "1128 712 104"
+"message" "Apartment"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "88 296 280"
+"message" "Corner Room"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "-296 248 104"
+"message" "Main Back Alley"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "-1352 680 104"
+"message" "Storage Room"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-456 1784 104"
+"message" "Park"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "56 1096 264"
+"message" "Mouse Room"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "440 1448 136"
+"message" "North East Alley"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "792 88 136"
+"message" "South East Alley"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-792 -136 136"
+"message" "South West Alley"
+"health" "11"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-322 2200 46"
+"targetname" "briefcase_destination"
+"health" "200"
+"angles" "0 87 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-322 2200 0"
+"angles" "0 87 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "251 170 46"
+"targetname" "briefcase"
+"angles" "0 -91 0"
+}

@@ -1,0 +1,362 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2176 616 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2704 616 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2704 -616 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2176 -608 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3080 -288 120"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3080 296 120"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1824 360 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1824 -360 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2416 -344 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2408 360 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "2008 360 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "1992 -360 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6592 -1640 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7120 -1640 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7120 -408 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6592 -416 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7496 -736 120"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-7496 -1320 120"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6240 -1384 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6240 -664 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6832 -680 56"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6824 -1384 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6424 -1384 56"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-6408 -664 56"
+"angles" "0 270 0"
+}
+
+{
+"classname" "gametype_item"
+"origin" "-5254 -1021 46"
+"targetname" "red_flag"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-5254 -1021 46"
+"targetname" "red_capture_point"
+"health" "200"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"classname" "info_notnull"
+"origin" "-1964 -596 100"
+"targetname" "t1"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-2552 -416 86"
+"target" "t1"
+}
+{
+"classname" "target_location"
+"origin" "-1336 -320 -184"
+"message" "blue lower tunnel"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "-1040 0 104"
+"message" "blue upper tunnel"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-3376 -1024 104"
+"message" "red upper tunnel"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-6676 -1024 88"
+"message" "red base"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "128 16 120"
+"message" "blue bridge"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "2264 0 88"
+"message" "blue base"
+"health" "6"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-5254 -1021 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "target_location"
+"origin" "-4544 -1008 120"
+"message" "red bridge"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "-2904 -688 104"
+"message" "red upper tunnel"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "-1512 -336 104"
+"message" "blue upper tunnel"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "-1424 -40 -184"
+"message" "blue lower tunnel"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-1888 -32 -184"
+"message" "blue lower tunnel"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-2216 0 -184"
+"message" "blue lower tunnel"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-2216 -1024 -184"
+"message" "red lower tunnel"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "-3000 -992 -184"
+"message" "red lower tunnel"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "-3016 -704 -184"
+"message" "red lower tunnel"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "-3464 -704 -152"
+"message" "red lower tunnel"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "-952 -320 -184"
+"message" "blue lower tunnel"
+"health" "17"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1752 -365 39"
+"angles" "0 270 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-6169 -1385 23"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-6168 -663 23"
+"angles" "0 270 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1755 361 63"
+"angles" "0 270 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "gametype_item"
+"origin" "853 -1 46"
+"targetname" "blue_flag"
+"angles" "0 -178 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "853 -1 46"
+"targetname" "blue_capture_point"
+"health" "201"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "853 -1 0"
+"angles" "0 -178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}

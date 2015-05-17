@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{37d27695-5e09-499e-8b34-dfd0cd02bc0f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{10aa5b13-bd00-48b5-99a2-ac5801e3c1f5}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{395e4b96-0677-4901-ad12-c59ab546a460}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\bots">
+      <UniqueIdentifier>{30b46c87-ee06-4c76-90a7-a734d3bdf3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\nv">
+      <UniqueIdentifier>{ddc024a4-8f71-41cd-be6b-804840ff9e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\crs">
+      <UniqueIdentifier>{8e8fd290-7264-4af4-8b9e-3808adcd0056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\nv">
+      <UniqueIdentifier>{1617dbde-3567-4431-b918-e002641dd0e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ai_util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_gametype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_pmove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_slidemove.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bg_weapons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_active.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_antilag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_bot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_cmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_combat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_gametype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_items.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_missile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_mover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_session.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_spawn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_svcmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_syscalls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_target.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_team.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_trigger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="g_weapon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_math.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="q_shared.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_actions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_cmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_combat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_tcmds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpm_utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="zg_bboxadj.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bots\ai_main.c">
+      <Filter>Source Files\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="bots\ai_wpnav.c">
+      <Filter>Source Files\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_addEnts.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_adm.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_customGametypes.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_editEnts.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_ip2Country.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_loadEnts.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_saveEnts.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_sqlQueries.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_utils.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_voting.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="crs\zai_main.c">
+      <Filter>Source Files\crs</Filter>
+    </ClCompile>
+    <ClCompile Include="crs\zai_team.c">
+      <Filter>Source Files\crs</Filter>
+    </ClCompile>
+    <ClCompile Include="crs\zg_cmds.c">
+      <Filter>Source Files\crs</Filter>
+    </ClCompile>
+    <ClCompile Include="crs\zg_waypoint.c">
+      <Filter>Source Files\crs</Filter>
+    </ClCompile>
+    <ClCompile Include="zg_mover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\stats\include\sqlite3\sqlite3.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+    <ClCompile Include="nv\nv_sqlite.c">
+      <Filter>Source Files\nv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ai_main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anims.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_aas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_char.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_chat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_gen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_goal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_move.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ai_weap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="be_ea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bg_weapons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="botlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgame\cg_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgame\cg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\disablewarnings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ghoul2\G2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="g_team.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="match.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ui\menudef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="q_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpm_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpm_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="surfaceflags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="syn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qcommon\tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cgame\tr_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crs\zai_main.h">
+      <Filter>Source Files\crs</Filter>
+    </ClInclude>
+    <ClInclude Include="crs\zg_waypoint.h">
+      <Filter>Source Files\crs</Filter>
+    </ClInclude>
+    <ClInclude Include="nv\nv_database.h">
+      <Filter>Header Files\nv</Filter>
+    </ClInclude>
+    <ClInclude Include="nv\nv_local.h">
+      <Filter>Header Files\nv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="SoF2_game.def">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="game.q3asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SOF2\RPM\database\stats.s3db">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

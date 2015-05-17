@@ -1,0 +1,846 @@
+
+{
+"classname" "worldspawn"
+"redteam" "shop"
+"blueteam"	"prometheus"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-368 1456 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-528 1456 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-368 1712 670"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-304 1616 630"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-304 1808 670"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-304 1872 630"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-176 1456 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-400 2000 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-592 2000 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-240 2000 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-656 1616 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-800 1616 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-784 1872 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-32 1520 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-16 1760 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-16 1936 622"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1776 432 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1840 432 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1904 432 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1968 432 46"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1760 -16 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1824 -16 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1888 -16 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1952 -16 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1616 304 46"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1616 208 46"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1616 48 46"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1616 144 46"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2160 304 46"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2160 208 46"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2160 48 46"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2160 144 46"
+"angles" "0 180 0"
+}
+
+{
+"classname" "info_notnull"
+"origin" "-132 444 324"
+"targetname" "t16"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-552 -480 622"
+"target" "t16"
+"angles" "0 45 0"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "1000"
+"mins" "-2169 -2553 -897"
+"maxs" "5497 4601 -887"
+}
+{
+"model" "*2"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3647 1539 227"
+"maxs" "3657 1661 333"
+}
+{
+"model" "*3"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-201 1681 615"
+"maxs" "-147 1753 651"
+}
+{
+"model" "*4"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-201 1775 615"
+"maxs" "-147 1847 651"
+}
+{
+"model" "*5"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-217 1767 659"
+"maxs" "-187 1841 729"
+}
+{
+"model" "*6"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-217 1687 659"
+"maxs" "-187 1761 729"
+}
+{
+"model" "*14"
+"classname" "func_static"
+"origin" "-392 1764 764"
+"speed" "100.0"
+"mins" "-665 -95 -189"
+"maxs" "245 95 31"
+}
+{
+"model" "*15"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-215 1840 667"
+"maxs" "-202 1844 710"
+}
+{
+"model" "*16"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-215 1684 667"
+"maxs" "-202 1688 710"
+}
+{
+"model" "*17"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-477 1680 675"
+"maxs" "-415 1684 717"
+}
+{
+"model" "*18"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-545 1680 675"
+"maxs" "-483 1684 717"
+}
+{
+"model" "*19"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-545 1844 675"
+"maxs" "-483 1848 717"
+}
+{
+"model" "*20"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-477 1844 675"
+"maxs" "-415 1848 717"
+}
+{
+"model" "*21"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-247 1783 716"
+"maxs" "-208 1841 735"
+}
+{
+"model" "*22"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-247 1687 715"
+"maxs" "-208 1745 735"
+}
+{
+"model" "*23"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-263 1840 667"
+"maxs" "-215 1844 713"
+}
+{
+"model" "*24"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-263 1684 667"
+"maxs" "-215 1688 713"
+}
+{
+"model" "*25"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "10 486 247"
+"maxs" "213 593 305"
+}
+{
+"model" "*26"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "-481 1703 763"
+"maxs" "-343 1817 845"
+}
+{
+"model" "*27"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "-283 1687 615"
+"maxs" "-215 1841 729"
+}
+{
+"classname" "target_location"
+"origin" "1896 216 56"
+"message" "Kitchen"
+"health" "1"
+}
+{
+"model" "*28"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-983 2019 227"
+"maxs" "-977 2141 341"
+}
+{
+"model" "*29"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "311 659 419"
+"maxs" "321 741 445"
+}
+{
+"model" "*30"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-13 639 323"
+"maxs" "109 649 437"
+}
+{
+"model" "*31"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-317 639 323"
+"maxs" "-195 649 437"
+}
+{
+"model" "*32"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "511 -497 55"
+"maxs" "961 -279 65"
+}
+{
+"model" "*34"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "603 1653 -1217"
+"maxs" "609 1687 417"
+}
+{
+"model" "*35"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 711 -1217"
+"maxs" "3345 717 417"
+}
+{
+"model" "*36"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 1203 -1217"
+"maxs" "3345 1209 417"
+}
+{
+"model" "*37"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2585 1597 95"
+"maxs" "3395 1731 393"
+}
+{
+"model" "*38"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "675 1379 59"
+"maxs" "797 1501 65"
+}
+{
+"classname" "info_notnull"
+"origin" "2592 596 500"
+"targetname" "t4"
+}
+{
+"classname" "info_notnull"
+"origin" "3104 596 500"
+"targetname" "t3"
+}
+{
+"classname" "info_notnull"
+"origin" "2208 -300 500"
+"targetname" "t5"
+}
+{
+"classname" "info_notnull"
+"origin" "1632 -300 500"
+"targetname" "t6"
+}
+{
+"classname" "info_notnull"
+"origin" "368 -412 500"
+"targetname" "t7"
+}
+{
+"classname" "info_notnull"
+"origin" "544 596 500"
+"targetname" "t8"
+}
+{
+"classname" "info_notnull"
+"origin" "1248 596 500"
+"targetname" "t12"
+}
+{
+"classname" "info_notnull"
+"origin" "544 1396 500"
+"targetname" "t9"
+}
+{
+"classname" "info_notnull"
+"origin" "1248 1396 500"
+"targetname" "t10"
+}
+{
+"classname" "info_notnull"
+"origin" "1888 1332 500"
+"targetname" "t11"
+}
+{
+"classname" "info_notnull"
+"origin" "2656 1588 500"
+"targetname" "t1"
+}
+{
+"classname" "info_notnull"
+"origin" "3232 1588 500"
+"targetname" "t2"
+}
+{
+"model" "*39"
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "1000"
+"mins" "-953 1207 831"
+"maxs" "165 2321 845"
+}
+{
+"model" "*40"
+"classname" "func_rotating"
+"origin" "-412 1764 854"
+"speed" "-1024.0"
+"dmg" "2"
+"mins" "-67 -557 -101"
+"maxs" "67 557 -11"
+}
+{
+"classname" "info_notnull"
+"origin" "3476 632 500"
+"targetname" "t13"
+}
+{
+"classname" "info_notnull"
+"origin" "3476 1272 500"
+"targetname" "t14"
+}
+{
+"classname" "info_notnull"
+"origin" "3564 968 500"
+"targetname" "t15"
+}
+{
+"model" "*41"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "31 587 -1"
+"maxs" "65 593 305"
+}
+{
+"classname" "target_location"
+"origin" "744 72 56"
+"message" "Main Conference Hall"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-200 -56 56"
+"message" "Patio"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "760 1224 104"
+"message" "Entrance To Hall"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "728 1672 328"
+"message" "Small Elevator Shaft"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "2848 168 104"
+"message" "Back Kitchen Access"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "2856 -408 104"
+"message" "Security Elevator"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "2864 1000 184"
+"message" "Stairway Access"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "3328 960 304"
+"message" "Cargo Elevator"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "2135 1351 191"
+"message" "Main Hall East Side"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-377 1647 191"
+"message" "Main Hall West Side"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-704 1800 248"
+"message" "North Office"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-200 848 320"
+"message" "South Office"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "136 2760 248"
+"message" "Outside Building By North Scaffold"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "3856 512 248"
+"message" "Outside Building By East Scaffold"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "3528 1656 184"
+"message" "Main Roof Stairs"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "2176 1728 488"
+"message" "Main Roof Stairs Access"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "2840 1024 488"
+"message" "On Roof East Side"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "1992 976 488"
+"message" "On Roof Center"
+"health" "19"
+}
+{
+"classname" "target_location"
+"origin" "-280 1232 680"
+"message" "Helicopter Pad"
+"health" "20"
+}
+{
+"classname" "target_location"
+"origin" "1128 1088 488"
+"message" "Roof West"
+"health" "21"
+}
+{
+"classname" "target_location"
+"origin" "392 -368 488"
+"message" "Roff South West"
+"health" "22"
+}
+{
+"classname" "target_location"
+"origin" "3592 -368 488"
+"message" "Roof South East"
+"health" "23"
+}
+{
+"classname" "target_location"
+"origin" "1800 -112 488"
+"message" "Roof South"
+"health" "24"
+}
+{
+"classname" "target_location"
+"origin" "3528 2000 488"
+"message" "Roof North East"
+"health" "25"
+}
+{
+"classname" "target_location"
+"origin" "1416 1744 488"
+"message" "Roof North"
+"health" "26"
+}
+{
+"model" "*42"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2787 -511 227"
+"maxs" "2909 -505 301"
+}
+{
+"model" "*43"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "-203 1683 615"
+"maxs" "-147 1845 677"
+}
+{
+"model" "*45"
+"classname" "trigger_hurt"
+"spawnflags" "12"
+"dmg" "1000"
+"mins" "-1091 1757 713"
+"maxs" "-983 1763 821"
+}
+{
+"model" "*46"
+"classname" "func_rotating"
+"origin" "-1036 1761 768"
+"spawnflags" "8"
+"speed" "1024.0"
+"dmg" "2"
+"mins" "-3 -4 -53"
+"maxs" "3 6 53"
+}
+{
+"model" "*47"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "15 491 251"
+"maxs" "209 525 255"
+}
+{
+"model" "*48"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "79 523 251"
+"maxs" "209 589 255"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "2871 1007 142"
+"target" "demolish2"
+"targetname" "briefcase_destination_red"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "nv_model"
+"origin" "2871 1007 95"
+"spawnflags" "1"
+"angles" "0 -92 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "2871 1007 95"
+"angles" "0 -92 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "1657 1008 462"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "200"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Armory/virus.md3"
+"classname" "nv_model"
+"origin" "1657 1008 457"
+"angles" "0 176 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/barrels/barrel_hk.md3"
+"classname" "nv_model"
+"origin" "1657 1008 415"
+"spawnflags" "1"
+"angles" "0 176 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "1657 1008 415"
+"angles" "0 176 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "755 1100 94"
+"targetname" "briefcase"
+"angles" "0 90 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}

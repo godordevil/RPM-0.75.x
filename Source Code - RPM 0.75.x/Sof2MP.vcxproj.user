@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>sof2mp.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SqLite DEBUG|Win32'">
+    <LocalDebuggerCommand>..\..\SOF2\sof2mp.exe</LocalDebuggerCommand>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>$(TargetPath)..\..\..\SOF2\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+set dedicated  0 +set fs_game rpm +vm_game 0 +vm_cgame 2 +vm_gametype 0 +vm_ui 2 +exec server.cfg +set r_fullscreen 0  +set g_dowarmup 0 +set nv_enabledatabase 2 +set sv_maxclients 32</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SqLite DEBUG|Win32'">
+    <LocalDebuggerWorkingDirectory>..\..\SOF2\</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>+set dedicated 1 +set fs_game rpm +vm_game 0 +vm_gt 0 +vm_gametype 0 +vm_cgame 2 +vm_ui 2 +exec server.cfg +set r_fullscreen 0  +set sv_maxclients 64</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

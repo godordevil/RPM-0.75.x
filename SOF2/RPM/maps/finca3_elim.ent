@@ -1,0 +1,1946 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+"doors" "1"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2079 -50 54"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2079 -50 54"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2057 -271 54"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1963 -277 54"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-33 -3192 -249"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "86 -3166 -249"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "202 -3174 -249"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1580 -286 54"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "176 -3113 -249"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1548 -118 54"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-631 -3075 -249"
+"angles" "0 -11 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1549 13 54"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-537 -3180 -249"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1718 -12 54"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-692 -3251 -249"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1874 5 54"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-659 -3338 -249"
+"angles" "0 48 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-395 -3236 -249"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-443 -3115 -249"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1512 272 54"
+"angles" "0 173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-7 -3111 -249"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1591 187 54"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-147 -3249 -249"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1688 288 54"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-293 -3220 -249"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1784 212 54"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1895 322 54"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-611 -3244 -249"
+"angles" "0 27 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2018 210 54"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2118 304 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-625 -3448 -249"
+"angles" "0 71 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-542 -3509 -249"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-2146 451 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1973 439 54"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "95 -3090 -249"
+"angles" "0 -174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "40 -3240 -249"
+"angles" "0 149 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-64 -3252 -249"
+"angles" "0 123 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-467 -3184 -249"
+"angles" "0 18 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1826 693 54"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1773 565 54"
+"angles" "0 -90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-1882 461 54"
+"angles" "0 -1 0"
+}
+
+{
+"classname" "target_relay"
+"origin" "776 -4472 -392"
+"target" "sanchez99"
+"targetname" "t47"
+}
+{
+"classname" "target_relay"
+"origin" "328 568 184"
+"target" "firstdoor"
+"targetname" "t393"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+"origin" "-1053 -3 33"
+"spawnflags" "32"
+"speed" "100.0"
+"targetname" "firstdoor"
+"team" "fincateam"
+"mins" "-3 -3 -57"
+"maxs" "63 3 57"
+}
+{
+"model" "*5"
+"classname" "func_wall"
+"origin" "318 550 96"
+"spawnflags" "32"
+"speed" "100.0"
+"team" "fincateam"
+"mins" "-63 -3 -57"
+"maxs" "3 3 57"
+}
+{
+"model" "*4"
+"classname" "door_rotating"
+"origin" "135 550 96"
+"spawnflags" "48"
+"speed" "400.0"
+"team" "fincateam"
+"wait" "2.0"
+"dmg" "-999"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -3 -57"
+"maxs" "63 3 57"
+}
+{
+"model" "*6"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-713 -3213 -241"
+"maxs" "-630 -3130 -175"
+}
+{
+"classname" "target_relay"
+"origin" "-504 -4984 -280"
+"target" "t385"
+"targetname" "t49"
+}
+{
+"classname" "target_relay"
+"origin" "-1336 -1656 0"
+"target" "t61"
+"targetname" "t43"
+}
+{
+"model" "*8"
+"classname" "trigger_multiple"
+"spawnflags" "8"
+"target" "t312"
+"wait" "0.5"
+"mins" "-1361 -5329 -665"
+"maxs" "-1191 -5135 -415"
+}
+{
+"classname" "target_relay"
+"origin" "-456 -1096 8"
+"target" "t76"
+"targetname" "t73"
+}
+{
+"model" "*9"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1699 364 39"
+"maxs" "-1646 378 77"
+}
+{
+"model" "*10"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1747 368 39"
+"maxs" "-1682 385 77"
+}
+{
+"model" "*11"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1743 369 75"
+"maxs" "-1688 385 109"
+}
+{
+"model" "*12"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1701 364 75"
+"maxs" "-1653 378 109"
+}
+{
+"model" "*14"
+"classname" "trigger_multiple"
+"spawnflags" "8"
+"target" "t102"
+"wait" "1.5"
+"mins" "-511 671 7"
+"maxs" "-505 745 109"
+}
+{
+"model" "*15"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "485 -2013 -94"
+"maxs" "489 -1979 -44"
+}
+{
+"model" "*16"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "997 -1829 -94"
+"maxs" "1001 -1795 -44"
+}
+{
+"model" "*18"
+"classname" "func_wall"
+"spawnflags" "1"
+"speed" "100.0"
+"targetname" "t59"
+"mins" "-1397 -245 195"
+"maxs" "-1339 -239 261"
+}
+{
+"model" "*21"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t86"
+"wait" "0.5"
+"mins" "-305 -2369 -161"
+"maxs" "-47 -2303 -63"
+}
+{
+"model" "*22"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "sanchez1"
+"targetname" "t43"
+"wait" "0.5"
+"mins" "-817 -1485 95"
+"maxs" "-807 -1475 105"
+}
+{
+"model" "*24"
+"classname" "func_wall"
+"spawnflags" "1"
+"speed" "100.0"
+"targetname" "ventwall"
+"mins" "-1633 -1465 155"
+"maxs" "-1567 -1399 161"
+}
+{
+"model" "*26"
+"classname" "func_breakable_brush"
+"spawnflags" "1"
+"speed" "100.0"
+"target" "t98"
+"targetname" "t81"
+"mins" "-1689 -1513 22"
+"maxs" "-1527 -1351 29"
+}
+{
+"model" "*28"
+"classname" "door_rotating"
+"origin" "-774 -1144 40"
+"spawnflags" "92"
+"speed" "400.0"
+"targetname" "t73"
+"team" "bozo"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-1 -3 -57"
+"maxs" "65 3 57"
+}
+{
+"model" "*30"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t72"
+"mins" "-1197 43 -25"
+"maxs" "-1163 77 1"
+}
+{
+"model" "*31"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t72"
+"mins" "-1197 79 -25"
+"maxs" "-1163 113 1"
+}
+{
+"model" "*32"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t72"
+"mins" "-1197 115 -25"
+"maxs" "-1163 149 1"
+}
+{
+"model" "*33"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t71"
+"targetname" "t72"
+"mins" "-1197 63 -1"
+"maxs" "-1163 97 25"
+}
+{
+"model" "*34"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t71"
+"targetname" "t72"
+"mins" "-1197 95 -1"
+"maxs" "-1163 129 25"
+}
+{
+"model" "*35"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t71"
+"mins" "-1197 79 23"
+"maxs" "-1163 113 49"
+}
+{
+"model" "*36"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t70"
+"mins" "-1197 171 -25"
+"maxs" "-1163 205 1"
+}
+{
+"model" "*37"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t70"
+"mins" "-1193 195 -1"
+"maxs" "-1167 229 25"
+}
+{
+"model" "*38"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t70"
+"mins" "-1197 215 -25"
+"maxs" "-1163 241 1"
+}
+{
+"model" "*39"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t67"
+"health" "10"
+"mins" "-647 -4871 -393"
+"maxs" "-613 -4845 -367"
+}
+{
+"model" "*40"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t68"
+"targetname" "t67"
+"health" "10"
+"mins" "-643 -4875 -369"
+"maxs" "-617 -4841 -343"
+}
+{
+"model" "*41"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t63"
+"wait" "0.5"
+"mins" "-1361 -5137 -681"
+"maxs" "-1167 -4935 -471"
+}
+{
+"model" "*43"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t68"
+"health" "10"
+"mins" "-649 -4879 -345"
+"maxs" "-610 -4836 -319"
+}
+{
+"model" "*44"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t53"
+"health" "50"
+"mins" "-1777 98 7"
+"maxs" "-1727 150 161"
+}
+{
+"model" "*45"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "20"
+"mins" "-1593 347 39"
+"maxs" "-1551 353 77"
+}
+{
+"model" "*46"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "20"
+"mins" "-1553 347 39"
+"maxs" "-1491 353 77"
+}
+{
+"model" "*47"
+"classname" "func_wall"
+"speed" "100.0"
+"mins" "-1609 -1121 183"
+"maxs" "-1557 -1055 189"
+}
+{
+"model" "*49"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t48"
+"wait" "0.5"
+"mins" "727 -4129 -377"
+"maxs" "905 -4063 -239"
+}
+{
+"model" "*52"
+"classname" "trigger_multiple"
+"target" "t45"
+"wait" "0.5"
+"mins" "-761 -1577 -73"
+"maxs" "-519 -1559 73"
+}
+{
+"model" "*53"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t43"
+"wait" "0.5"
+"mins" "-1617 -1793 -17"
+"maxs" "-1599 -1599 105"
+}
+{
+"model" "*54"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t40"
+"wait" "0.5"
+"mins" "-569 367 -1"
+"maxs" "-559 513 129"
+}
+{
+"model" "*55"
+"classname" "func_wall"
+"origin" "-142 -2139 -106"
+"speed" "100.0"
+"targetname" "vault_wheel"
+"mins" "-15 -2 -16"
+"maxs" "15 5 16"
+}
+{
+"model" "*56"
+"classname" "func_wall"
+"speed" "100.0"
+"mins" "462 -1773 -114"
+"maxs" "478 -1755 -99"
+}
+{
+"model" "models/objects/liner/misc/mop_bucket.md3"
+"classname" "model_static"
+"origin" "-240 299 0"
+}
+{
+"model" "models/objects/hospital/misc/spray_bottle.md3"
+"classname" "model_static"
+"origin" "-662 820 2"
+}
+{
+"model" "*61"
+"classname" "door_rotating"
+"origin" "-653 809 22"
+"spawnflags" "260"
+"speed" "400.0"
+"targetname" "t93"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-22 -2 -21"
+"maxs" "2 2 21"
+}
+{
+"model" "*62"
+"classname" "door_rotating"
+"origin" "-705 809 22"
+"spawnflags" "260"
+"speed" "400.0"
+"target" "t91"
+"targetname" "t92"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-2 -2 -21"
+"maxs" "22 2 21"
+}
+{
+"model" "*64"
+"classname" "func_static"
+"origin" "-346 -4989 -365"
+"speed" "100.0"
+"targetname" "wine_chair"
+"mins" "-11 -20 -28"
+"maxs" "11 5 34"
+}
+{
+"model" "*70"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t177"
+"health" "500"
+"mins" "-765 -3561 -281"
+"maxs" "-755 -3495 -255"
+}
+{
+"model" "*71"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-765 -3449 -257"
+"maxs" "-755 -3429 -247"
+}
+{
+"model" "*72"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t177"
+"mins" "-765 -3561 -257"
+"maxs" "-755 -3543 -239"
+}
+{
+"model" "*73"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-549 -1985 -161"
+"maxs" "-515 -1951 -111"
+}
+{
+"model" "*74"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-605 -1985 -161"
+"maxs" "-571 -1951 -135"
+}
+{
+"model" "*75"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-661 -1985 -161"
+"maxs" "-627 -1951 -135"
+}
+{
+"model" "*76"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-757 -2369 -161"
+"maxs" "-723 -2335 -111"
+}
+{
+"model" "*77"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-557 -2361 -161"
+"maxs" "-523 -2327 -135"
+}
+{
+"model" "*78"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-557 -2321 -161"
+"maxs" "-523 -2287 -135"
+}
+{
+"model" "*79"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2089 147 -1"
+"maxs" "-2055 173 25"
+}
+{
+"model" "*80"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1869 -89 33"
+"maxs" "-1827 -63 47"
+}
+{
+"model" "*81"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1821 -93 -1"
+"maxs" "-1787 -67 25"
+}
+{
+"model" "*82"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1817 -89 65"
+"maxs" "-1795 -67 87"
+}
+{
+"model" "*83"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1797 -97 95"
+"maxs" "-1771 -63 121"
+}
+{
+"model" "*84"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1721 -125 75"
+"maxs" "-1691 -99 101"
+}
+{
+"model" "*85"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1709 -125 39"
+"maxs" "-1679 -99 65"
+}
+{
+"model" "*86"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1677 -125 3"
+"maxs" "-1651 -95 29"
+}
+{
+"model" "*87"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-1805 323 -1"
+"maxs" "-1771 357 25"
+}
+{
+"model" "*88"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t83"
+"mins" "-1813 367 -1"
+"maxs" "-1779 393 25"
+}
+{
+"model" "*89"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t83"
+"mins" "-1809 363 23"
+"maxs" "-1783 397 49"
+}
+{
+"model" "*90"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2085 355 3"
+"maxs" "-2059 385 29"
+}
+{
+"model" "*91"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2117 355 39"
+"maxs" "-2087 381 65"
+}
+{
+"model" "*92"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2129 355 75"
+"maxs" "-2099 381 101"
+}
+{
+"model" "*93"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2085 151 107"
+"maxs" "-2063 173 129"
+}
+{
+"model" "*94"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2141 147 71"
+"maxs" "-2115 173 97"
+}
+{
+"model" "*95"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"mins" "-2153 143 35"
+"maxs" "-2111 169 49"
+}
+{
+"model" "*96"
+"classname" "door_rotating"
+"origin" "-780 652 56"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "-999"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -3 -57"
+"maxs" "63 3 57"
+}
+{
+"model" "*98"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"wait" "0.5"
+"mins" "223 831 47"
+"maxs" "297 905 57"
+}
+{
+"model" "*116"
+"classname" "func_glass"
+"spawnflags" "4"
+"speed" "100.0"
+"target" "t103"
+"targetname" "t50"
+"health" "1"
+"mins" "-1629 -1461 159"
+"maxs" "-1571 -1403 177"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-1028 140 128"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "984 -4712 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-864 -3656 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-368 -3496 -112"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1820 632 160"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1856 272 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1856 0 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1600 256 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-2048 272 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-2048 16 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1600 16 176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1664 -1436 160"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-112 -3496 -112"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-368 -3656 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-112 -3656 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "144 -3656 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-624 -3656 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-624 -3336 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-368 -3336 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-112 -3336 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "144 -3336 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-616 -2792 -168"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-676 -2872 -8"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-388 -2872 -8"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "576 -3496 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-864 -3832 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-864 -3496 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-248 -4088 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "160 -4088 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-48 -4088 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "816 -3736 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "816 -3960 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "816 -4248 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "816 -4344 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "456 -4544 -232"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "456 -4880 -232"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "72 -4312 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "72 -5112 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "840 -5112 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-576 -4704 -272"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "688 -4712 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "216 -4712 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-72 -4712 -192"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-430 -4712 -176"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-20 -1728 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-20 -2016 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-408 -1824 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-408 -2048 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-640 -2048 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "144 -1728 -16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-632 -2408 64"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-632 -2236 64"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-632 -2580 64"
+}
+{
+"model" "models/objects/finca/furniture/chair_finca.md3"
+"classname" "model_static"
+"origin" "-946 -1596 -4"
+"angles" "-86 132 0"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-832 -5152 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-832 -4848 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1280 -4848 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1056 -4848 -240"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1168 -5020 -272"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1048 -5136 -272"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1288 -5136 -272"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-1168 -5256 -272"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-576 -5152 -280"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-576 -4968 -280"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-672 -5152 -280"
+"angles" "0 90 0"
+}
+{
+"model" "*103"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t65"
+"health" "50"
+"mins" "-513 -4875 -393"
+"maxs" "-479 -4841 -367"
+}
+{
+"model" "*104"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t65"
+"health" "50"
+"mins" "-529 -4907 -393"
+"maxs" "-495 -4873 -367"
+}
+{
+"model" "*105"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t65"
+"health" "50"
+"mins" "-529 -4899 -369"
+"maxs" "-495 -4865 -343"
+}
+{
+"model" "*106"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t65"
+"health" "50"
+"mins" "-559 -4874 -393"
+"maxs" "-512 -4826 -367"
+}
+{
+"model" "*107"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t66"
+"targetname" "t65"
+"health" "50"
+"mins" "-545 -4867 -369"
+"maxs" "-511 -4833 -343"
+}
+{
+"model" "*108"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t66"
+"health" "50"
+"mins" "-529 -4891 -345"
+"maxs" "-495 -4857 -319"
+}
+{
+"model" "*110"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t35"
+"wait" "0.5"
+"mins" "-1217 -225 -33"
+"maxs" "-847 -7 81"
+}
+{
+"model" "*119"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t55"
+"wait" "0.5"
+"mins" "-1217 -113 -33"
+"maxs" "-967 -7 121"
+}
+{
+"model" "*121"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t42"
+"wait" "0.5"
+"mins" "-1617 -889 191"
+"maxs" "-1535 -871 265"
+}
+{
+"model" "*122"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t64"
+"wait" "0.5"
+"mins" "-1697 -1229 203"
+"maxs" "-1503 -1215 265"
+}
+{
+"model" "*123"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t69"
+"health" "50"
+"mins" "-1985 98 7"
+"maxs" "-1935 150 161"
+}
+{
+"model" "*128"
+"classname" "trigger_multiple"
+"spawnflags" "9"
+"target" "t84"
+"wait" "0.5"
+"mins" "-1601 -1921 -17"
+"maxs" "-1359 -1751 105"
+}
+{
+"model" "*129"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "sanchez2"
+"targetname" "t46"
+"wait" "0.5"
+"mins" "55 -3421 -201"
+"maxs" "65 -3411 -191"
+}
+{
+"model" "*132"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "ventwall"
+"targetname" "t42"
+"wait" "0.5"
+"mins" "-1441 -1169 151"
+"maxs" "-1431 -1159 161"
+}
+{
+"model" "*133"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t50"
+"targetname" "t42"
+"wait" "0.5"
+"mins" "-1449 -1169 151"
+"maxs" "-1439 -1159 161"
+}
+{
+"model" "*136"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "ventwall"
+"targetname" "t103"
+"wait" "0.5"
+"mins" "-1441 -1413 151"
+"maxs" "-1431 -1403 161"
+}
+{
+"model" "*137"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t104"
+"targetname" "t103"
+"wait" "0.5"
+"mins" "-1441 -1477 151"
+"maxs" "-1431 -1467 161"
+}
+{
+"model" "*138"
+"classname" "trigger_multiple"
+"spawnflags" "1"
+"target" "t105"
+"targetname" "t104"
+"wait" "0.5"
+"mins" "-1465 -1489 151"
+"maxs" "-1455 -1479 161"
+}
+{
+"model" "*139"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t106"
+"health" "10"
+"mins" "637 -4411 -401"
+"maxs" "671 -4385 -375"
+}
+{
+"model" "*140"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t107"
+"targetname" "t106"
+"health" "10"
+"mins" "641 -4415 -377"
+"maxs" "667 -4381 -351"
+}
+{
+"model" "*141"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t107"
+"health" "10"
+"mins" "634 -4419 -353"
+"maxs" "673 -4376 -327"
+}
+{
+"model" "*142"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t170"
+"mins" "-349 -4553 -401"
+"maxs" "-283 -4519 -367"
+}
+{
+"model" "*143"
+"classname" "func_breakable_brush"
+"origin" "670 1026 24"
+"speed" "100.0"
+"targetname" "t170"
+"mins" "-294 -4563 -369"
+"maxs" "-256 -4525 -335"
+}
+{
+"model" "*144"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t171"
+"mins" "-277 -4585 -401"
+"maxs" "-243 -4519 -367"
+}
+{
+"model" "*145"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t168"
+"mins" "639 -4453 -401"
+"maxs" "705 -4419 -375"
+}
+{
+"model" "*146"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t172"
+"mins" "655 -4489 -401"
+"maxs" "721 -4455 -375"
+}
+{
+"model" "*147"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t168"
+"mins" "679 -4477 -377"
+"maxs" "713 -4411 -351"
+}
+{
+"model" "*148"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t172"
+"mins" "635 -4461 -377"
+"maxs" "669 -4427 -351"
+}
+{
+"model" "*149"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t173"
+"health" "10"
+"mins" "-367 -4415 -401"
+"maxs" "-333 -4389 -375"
+}
+{
+"model" "*150"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t174"
+"targetname" "t173"
+"health" "10"
+"mins" "-363 -4419 -377"
+"maxs" "-337 -4385 -351"
+}
+{
+"model" "*151"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t176"
+"targetname" "t174"
+"health" "10"
+"mins" "-369 -4431 -353"
+"maxs" "-330 -4388 -327"
+}
+{
+"model" "*152"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t175"
+"mins" "1231 -4737 -401"
+"maxs" "1265 -4671 -367"
+}
+{
+"model" "*153"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t175"
+"mins" "1235 -4691 -369"
+"maxs" "1275 -4644 -335"
+}
+{
+"model" "*154"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t175"
+"mins" "1231 -4673 -401"
+"maxs" "1297 -4639 -367"
+}
+{
+"model" "*155"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t183"
+"mins" "-137 -4037 -305"
+"maxs" "-71 -4003 -279"
+}
+{
+"model" "*156"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t184"
+"mins" "-121 -4073 -305"
+"maxs" "-55 -4039 -279"
+}
+{
+"model" "*157"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t183"
+"mins" "-97 -4061 -281"
+"maxs" "-63 -3995 -255"
+}
+{
+"model" "*158"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t185"
+"targetname" "t184"
+"mins" "-141 -4045 -281"
+"maxs" "-107 -4011 -255"
+}
+{
+"model" "*159"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t186"
+"health" "10"
+"mins" "-927 -3435 -305"
+"maxs" "-893 -3409 -279"
+}
+{
+"model" "*160"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t187"
+"targetname" "t186"
+"health" "10"
+"mins" "-923 -3439 -281"
+"maxs" "-897 -3405 -255"
+}
+{
+"model" "*161"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t188"
+"targetname" "t187"
+"health" "10"
+"mins" "-929 -3443 -257"
+"maxs" "-890 -3400 -231"
+}
+{
+"classname" "target_relay"
+"origin" "-1304 -1280 0"
+"target" "t384"
+"targetname" "t43"
+}
+{
+"model" "*162"
+"classname" "door_rotating"
+"origin" "-439 -4918 -339"
+"spawnflags" "266"
+"speed" "400.0"
+"targetname" "secret_lever"
+"wait" "15.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-1 2 -2"
+"maxs" "9 5 10"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb2.md3"
+"classname" "model_static"
+"origin" "-366 -4968 -240"
+}
+{
+"model" "*163"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t386"
+"health" "50"
+"mins" "-425 -4911 -401"
+"maxs" "-391 -4877 -367"
+}
+{
+"model" "*164"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t387"
+"health" "50"
+"mins" "-415 -4933 -337"
+"maxs" "-368 -4885 -311"
+}
+{
+"model" "*165"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t387"
+"targetname" "t386"
+"health" "50"
+"mins" "-411 -4913 -369"
+"maxs" "-373 -4875 -335"
+}
+{
+"model" "*166"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t387"
+"targetname" "t386"
+"mins" "-410 -4959 -369"
+"maxs" "-365 -4913 -335"
+}
+{
+"model" "*167"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t386"
+"mins" "-424 -4962 -401"
+"maxs" "-352 -4893 -367"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-176 872 328"
+"angles" "270 0 0"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "244 872 208"
+"angles" "0 270 0"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "256 720 192"
+"angles" "0 270 0"
+}
+{
+"model" "*170"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t397"
+"mins" "331 563 39"
+"maxs" "365 597 65"
+}
+{
+"model" "*171"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t394"
+"mins" "139 727 39"
+"maxs" "173 753 65"
+}
+{
+"model" "*172"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t394"
+"mins" "143 723 63"
+"maxs" "169 757 89"
+}
+{
+"model" "*174"
+"classname" "func_wall"
+"speed" "100.0"
+"targetname" "t393"
+"mins" "191 543 39"
+"maxs" "321 549 153"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+"origin" "194 550 96"
+"spawnflags" "32"
+"speed" "100.0"
+"targetname" "firstdoor"
+"team" "fincateam"
+"mins" "-3 -3 -57"
+"maxs" "63 3 57"
+}
+{
+"classname" "target_location"
+"origin" "-1885 -1351 30"
+"message" "Getsums Porn Room"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "-1192 -1797 30"
+"message" "Diss's conspiracy collection"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-360 342 18"
+"message" "The Sexy Club Pool"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-1859 6 46"
+"message" "Crusty`s new abode"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "-102 -3447 -257"
+"message" "RCON's Dungeon"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "237 380 86"
+"message" "C's Orgy Room"
+"health" "6"
+}
+{
+"model" "*96"
+"classname" "target_location"
+"origin" "-1064 -72 22"
+"message" "Wally's Wet Bar"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "-1976 -706 22"
+"message" "Bowling for clanserverbine"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "212 -1898 -113"
+"message" "Indian Firing Squad"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "-641 -2446 -113"
+"message" "Gals Salsa Room"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-652 -1740 -113"
+"message" "Bane's Slinky Stairs"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-596 832 46"
+"message" "Poison's Pee Room"
+"health" "12"
+}
+{
+"model" "*17"
+"classname" "door_rotating"
+"origin" "-240 -2144 -104"
+"spawnflags" "144"
+"speed" "15.0"
+"targetname" "vault_door"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-7 -13 -57"
+"maxs" "67 7 57"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+"origin" "281 -3497 -245"
+"speed" "100.0"
+"mins" "-81 -81 -69"
+"maxs" "81 81 53"
+}
+{
+"model" "*4"
+"classname" "func_wall"
+"origin" "-718 651 56"
+"spawnflags" "32"
+"speed" "100.0"
+"targetname" "firstdoor"
+"team" "fincateam"
+"mins" "-3 -3 -57"
+"maxs" "63 3 57"
+}
+{
+"classname" "door_trigger"
+"origin" "-750 652 56"
+"count" "1"
+"mins" "-784 528 -2"
+"maxs" "-716 776 114"
+}
+{
+"model" "*7"
+"classname" "func_wall"
+"origin" "97 -1707 -101"
+"speed" "100.0"
+"mins" "-81 -81 -69"
+"maxs" "81 81 53"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1564 -1449 80"
+"targetname" "t81"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1542 -1449 33"
+"targetname" "t81"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1532 -1449 80"
+"targetname" "t81"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1559 -1449 128"
+"targetname" "t81"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1578 -1449 33"
+"targetname" "t81"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}

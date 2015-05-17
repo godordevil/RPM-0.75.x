@@ -1,0 +1,109 @@
+//Do not let this file exceed 131072 bytes.
+
+//Do not let any group exceed 8192 bytes.
+
+//Do not let the chat section exceed 8192 bytes.
+
+//Some values are base values and changed by the in-game skill. The formula for reflex and accuracy
+//is basevalue/skill. So if you give a base reflex of 500ms, a nightmare bot will have a reaction time of
+//100ms. Other values, like turnspeed_combat (higher == faster), are multiplied by the skill number.
+
+//Note also that depending on if the bot and the enemy are moving at the same time, the degrees the bot
+//aims off by can be greater than the maximum accuracy value. So if the bot and its enemy are both flying
+//through the air and accuracy is at 20, the bot could easily aim off by 25 degrees instead. That is,
+//unless perfectaim is 1. In this case the bot will aim perfectly at all times (as the name indicates).
+
+GeneralBotInfo
+{
+	reflex		200
+				//base reflex value, time in ms it takes the bot to react
+	accuracy		5
+				//base accuracy, number of degrees bot can aim off by. Lower value == better aim.
+	turnspeed		0.85
+	turnspeed_combat	0.85
+	maxturn		210
+	perfectaim		0
+	chatability		1
+	chatfrequency	2
+	hatelevel		6
+	camper		0
+}
+
+//Weapons with a weight of 0 will be used in special cases outside of combat
+
+// GRIM 9/06/2002 5:43PM - FIX ME
+BotWeaponWeights
+{
+	WP_NONE						0
+	WP_KNIFE					14
+	WP_M1911A1_PISTOL			7
+	WP_USSOCOM_PISTOL			6
+	WP_M590_SHOTGUN				8
+	WP_MICRO_UZI_SUBMACHINEGUN	15
+	WP_M3A1_SUBMACHINEGUN		15
+	WP_MP5						18
+	WP_USAS_12_SHOTGUN			15
+	WP_M4_ASSAULT_RIFLE			18
+	WP_AK74_ASSAULT_RIFLE		6
+	WP_MSG90A1					17
+	WP_M60_MACHINEGUN			12
+	WP_MM1_GRENADE_LAUNCHER		13
+	WP_RPG7_LAUNCHER			13
+	WP_M84_GRENADE				16
+	WP_SMOHG92_GRENADE			16
+	WP_ANM14_GRENADE			16
+	WP_M15_GRENADE			16
+	WP_SIG551				18
+	WP_SILVER_TALON			11
+}
+
+//all groups below here will be read in as chat sections
+BEGIN_CHAT_GROUPS
+
+Died
+{
+	Looks like this is your lucky day m8 :P
+	Hahaha... You call that skill???
+	FFS couldnt you see that i was typing??!?!
+	Cheating is for cowards!
+	#oKicking ass and taking names!
+	#o%s^+, you scared me with that big fat nose of yours...
+	OMG, you cheat1ng bastard!
+	Poop :(
+	Damn, u sure are ugly :P
+	Damn, owned by a n00b :(
+}
+
+Killed
+{
+	I hope i didn't hurt you too much m8 ;)
+	That was a very nice shot!
+	/getsome
+	I got that thing called... skill :P
+	Just type ^j/tokens ^+or ^j/sounds ^+in the console m8!
+	/yeah
+	That sure was messy :P
+	Snif snif... who is smelling so bad??
+	Oops, that was VERY close m8 :D
+	/health
+	Yeeeeaaaah!
+}
+
+GeneralGreetings
+{
+	InVIBot in the HOUSE!
+	Have fun people :)
+}
+
+ResponseGreetings
+{
+	Another day, another rookie.
+	#oKicking ass and taking names!
+	Wassup m8?
+	Hi there!
+}
+
+OrderAccepted
+{
+	This time, junior.
+}

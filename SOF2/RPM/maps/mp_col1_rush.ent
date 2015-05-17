@@ -1,0 +1,977 @@
+
+{
+"classname" "worldspawn"
+"redteam" "colombian"
+"blueteam"	"marine"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3607 6777 3726"
+"angles" "0 173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3599 6709 3726"
+"angles" "0 173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3587 6617 3726"
+"angles" "0 173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3576 6521 3726"
+"angles" "0 174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3465 6533 3726"
+"angles" "0 174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3460 6642 3726"
+"angles" "0 174 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3470 6748 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3480 6858 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3490 6986 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3384 6995 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3365 6906 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3357 6795 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3351 6717 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3253 6719 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3259 6829 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3263 6922 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3266 7020 3726"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3223 7073 3726"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3150 6975 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3148 6894 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3147 6809 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3146 6741 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "3145 6686 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2343 2914 3726"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2470 2828 3727"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2589 2776 3726"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2732 2776 3726"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2826 2711 3726"
+"angles" "0 116 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2981 2771 3726"
+"angles" "0 138 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "3097 2543 3649"
+"angles" "0 139 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2934 2369 3745"
+"angles" "0 139 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2532 2660 3732"
+"angles" "0 146 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2578 3027 3670"
+"angles" "0 149 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2910 2722 3726"
+"angles" "0 144 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2608 2686 3726"
+"angles" "0 145 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4736 2520 3726"
+"angles" "0 127 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4859 2644 3708"
+"angles" "0 128 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4948 2742 3726"
+"angles" "0 128 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4962 2889 3709"
+"angles" "0 129 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5010 3037 3711"
+"angles" "0 131 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5041 3170 3708"
+"angles" "0 132 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "5035 3306 3724"
+"angles" "0 134 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4906 3325 3726"
+"angles" "0 128 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4770 3250 3708"
+"angles" "0 125 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4675 3187 3694"
+"angles" "0 125 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4732 2988 3651"
+"angles" "0 101 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "4847 2934 3646"
+"angles" "0 101 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6910 3160 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6901 3064 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6892 2951 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6882 2838 3726"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6873 2732 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6864 2606 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6854 2448 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6847 2340 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6841 2224 3726"
+"angles" "0 176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6834 2097 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6828 1988 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6717 1994 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6715 2083 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6630 1998 3726"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6633 2111 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6610 2248 3726"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6610 2350 3726"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6992 3044 3726"
+"angles" "0 115 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6978 2823 3726"
+"angles" "0 116 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6994 2667 3726"
+"angles" "0 155 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "5895 2106 3726"
+"angles" "0 -173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6061 2093 3726"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6234 2111 3726"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "2"
+"origin" "6347 2094 3726"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6475 5891 3830"
+"angles" "0 -122 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6396 5596 3793"
+"angles" "0 -172 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6435 5392 3766"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "4275 5669 3803"
+"angles" "0 2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "4423 6301 3854"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5296 6480 3894"
+"angles" "0 -44 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5742 6486 3894"
+"angles" "0 -100 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5831 6448 3894"
+"angles" "0 -97 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6235 6246 3894"
+"angles" "0 171 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6088 6318 3894"
+"angles" "0 -86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5367 6317 3894"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5654 6306 3894"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5869 6344 3894"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6102 6070 3864"
+"angles" "0 -92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "4338 5366 3761"
+"angles" "0 4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "4689 5452 3766"
+"angles" "0 -19 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "4858 5230 3766"
+"angles" "0 98 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5008 5254 3766"
+"angles" "0 82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5256 5251 3776"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5385 5245 3777"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5772 5236 3772"
+"angles" "0 179 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "6285 5405 3766"
+"angles" "0 175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5406 6460 3894"
+"angles" "0 -102 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "3"
+"origin" "5092 6266 3894"
+"angles" "0 141 0"
+}
+
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "5355 5845 3630"
+"spawnflags" "3"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"classname" "info_player_intermission"
+"origin" "2224 5704 4318"
+"target" "t3"
+}
+{
+"model" "*16"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3245 6743 3887"
+"maxs" "3249 6897 4001"
+}
+{
+"classname" "target_location"
+"origin" "6888 2976 3848"
+"message" "Deserted Camp"
+"health" "1"
+}
+{
+"model" "*24"
+"classname" "func_static"
+"origin" "332 -223 16"
+"speed" "100.0"
+"mins" "2943 6471 3647"
+"maxs" "3361 6889 3777"
+}
+{
+"model" "*25"
+"classname" "gametype_trigger"
+"targetname" "red_capture_point"
+"mins" "6823 3111 3703"
+"maxs" "6905 3193 3805"
+}
+{
+"model" "*26"
+"classname" "gametype_trigger"
+"target" "blueflare"
+"targetname" "blue_capture_point"
+"mins" "3075 6783 3695"
+"maxs" "3157 6865 3797"
+}
+{
+"classname" "target_location"
+"origin" "6712 2248 4016"
+"message" "Camp Tower"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "5128 4424 4016"
+"message" "Path Tower"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "7232 4152 3760"
+"message" "Abandoned Building"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "7168 2360 3760"
+"message" "Abandoned Tent"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "6144 2104 3760"
+"message" "Camp Tunnel Entrance"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "5184 1768 3760"
+"message" "Camp Tunnels"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "4432 2248 3760"
+"message" "Camp Tunnel Entrance"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "752 4248 3904"
+"message" "Small Mayan Ruins"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "3056 6824 4096"
+"message" "Mayan Ruins"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "4512 6632 3928"
+"message" "Mayan Tunnel Entrance"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "6048 5264 3776"
+"message" "Northen Camp Tunnel Entrance"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "5400 5856 3776"
+"message" "Pool"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "2248 3040 3904"
+"message" "South Path"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "3464 4440 3904"
+"message" "North Path"
+"health" "15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "7218 4270 3718"
+"spawnflags" "2"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "3724 4220 3729"
+"spawnflags" "1"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "6714 4144 3693"
+"dmg" "-999"
+"angles" "0 177 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "7164 2413 3727"
+"angles" "0 -93 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "5106 1747 3730"
+"spawnflags" "2"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "706 3950 3878"
+"spawnflags" "1"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "201"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3637 4236 3674"
+"count" "4"
+"angles" "0 -54 0"
+"mins" "-321 -257 -65"
+"maxs" "321 257 205"
+"bspmodel" "INSTANCES/jordan/refueltent"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5472 5182 3924"
+"count" "1"
+"angles" "0 96 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "6054 5223 3713"
+"count" "2"
+"angles" "0 -1 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4618 6593 3841"
+"count" "2"
+"angles" "0 45 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5571 4554 3681"
+"count" "1"
+"angles" "0 -83 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5540 4807 3681"
+"count" "1"
+"angles" "0 97 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5502 5059 3681"
+"count" "1"
+"angles" "0 -80 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5574 4430 3921"
+"count" "1"
+"angles" "0 -83 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5543 4683 3922"
+"count" "1"
+"angles" "0 97 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "5506 4937 3923"
+"count" "1"
+"angles" "0 -81 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4445 2135 3676"
+"count" "1"
+"angles" "0 -1 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}

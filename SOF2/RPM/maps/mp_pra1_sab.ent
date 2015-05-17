@@ -1,0 +1,446 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-546 1063 64"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-351 1067 64"
+"angles" "0 94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-261 1143 64"
+"angles" "0 97 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-350 1147 66"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-450 1164 66"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-561 1174 64"
+"angles" "0 82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-569 1264 64"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-339 1259 66"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-243 1240 64"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-269 1386 64"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-378 1393 66"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-464 1400 66"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-563 1408 64"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "239 -233 78"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "236 -368 112"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "233 -527 128"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "230 -677 128"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "230 -816 128"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "226 -886 128"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "368 -883 128"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "473 -883 128"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "582 -881 128"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "709 -879 128"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "812 -857 128"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "812 -753 128"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "812 -639 128"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "812 -520 128"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "812 -406 121"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-70 1978 54"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-225 2038 54"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-376 2034 54"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-548 2031 54"
+"angles" "0 -92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-696 1992 66"
+"angles" "0 -69 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-201 1547 54"
+"angles" "0 171 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-669 1833 61"
+"angles" "0 -32 0"
+}
+
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"dmg" "2"
+"mins" "827 443 155"
+"maxs" "837 453 161"
+}
+{
+"classname" "info_notnull"
+"origin" "-444 1788 244"
+"targetname" "t4"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-560 2160 438"
+"target" "t4"
+}
+{
+"classname" "target_location"
+"origin" "504 -552 264"
+"message" "House 2nd Floor"
+"health" "1"
+}
+{
+"model" "*5"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "575 1067 159"
+"maxs" "769 1077 165"
+}
+{
+"classname" "info_notnull"
+"origin" "280 832 196"
+"targetname" "t3"
+}
+{
+"classname" "info_notnull"
+"origin" "-156 240 316"
+"targetname" "t2"
+}
+{
+"classname" "info_notnull"
+"origin" "428 -588 96"
+"targetname" "t1"
+}
+{
+"model" "*6"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "397 -193 127"
+"maxs" "403 1 131"
+}
+{
+"model" "*7"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "5"
+"mins" "-1153 469 223"
+"maxs" "-967 475 229"
+}
+{
+"classname" "target_location"
+"origin" "504 -552 104"
+"message" "House 1st Floor"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "1128 712 104"
+"message" "Apartment"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "88 296 280"
+"message" "Corner Room"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "-296 248 104"
+"message" "Main Back Alley"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "-1352 680 104"
+"message" "Storage Room"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-456 1784 104"
+"message" "Park"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "56 1096 264"
+"message" "Mouse Room"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "440 1448 136"
+"message" "North East Alley"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "792 88 136"
+"message" "South East Alley"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-792 -136 136"
+"message" "South West Alley"
+"health" "11"
+}
+{
+"classname" "gametype_item"
+"origin" "1228 962 150"
+"targetname" "briefcase"
+"angles" "0 -91 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "81 1318 254"
+"target" "demolish1"
+"targetname" "briefcase_destination_blue"
+"health" "200"
+"angles" "0 175 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "525 -520 242"
+"target" "demolish2"
+"targetname" "briefcase_destination_red"
+"health" "201"
+"angles" "0 86 0"
+"mins" "-40 -40 -15"
+"maxs" "40 40 15"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "nv_model"
+"origin" "525 -520 195"
+"spawnflags" "1"
+"angles" "0 86 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "525 -520 195"
+"angles" "0 86 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/Armory/virus.md3"
+"classname" "nv_model"
+"origin" "81 1318 249"
+"angles" "0 175 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/barrels/barrel_hk.md3"
+"classname" "nv_model"
+"origin" "81 1318 207"
+"spawnflags" "1"
+"angles" "0 175 0"
+"mins" "-16 -16 -47"
+"maxs" "16 16 73"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "81 1318 207"
+"angles" "0 175 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}

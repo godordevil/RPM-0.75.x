@@ -1,0 +1,2856 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+"doors" "1"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-59 422 54"
+"angles" "0 -89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-563 -1130 54"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-663 -1130 54"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-748 -1130 54"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-27 376 54"
+"angles" "0 -93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-85 380 54"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-52 316 54"
+"angles" "0 -107 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-94 178 54"
+"angles" "0 -100 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-28 127 54"
+"angles" "0 -99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-209 363 54"
+"angles" "0 -117 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-196 259 54"
+"angles" "0 -117 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-308 267 54"
+"angles" "0 -117 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-557 -1053 54"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-658 -1063 54"
+"angles" "0 83 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-728 -1068 54"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-743 -881 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-747 -772 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-742 -673 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-660 -669 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-645 -790 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-615 -900 54"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-545 -731 54"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-534 -813 54"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-530 -872 54"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-184 153 54"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-59 -24 54"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-311 367 54"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-153 38 54"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-245 312 54"
+"angles" "0 -92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "-263 193 54"
+"angles" "0 -133 0"
+}
+
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-970 517 82"
+"angles" "0 -1 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "*3"
+"classname" "func_breakable_brush"
+"origin" "0 15 -77"
+"spawnflags" "1"
+"speed" "100.0"
+"targetname" "chandelier_table"
+"mins" "-1209 127 -193"
+"maxs" "-1111 225 -143"
+}
+{
+"model" "models/objects/prague/misc/pra3_chandelier.md3"
+"classname" "model_static"
+"origin" "-1184 128 32"
+"targetname" "chandelier"
+}
+{
+"model" "*6"
+"classname" "trigger_hurt"
+"spawnflags" "4"
+"dmg" "10"
+"mins" "-2393 -1121 -185"
+"maxs" "-2343 -1055 -127"
+}
+{
+"model" "*7"
+"classname" "door_rotating"
+"origin" "-1559 32 -132"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-7 -1 -61"
+"maxs" "1 65 69"
+}
+{
+"classname" "info_notnull"
+"origin" "-3180 556 68"
+"targetname" "doc_afraid_look"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-1550 -45 -77"
+"angles" "0 -10 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-626 -64 110"
+"target" "t223"
+"angles" "0 -268 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "*28"
+"classname" "door_rotating"
+"origin" "-1684 -864 -141"
+"spawnflags" "116"
+"speed" "400.0"
+"team" "new_doors2"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -49"
+"maxs" "3 65 81"
+}
+{
+"model" "*30"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1545 -2225 -129"
+"maxs" "-1527 -2207 -111"
+}
+{
+"model" "*32"
+"classname" "func_wall"
+"speed" "100.0"
+"targetname" "diver_down"
+"mins" "-4801 -1 -9"
+"maxs" "-4703 105 1"
+}
+{
+"model" "models/objects/common/faucet.md3"
+"classname" "model_static"
+"origin" "-2400 1008 47"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-1120 702 47"
+"angles" "0 270 0"
+}
+{
+"model" "*34"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t106"
+"health" "50"
+"mins" "-2217 -85 71"
+"maxs" "-2213 -43 113"
+}
+{
+"model" "*35"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-787 -865 63"
+"maxs" "-783 -831 129"
+}
+{
+"model" "*36"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2561 63 79"
+"maxs" "-2527 67 113"
+}
+{
+"model" "*37"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2081 285 79"
+"maxs" "-2015 289 113"
+}
+{
+"model" "*38"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1665 637 79"
+"maxs" "-1599 641 113"
+}
+{
+"model" "*39"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1489 381 79"
+"maxs" "-1455 385 113"
+}
+{
+"model" "*41"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "objective01"
+"mins" "191 367 159"
+"maxs" "257 433 165"
+}
+{
+"model" "*43"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-315 -225 -105"
+"maxs" "-311 -191 -71"
+}
+{
+"model" "*44"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1409 -577 -105"
+"maxs" "-1405 -511 -71"
+}
+{
+"model" "*45"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1017 -283 -105"
+"maxs" "-951 -279 -71"
+}
+{
+"model" "*46"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-691 -713 -105"
+"maxs" "-687 -679 -71"
+}
+{
+"model" "*47"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-691 -913 -105"
+"maxs" "-687 -879 -71"
+}
+{
+"model" "*48"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-899 -1121 -105"
+"maxs" "-895 -1055 -71"
+}
+{
+"model" "*49"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1553 -337 63"
+"maxs" "-1549 -303 129"
+}
+{
+"model" "*50"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1553 -177 79"
+"maxs" "-1549 -111 113"
+}
+{
+"model" "*51"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4377 1341 79"
+"maxs" "-4311 1345 113"
+}
+{
+"model" "*52"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4657 767 79"
+"maxs" "-4623 771 113"
+}
+{
+"model" "*53"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4441 767 79"
+"maxs" "-4407 771 113"
+}
+{
+"model" "*54"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2577 1037 63"
+"maxs" "-2543 1041 129"
+}
+{
+"model" "*55"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1555 703 63"
+"maxs" "-1551 737 129"
+}
+{
+"model" "*56"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1537 623 103"
+"maxs" "-1533 657 137"
+}
+{
+"model" "*57"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1211 455 79"
+"maxs" "-1207 521 113"
+}
+{
+"model" "*58"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1201 381 79"
+"maxs" "-1167 385 113"
+}
+{
+"model" "*59"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2945 573 63"
+"maxs" "-2911 577 129"
+}
+{
+"model" "*60"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2721 573 63"
+"maxs" "-2687 577 129"
+}
+{
+"model" "*61"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2737 303 79"
+"maxs" "-2671 307 113"
+}
+{
+"model" "*62"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2609 303 63"
+"maxs" "-2575 307 129"
+}
+{
+"model" "*63"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2561 573 79"
+"maxs" "-2527 577 113"
+}
+{
+"model" "*64"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2129 637 63"
+"maxs" "-2095 641 129"
+}
+{
+"model" "*65"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2017 637 79"
+"maxs" "-1951 641 113"
+}
+{
+"model" "*66"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2145 303 63"
+"maxs" "-2111 307 129"
+}
+{
+"model" "*67"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1873 637 63"
+"maxs" "-1839 641 129"
+}
+{
+"model" "*68"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1547 447 79"
+"maxs" "-1543 481 113"
+}
+{
+"model" "*69"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2369 -513 63"
+"maxs" "-2335 -509 129"
+}
+{
+"model" "*70"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2401 -195 63"
+"maxs" "-2367 -191 129"
+}
+{
+"model" "*71"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2185 -195 63"
+"maxs" "-2151 -191 129"
+}
+{
+"model" "*72"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1777 -195 79"
+"maxs" "-1743 -191 113"
+}
+{
+"model" "*73"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1667 -385 79"
+"maxs" "-1663 -319 113"
+}
+{
+"model" "*74"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1763 -593 79"
+"maxs" "-1759 -559 113"
+}
+{
+"model" "*75"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1763 -809 79"
+"maxs" "-1759 -775 113"
+}
+{
+"model" "*76"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1841 -945 79"
+"maxs" "-1807 -941 113"
+}
+{
+"model" "*77"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2081 -763 79"
+"maxs" "-2015 -759 113"
+}
+{
+"model" "*78"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2433 -763 79"
+"maxs" "-2367 -759 113"
+}
+{
+"model" "*79"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1617 -963 79"
+"maxs" "-1551 -959 113"
+}
+{
+"model" "*80"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1409 -1041 79"
+"maxs" "-1405 -1007 113"
+}
+{
+"model" "*81"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1329 -955 79"
+"maxs" "-1295 -951 113"
+}
+{
+"model" "*82"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1121 -955 79"
+"maxs" "-1087 -951 113"
+}
+{
+"model" "*83"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-523 -1173 63"
+"maxs" "-519 -1139 129"
+}
+{
+"model" "*84"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-673 -643 79"
+"maxs" "-607 -639 113"
+}
+{
+"model" "*85"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1217 -945 15"
+"maxs" "-1087 -941 81"
+}
+{
+"model" "*86"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1217 -403 15"
+"maxs" "-1087 -399 81"
+}
+{
+"model" "*87"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-451 -177 79"
+"maxs" "-447 -143 113"
+}
+{
+"model" "*88"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-451 -433 79"
+"maxs" "-447 -399 113"
+}
+{
+"model" "*89"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1329 -49 79"
+"maxs" "-1263 -45 113"
+}
+{
+"model" "*90"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-369 287 79"
+"maxs" "-365 353 113"
+}
+{
+"model" "*91"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "63 143 79"
+"maxs" "129 147 113"
+}
+{
+"model" "*92"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-129 287 63"
+"maxs" "-125 321 129"
+}
+{
+"model" "*93"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-129 111 63"
+"maxs" "-125 145 129"
+}
+{
+"model" "*94"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-1121 -257 79"
+"maxs" "-1055 -253 113"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-2401 -759 132"
+"angles" "0 -90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "*99"
+"classname" "door_rotating"
+"origin" "-2218 -80 92"
+"spawnflags" "256"
+"speed" "400.0"
+"target" "t89"
+"targetname" "t83"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -17"
+"maxs" "1 33 17"
+}
+{
+"model" "*100"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t102"
+"health" "1"
+"mins" "-2477 -697 -1"
+"maxs" "-2443 -663 33"
+}
+{
+"model" "*101"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-2477 -733 -1"
+"maxs" "-2443 -699 33"
+}
+{
+"model" "*102"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t104"
+"health" "1"
+"mins" "-2445 -729 -1"
+"maxs" "-2411 -695 33"
+}
+{
+"model" "*103"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t76"
+"health" "1"
+"mins" "-2233 -723 31"
+"maxs" "-2215 -689 49"
+}
+{
+"model" "*104"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-2227 -689 31"
+"maxs" "-2209 -655 49"
+}
+{
+"model" "*106"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t103"
+"health" "1"
+"mins" "-2233 -723 65"
+"maxs" "-2215 -689 83"
+}
+{
+"model" "*107"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t121"
+"health" "1"
+"mins" "-2235 -689 65"
+"maxs" "-2217 -655 83"
+}
+{
+"model" "*113"
+"classname" "func_wall"
+"spawnflags" "1"
+"speed" "100.0"
+"targetname" "t222"
+"mins" "-4913 703 -1"
+"maxs" "-4591 721 193"
+}
+{
+"model" "models/objects/finca/furniture/masterchair_finca.md3"
+"classname" "nv_model"
+"origin" "-2218 -1050 -192"
+"angles" "0 1 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "*122"
+"classname" "door_rotating"
+"origin" "-2380 144 64"
+"spawnflags" "20"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -65"
+"maxs" "3 65 65"
+}
+{
+"model" "*123"
+"classname" "door_rotating"
+"origin" "5 320 64"
+"spawnflags" "20"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -65 -65"
+"maxs" "3 1 65"
+}
+{
+"model" "*124"
+"classname" "door_rotating"
+"origin" "-780 -208 64"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -65"
+"maxs" "3 65 65"
+}
+{
+"model" "*127"
+"classname" "door_rotating"
+"origin" "-1248 388 64"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-65 -3 -65"
+"maxs" "1 3 65"
+}
+{
+"model" "*128"
+"classname" "door_rotating"
+"origin" "-1876 704 64"
+"spawnflags" "20"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 1 0"
+"mins" "-3 -1 -65"
+"maxs" "3 65 65"
+}
+{
+"model" "*129"
+"classname" "door_rotating"
+"origin" "-2386 864 63"
+"spawnflags" "20"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -65"
+"maxs" "3 65 65"
+}
+{
+"model" "*130"
+"classname" "door_rotating"
+"origin" "-3012 408 60"
+"spawnflags" "84"
+"speed" "400.0"
+"targetname" "getaway_door"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -61"
+"maxs" "3 65 69"
+}
+{
+"model" "*131"
+"classname" "door_rotating"
+"origin" "-2192 644 60"
+"spawnflags" "84"
+"speed" "400.0"
+"targetname" "t72"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-65 -3 -61"
+"maxs" "1 3 69"
+}
+{
+"model" "*132"
+"classname" "door_rotating"
+"origin" "-1680 646 60"
+"spawnflags" "84"
+"speed" "400.0"
+"targetname" "t74"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-65 -3 -61"
+"maxs" "1 3 69"
+}
+{
+"model" "*133"
+"classname" "door_rotating"
+"origin" "-1824 -186 61"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-65 -3 -61"
+"maxs" "1 3 69"
+}
+{
+"model" "*135"
+"classname" "door_rotating"
+"origin" "-2304 -751 60"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 1 0"
+"mins" "-1 -3 -61"
+"maxs" "65 3 69"
+}
+{
+"model" "*139"
+"classname" "door_rotating"
+"origin" "-780 -704 64"
+"spawnflags" "84"
+"speed" "400.0"
+"targetname" "t163"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -65 -65"
+"maxs" "3 1 65"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "144 288 156"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-2416 -640 128"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "80 -1056 144"
+}
+{
+"model" "*143"
+"classname" "door_rotating"
+"origin" "-4849 761 64"
+"spawnflags" "88"
+"speed" "400.0"
+"targetname" "t100"
+"wait" "1.5"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 1 0"
+"mins" "-1 -3 -65"
+"maxs" "65 3 65"
+}
+{
+"classname" "gametype_item"
+"origin" "-428 -1609 -49"
+"targetname" "blue_flag"
+"angles" "0 -178 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "*150"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-2425 -751 63"
+"maxs" "-2391 -733 81"
+}
+{
+"model" "*151"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t120"
+"health" "1"
+"mins" "-41 -993 -1"
+"maxs" "-7 -959 33"
+}
+{
+"model" "*152"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "191 -1097 35"
+"maxs" "209 -1063 53"
+}
+{
+"model" "*153"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "189 -1131 63"
+"maxs" "207 -1097 81"
+}
+{
+"model" "*154"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "191 -1097 63"
+"maxs" "209 -1063 81"
+}
+{
+"model" "*155"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "191 -1027 87"
+"maxs" "209 -993 105"
+}
+{
+"model" "*156"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "191 -993 87"
+"maxs" "209 -959 105"
+}
+{
+"model" "*157"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-25 -1185 35"
+"maxs" "9 -1167 53"
+}
+{
+"model" "*158"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t80"
+"health" "1"
+"mins" "-25 -955 35"
+"maxs" "9 -937 53"
+}
+{
+"model" "*159"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t79"
+"health" "1"
+"mins" "9 -955 35"
+"maxs" "43 -937 53"
+}
+{
+"model" "*160"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "147 -1157 1"
+"maxs" "181 -1123 35"
+}
+{
+"model" "*161"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t82"
+"health" "1"
+"mins" "151 -1121 1"
+"maxs" "185 -1087 35"
+}
+{
+"model" "*162"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "115 -1121 1"
+"maxs" "149 -1087 35"
+}
+{
+"model" "*163"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t84"
+"health" "50"
+"mins" "-4617 309 33"
+"maxs" "-4599 343 51"
+}
+{
+"model" "*164"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4611 343 33"
+"maxs" "-4593 377 51"
+}
+{
+"model" "*165"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t84"
+"health" "50"
+"mins" "-4615 321 49"
+"maxs" "-4597 355 67"
+}
+{
+"model" "*166"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4617 309 67"
+"maxs" "-4599 343 85"
+}
+{
+"model" "*167"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-4611 343 67"
+"maxs" "-4593 377 85"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1200 -1052 -192"
+"angles" "0 177 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "model_static"
+"origin" "-432 168 144"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-1056 702 47"
+"angles" "0 270 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-2662 960 47"
+"angles" "0 360 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-2662 896 47"
+"angles" "0 360 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-2654 208 47"
+"angles" "0 360 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-2654 144 47"
+"angles" "0 360 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-2000 950 47"
+"angles" "0 270 0"
+}
+{
+"model" "models/objects/common/sink_faucet.md3"
+"classname" "model_static"
+"origin" "-1936 950 47"
+"angles" "0 270 0"
+}
+{
+"model" "models/objects/common/faucet.md3"
+"classname" "model_static"
+"origin" "-2392 256 47"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/common/faucet.md3"
+"classname" "model_static"
+"origin" "-992 464 47"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/common/faucet.md3"
+"classname" "model_static"
+"origin" "-2024 656 47"
+"angles" "0 360 0"
+}
+{
+"model" "*179"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-449 -1841 47"
+"maxs" "-319 -1837 113"
+}
+{
+"model" "*180"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-291 -1753 63"
+"maxs" "-287 -1655 113"
+}
+{
+"model" "*181"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-291 -1577 63"
+"maxs" "-287 -1479 113"
+}
+{
+"model" "*182"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-291 -1369 63"
+"maxs" "-287 -1271 113"
+}
+{
+"model" "*183"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-491 -1449 -121"
+"maxs" "-487 -1399 -39"
+}
+{
+"model" "*184"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-491 -1809 -121"
+"maxs" "-487 -1759 -39"
+}
+{
+"model" "*185"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-433 -995 63"
+"maxs" "-399 -991 129"
+}
+{
+"model" "*186"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-369 -995 63"
+"maxs" "-335 -991 129"
+}
+{
+"model" "*187"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-481 -1353 55"
+"maxs" "-477 -1287 113"
+}
+{
+"model" "*188"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-769 -1529 55"
+"maxs" "-765 -1407 113"
+}
+{
+"model" "*189"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-769 -1745 55"
+"maxs" "-765 -1623 113"
+}
+{
+"model" "*190"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2369 -1225 -105"
+"maxs" "-2365 -1159 -63"
+}
+{
+"model" "*191"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2369 -1017 -105"
+"maxs" "-2365 -951 -63"
+}
+{
+"model" "*192"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-2349 -1121 -97"
+"maxs" "-2345 -1055 -55"
+}
+{
+"model" "*193"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1545 -2201 -93"
+"maxs" "-1527 -2183 -75"
+}
+{
+"model" "*194"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t151"
+"health" "1"
+"mins" "-1545 -2169 -93"
+"maxs" "-1527 -2151 -75"
+}
+{
+"model" "*195"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"targetname" "t151"
+"health" "1"
+"mins" "-1545 -2169 -77"
+"maxs" "-1527 -2151 -59"
+}
+{
+"model" "*196"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1417 -2169 -93"
+"maxs" "-1399 -2151 -75"
+}
+{
+"model" "*197"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1417 -2217 -93"
+"maxs" "-1399 -2199 -75"
+}
+{
+"model" "*198"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1417 -2185 -129"
+"maxs" "-1399 -2167 -111"
+}
+{
+"model" "*199"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1417 -2205 -129"
+"maxs" "-1399 -2187 -111"
+}
+{
+"model" "*200"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1417 -2229 -129"
+"maxs" "-1399 -2211 -111"
+}
+{
+"model" "*201"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1589 -481 -125"
+"maxs" "-1571 -463 -107"
+}
+{
+"model" "*202"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1593 -449 -125"
+"maxs" "-1575 -431 -107"
+}
+{
+"model" "*203"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1593 -465 -73"
+"maxs" "-1575 -447 -55"
+}
+{
+"model" "*204"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1589 -329 -73"
+"maxs" "-1571 -311 -55"
+}
+{
+"model" "*205"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"target" "t148"
+"health" "10"
+"mins" "-1601 -585 -193"
+"maxs" "-1535 -519 -127"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-437 -1609 -49"
+"targetname" "blue_capture_point"
+"health" "201"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "*210"
+"classname" "door_rotating"
+"origin" "-1410 -352 -144"
+"spawnflags" "20"
+"speed" "400.0"
+"team" "closet_doors"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-7 -65 -49"
+"maxs" "1 1 81"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-429 -1609 -96"
+"angles" "0 -178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "-909 -212 -194"
+"angles" "0 1 0"
+"mins" "-27 -81 0"
+"maxs" "27 81 60"
+}
+{
+"model" "*213"
+"classname" "door_rotating"
+"origin" "-1581 -611 -144"
+"spawnflags" "48"
+"speed" "400.0"
+"team" "closet_doors_b"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-4 -4 -49"
+"maxs" "62 4 81"
+}
+{
+"model" "*214"
+"classname" "door_rotating"
+"origin" "-52 -1088 64"
+"spawnflags" "84"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"angles" "0 90 0"
+"angles" "0 90 0"
+"mins" "-3 -1 -65"
+"maxs" "3 65 65"
+}
+{
+"model" "*218"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1545 -2205 -129"
+"maxs" "-1527 -2187 -111"
+}
+{
+"model" "*219"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1545 -2221 -95"
+"maxs" "-1527 -2203 -77"
+}
+{
+"model" "*220"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -1989 -129"
+"maxs" "-1319 -1971 -111"
+}
+{
+"model" "*221"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -2013 -129"
+"maxs" "-1319 -1995 -111"
+}
+{
+"model" "*222"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -1997 -93"
+"maxs" "-1319 -1979 -75"
+}
+{
+"model" "*223"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -1977 -93"
+"maxs" "-1319 -1959 -75"
+}
+{
+"model" "*224"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -2045 -93"
+"maxs" "-1319 -2027 -75"
+}
+{
+"model" "*225"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -1913 -93"
+"maxs" "-1319 -1895 -75"
+}
+{
+"model" "*226"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "1"
+"mins" "-1337 -1869 -93"
+"maxs" "-1319 -1851 -75"
+}
+{
+"model" "*227"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-523 -1033 63"
+"maxs" "-519 -999 129"
+}
+{
+"model" "*228"
+"classname" "func_breakable_brush"
+"speed" "100.0"
+"health" "50"
+"mins" "-523 -1133 79"
+"maxs" "-519 -1039 129"
+}
+{
+"classname" "info_notnull"
+"origin" "-572 28 72"
+"targetname" "t169"
+}
+{
+"classname" "info_notnull"
+"origin" "-804 -20 88"
+"targetname" "t170"
+}
+{
+"classname" "info_notnull"
+"origin" "-1296 16 -104"
+"targetname" "t171"
+}
+{
+"classname" "info_notnull"
+"origin" "-1632 -1872 -104"
+"targetname" "t172"
+}
+{
+"classname" "info_notnull"
+"origin" "-1220 -1588 -104"
+"targetname" "t173"
+}
+{
+"classname" "info_notnull"
+"origin" "-1580 -1156 88"
+"targetname" "t174"
+}
+{
+"classname" "info_notnull"
+"origin" "-1012 -1156 88"
+"targetname" "t175"
+}
+{
+"classname" "info_notnull"
+"origin" "-1852 -484 88"
+"targetname" "t176"
+}
+{
+"classname" "info_notnull"
+"origin" "-3932 724 88"
+"targetname" "t177"
+}
+{
+"classname" "info_notnull"
+"origin" "-3588 100 88"
+"targetname" "t178"
+}
+{
+"classname" "info_notnull"
+"origin" "-3948 172 88"
+"targetname" "t179"
+}
+{
+"classname" "info_notnull"
+"origin" "-124 76 88"
+"targetname" "t180"
+}
+{
+"classname" "info_notnull"
+"origin" "-20 -1044 88"
+"targetname" "t185"
+}
+{
+"classname" "fx_play_effect"
+"origin" "-2372 -1088 -180"
+"wait" "0.3"
+"count" "-1"
+}
+{
+"model" "*246"
+"classname" "func_wall"
+"origin" "0 -26 0"
+"spawnflags" "1"
+"speed" "100.0"
+"targetname" "guard_table_spawn"
+"mins" "-1883 -428 -1"
+"maxs" "-1752 -364 48"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-493 -1785 61"
+"angles" "0 179 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/prague/misc/pra3_chandelier_broken.md3"
+"classname" "model_static"
+"origin" "-1184 128 -568"
+"targetname" "chandelier_broken"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-534 -625 98"
+"angles" "0 -270 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-1151 -145 -73"
+"angles" "0 -90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-767 2 -74"
+"angles" "0 -187 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-1544 247 -80"
+"angles" "0 -7 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-546 286 -76"
+"angles" "0 265 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-911 -317 112"
+"angles" "0 -2 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-637 -272 -81"
+"angles" "0 -267 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-971 -255 110"
+"angles" "0 -260 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1535 31 106"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-1177 -257 110"
+"angles" "0 -274 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-1036 387 119"
+"angles" "0 -87 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1534 312 106"
+"angles" "0 356 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-769 251 -76"
+"angles" "0 -180 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light1.md3"
+"classname" "nv_model"
+"origin" "-344 -422 -34"
+"angles" "0 -180 -2"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "-1188 329 46"
+"targetname" "red_flag"
+"angles" "0 -93 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-1188 329 46"
+"targetname" "red_capture_point"
+"health" "200"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-1188 329 0"
+"angles" "0 -93 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-248 -923 116"
+"angles" "0 -357 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1187 -953 114"
+"angles" "0 -94 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1748 -731 119"
+"angles" "0 357 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-416 -951 119"
+"angles" "0 -268 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-522 -1187 117"
+"angles" "0 179 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1695 -1520 105"
+"angles" "0 -269 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-2046 -731 -192"
+"target" "t60"
+"angles" "0 133 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1762 -723 113"
+"angles" "0 -182 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-237 -649 0"
+"angles" "0 134 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/desklamp1.md3"
+"classname" "nv_model"
+"origin" "-2482 -946 38"
+"angles" "0 178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-409 -667 0"
+"angles" "0 87 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-55 -927 107"
+"angles" "0 -183 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-944 -1343 -192"
+"angles" "0 127 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-512 -1090 110"
+"angles" "0 3 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-527 -2224 -192"
+"angles" "0 -46 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-69 -652 0"
+"angles" "0 52 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/desklamp2.md3"
+"classname" "nv_model"
+"origin" "-155 -1167 37"
+"angles" "0 -88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-503 -1349 -192"
+"angles" "0 49 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1417 -1172 120"
+"angles" "0 -181 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/desklamp2.md3"
+"classname" "nv_model"
+"origin" "-384 -1818 -57"
+"angles" "0 -88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/desklamp2.md3"
+"classname" "nv_model"
+"origin" "-385 -1006 35"
+"angles" "0 87 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/prague/furniture/table_long.md3"
+"classname" "nv_model"
+"origin" "-1382 -1172 -192"
+"angles" "0 -178 0"
+"mins" "-16 -58 0"
+"maxs" "16 58 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-709 -640 118"
+"angles" "0 -90 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "0 382 114"
+"angles" "0 -177 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1200 -1139 -192"
+"angles" "0 177 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-2277 -1308 -192"
+"angles" "0 -128 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1881 -948 -85"
+"angles" "0 -180 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1819 -1086 -70"
+"angles" "0 -180 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/furniture/masterchair_finca.md3"
+"classname" "nv_model"
+"origin" "-2136 -1049 -192"
+"angles" "0 182 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1200 -1082 -192"
+"angles" "0 177 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-492 -1435 47"
+"angles" "0 -180 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "-2181 -1043 -223"
+"angles" "0 -92 0"
+"mins" "-52 -30 0"
+"maxs" "52 30 60"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1395 -872 -192"
+"angles" "0 -96 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/prague/misc/med_chandelier.md3"
+"classname" "nv_model"
+"origin" "-1326 -1090 -57"
+"angles" "0 -114 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp2.md3"
+"classname" "nv_model"
+"origin" "-944 -2224 -192"
+"angles" "0 -143 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1731 -703 -79"
+"angles" "0 -85 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1334 -872 -192"
+"angles" "0 -92 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/hospital/misc/office_chair_1.md3"
+"classname" "nv_model"
+"origin" "-1173 -1032 0"
+"angles" "0 93 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/furniture/bar_stool.md3"
+"classname" "nv_model"
+"origin" "-1283 -872 -192"
+"angles" "0 -92 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "-1372 -1146 -191"
+"angles" "0 175 0"
+"mins" "-30 -69 7"
+"maxs" "30 69 53"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-2285 -859 -192"
+"angles" "0 135 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-1320 -898 -124"
+"angles" "0 87 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1880 -1222 -83"
+"angles" "0 -178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-1227 -1099 -123"
+"angles" "0 -96 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-1176 -804 -164"
+"angles" "0 -97 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-630 304 0"
+"angles" "0 88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-1368 -1189 -145"
+"angles" "0 -176 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-1383 -1090 -141"
+"angles" "0 173 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/desklamp2.md3"
+"classname" "nv_model"
+"origin" "-1897 166 48"
+"angles" "0 178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/floorlamp1.md3"
+"classname" "nv_model"
+"origin" "-1519 -364 7"
+"angles" "0 -140 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "-1178 -1037 3"
+"angles" "0 73 0"
+"mins" "-30 -20 0"
+"maxs" "30 20 60"
+}
+{
+"model" "models/objects/jordan/misc/monitor_1.md3"
+"classname" "nv_model"
+"origin" "-1133 -981 33"
+"angles" "0 -132 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/jordan/misc/keyboard_2.md3"
+"classname" "nv_model"
+"origin" "-1164 -997 40"
+"angles" "0 -92 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/jordan/misc/cpu.md3"
+"classname" "nv_model"
+"origin" "-1156 -995 0"
+"angles" "0 -91 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/misc/coffee_cup.md3"
+"classname" "nv_model"
+"origin" "-1152 -973 19"
+"angles" "0 74 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-457 -1801 -78"
+"angles" "0 -115 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "models/objects/finca/lamps/desklamp1.md3"
+"classname" "nv_model"
+"origin" "-1214 -977 40"
+"angles" "0 88 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "0 190 117"
+"angles" "0 -178 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-1552 -223 110"
+"angles" "0 -1 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "0 -21 -4"
+"angles" "0 -8 0"
+"mins" "-30 -57 0"
+"maxs" "30 57 60"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-444 169 17"
+"angles" "0 178 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-301 -104 17"
+"angles" "0 224 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "models/objects/hongkong/prison/clipboard.md3"
+"classname" "nv_model"
+"origin" "-1164 -969 40"
+"angles" "-92 -99 3"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-229 -95 17"
+"angles" "0 -29 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-697 291 17"
+"angles" "0 137 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "door_trigger"
+"origin" "-1562 64 -128"
+"mins" "-1687 30 -194"
+"maxs" "-1437 98 -62"
+}
+{
+"classname" "door_trigger"
+"origin" "-1684 -832 -125"
+"mins" "-1808 -866 -191"
+"maxs" "-1560 -798 -59"
+}
+{
+"classname" "door_trigger"
+"origin" "-2380 176 64"
+"mins" "-2504 142 -2"
+"maxs" "-2256 210 130"
+}
+{
+"classname" "door_trigger"
+"origin" "5 288 64"
+"mins" "-119 254 -2"
+"maxs" "129 322 130"
+}
+{
+"classname" "door_trigger"
+"origin" "-780 -176 64"
+"mins" "-904 -210 -2"
+"maxs" "-656 -142 130"
+}
+{
+"classname" "door_trigger"
+"origin" "-1280 388 64"
+"count" "1"
+"mins" "-1314 264 -2"
+"maxs" "-1246 512 130"
+}
+{
+"classname" "door_trigger"
+"origin" "-1876 736 64"
+"mins" "-2000 702 -2"
+"maxs" "-1752 770 130"
+}
+{
+"classname" "door_trigger"
+"origin" "-2386 896 63"
+"mins" "-2510 862 -3"
+"maxs" "-2262 930 129"
+}
+{
+"classname" "door_trigger"
+"origin" "-1856 -186 65"
+"count" "1"
+"mins" "-1890 -310 -1"
+"maxs" "-1822 -62 131"
+}
+{
+"classname" "door_trigger"
+"origin" "-2272 -751 64"
+"count" "1"
+"mins" "-2306 -875 -2"
+"maxs" "-2238 -627 130"
+}
+{
+"classname" "door_trigger"
+"origin" "-1135 -287 -128"
+"count" "2"
+"mins" "-1418 -418 -314"
+"maxs" "-853 -156 58"
+}
+{
+"classname" "door_trigger"
+"origin" "-1552 -611 -128"
+"count" "1"
+"mins" "-1586 -736 -194"
+"maxs" "-1518 -486 -62"
+}
+{
+"classname" "door_trigger"
+"origin" "-52 -1056 64"
+"mins" "-176 -1090 -2"
+"maxs" "72 -1022 130"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1873 -541 106"
+"angles" "0 -79 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-579 -25 57"
+"angles" "0 -114 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1034 -867 -182"
+"angles" "0 -3 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1059 -740 -182"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1028 -739 -182"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1063 -739 -133"
+"angles" "0 1 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-578 -48 9"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1575 -910 -70"
+"angles" "0 -89 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1780 -603 9"
+"angles" "0 45 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1030 -914 -181"
+"angles" "0 47 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1060 -867 -133"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1060 -763 -133"
+"angles" "0 179 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1060 -808 -182"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocked_trigger"
+"origin" "-1816 -422 4"
+"angles" "0 87 0"
+"mins" "-141 -116 -103"
+"maxs" "141 116 163"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1521 -905 -120"
+"angles" "0 -91 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-333 -1194 9"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-238 -1068 9"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-204 -1039 9"
+"mins" "15 79 -65"
+"maxs" "49 113 -55"
+"bspmodel" "INSTANCES/test/npc_spawner"
+}
+{
+"model" "models/objects/prague/furniture/table_long.md3"
+"classname" "nv_model"
+"origin" "-870 -173 -192"
+"team" "closet_doors"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-306 -1176 9"
+"angles" "0 -90 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1716 -1836 -182"
+"angles" "0 -92 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1653 -1819 -182"
+"angles" "0 -91 0"
+"mins" "-17 -14 -9"
+"maxs" "17 54 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1586 -906 -120"
+"angles" "0 -89 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "models/objects/finca/lamps/wall_light2.md3"
+"classname" "nv_model"
+"origin" "-368 -64 109"
+"angles" "0 94 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1087 -873 -182"
+"angles" "0 -31 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1832 -551 58"
+"angles" "0 102 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-546 -48 9"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1777 -600 58"
+"angles" "0 43 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1776 -591 107"
+"angles" "0 45 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1873 -555 9"
+"angles" "0 -89 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1028 -804 -182"
+"mins" "-17 -13 -9"
+"maxs" "17 53 41"
+"bspmodel" "INSTANCES/colombia/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1932 -980 -186"
+"angles" "0 -89 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "models/objects/finca/misc/wine_bottle.md3"
+"classname" "nv_model"
+"origin" "-2178 -1054 -163"
+"angles" "0 70 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+"bspmodel" "INSTANCES/generic/pickup_crate_health"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "pickup_backpack"
+"origin" "-89 -1145 17"
+"angles" "0 -53 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1961 -944 -186"
+"angles" "0 -179 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "pickup_backpack"
+"origin" "-511 -669 65"
+"angles" "0 86 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "pickup_backpack"
+"origin" "-967 -1018 17"
+"angles" "0 -88 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"bspmodel" "INSTANCES/kamchatka/wall03"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-912 -609 119"
+"angles" "0 -90 0"
+"mins" "-329 -9 -65"
+"maxs" "337 1 129"
+"bspmodel" "INSTANCES/kamchatka/wall03"
+}

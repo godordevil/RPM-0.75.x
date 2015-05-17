@@ -1,0 +1,349 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1130 -2858 -66"
+"angles" "0 -7 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1123 -2805 -66"
+"angles" "0 -6 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1114 -2719 -66"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1109 -2628 -66"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1105 -2542 -66"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1103 -2478 -66"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1175 -2448 -66"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1171 -2514 -66"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1171 -2611 -66"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1171 -2707 -66"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1186 -2798 -66"
+"angles" "0 -1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1168 -2875 -66"
+"angles" "0 -0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1022 -2731 -66"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1017 -2640 -66"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1038 -2563 -66"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1229 -2565 -66"
+"angles" "0 -0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1252 -2475 -66"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1124 -2827 -98"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1148 -2752 -98"
+"angles" "0 -178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1143 -2654 -98"
+"angles" "0 -177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1156 -2555 -98"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1160 -2481 -98"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1163 -2402 -98"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1167 -2306 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1170 -2234 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1156 -2168 -98"
+"angles" "0 177 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1156 -2079 -98"
+"angles" "0 167 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1092 -2065 -98"
+"angles" "0 169 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1077 -2152 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1074 -2228 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1088 -2297 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1086 -2367 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1082 -2477 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1079 -2568 -98"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1076 -2668 -98"
+"angles" "0 178 0"
+}
+
+{
+"model" "models/objects/colombia/vehicles/truck_black_temp.md3"
+"classname" "model_static"
+"origin" "-792 -2804 -128"
+"angles" "0 90 0"
+}
+{
+"model" "models/objects/colombia/vehicles/truck_black_temp.md3"
+"classname" "model_static"
+"origin" "232 3848 -152"
+"targetname" "back_truck"
+}
+{
+"classname" "info_notnull"
+"origin" "720 1336 -28"
+"targetname" "t60"
+}
+{
+"model" "models/objects/colombia/vehicles/truck_flatbed.md3"
+"classname" "model_static"
+"origin" "632 3848 -152"
+"targetname" "front_truck"
+}
+{
+"model" "models/objects/colombia/vehicles/truck_black_temp.md3"
+"classname" "model_static"
+"origin" "176 316 -128"
+"angles" "0 270 0"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "197 -3708 -155"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1152 -2218 -1"
+"angles" "0 90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-116 -1743 -97"
+"angles" "0 182 0"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "INSTANCES/generic/watertower"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1297 -2361 -131"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "1132 -1608 -166"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-497 -1939 325"
+"angles" "0 -90 0"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "INSTANCES/generic/watertower"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1043 -3112 -95"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "INSTANCES/generic/watertower"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "1116 -3062 -96"
+"mins" "-89 -113 -193"
+"maxs" "89 97 257"
+"bspmodel" "INSTANCES/generic/watertower"
+}

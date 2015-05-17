@@ -1,0 +1,7 @@
+Right-clicking 'My Computer' 
+Properties > Advanced > Environmental Variables > Path
+
+;D:\Programming\Sources\bin
+
+
+Run the batch file for the project.

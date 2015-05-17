@@ -1,0 +1,1656 @@
+
+{
+"classname" "worldspawn"
+"redteam" "colombian"
+"blueteam"	"prometheus"
+"doors" "0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1624 192 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3616 1976 222"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-176 -48 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2848 -392 86"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "560 -400 118"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "736 -400 118"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "944 -400 118"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "368 -608 62"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-48 -464 46"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-280 -408 46"
+"angles" "0 45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-48 144 54"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-488 488 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "480 -360 470"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "408 288 470"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1208 272 470"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "992 416 470"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "608 416 470"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "160 768 630"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "160 1376 630"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "952 1408 494"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1112 1688 494"
+"angles" "0 315 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1456 984 494"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1592 1424 494"
+"angles" "0 315 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2384 1424 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2944 1168 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3096 1296 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2960 928 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3616 960 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3520 1464 502"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2376 536 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2216 -232 494"
+"angles" "0 135 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1696 40 494"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2144 1888 422"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3168 1056 150"
+"angles" "0 225 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3145 185 86"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2225 681 70"
+"angles" "0 225 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2226 -310 70"
+"angles" "0 135 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "152 1064 342"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-336 808 342"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-848 1000 318"
+"angles" "0 45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-862 1545 246"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-550 1785 246"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-950 2081 246"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-286 2145 246"
+"angles" "0 225 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-592 1880 630"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "496 480 54"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "976 480 54"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1216 320 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1216 80 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1424 -304 54"
+"angles" "0 45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1433 682 54"
+"angles" "0 315 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1857 721 70"
+"angles" "0 270 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1857 -335 70"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1624 480 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1624 -96 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2016 280 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2016 152 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1760 280 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1760 152 54"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2272 312 54"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2272 72 54"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3080 -472 86"
+"angles" "0 180 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2648 -448 86"
+"angles" "0 360 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2240 904 102"
+"angles" "0 45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1968 271 54"
+"angles" "0 7 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1961 152 54"
+"angles" "0 -7 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1779 158 54"
+"angles" "0 -14 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1790 302 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1888 197 54"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1630 -96 54"
+"angles" "0 -68 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1636 147 54"
+"angles" "0 64 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1628 467 54"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1845 487 54"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2158 463 54"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2256 306 54"
+"angles" "0 -7 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2264 75 54"
+"angles" "0 -35 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2214 -266 54"
+"angles" "0 -76 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1950 -76 54"
+"angles" "0 178 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "2136 -41 54"
+"angles" "0 36 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-352 1866 630"
+"angles" "0 3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-333 1635 630"
+"angles" "0 8 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-221 1447 630"
+"angles" "0 17 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-213 1213 630"
+"angles" "0 -3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-416 1166 630"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-353 889 630"
+"angles" "0 5 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-125 903 630"
+"angles" "0 6 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-79 1104 630"
+"angles" "0 25 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-112 1434 630"
+"angles" "0 39 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-177 1689 630"
+"angles" "0 44 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-237 1886 630"
+"angles" "0 8 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-629 1904 630"
+"angles" "0 -32 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-624 1635 630"
+"angles" "0 -9 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-538 1361 630"
+"angles" "0 -5 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-261 1042 630"
+"angles" "0 3 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "774 -60 54"
+"angles" "0 -82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-253 -97 54"
+"angles" "0 95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-43 350 54"
+"angles" "0 84 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-31 990 318"
+"angles" "0 -166 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-766 1122 318"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-730 1737 246"
+"angles" "0 60 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-329 2104 246"
+"angles" "0 -88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "-9 1491 121"
+"angles" "0 -4 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "866 1422 118"
+"angles" "0 -82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1591 1514 118"
+"angles" "0 -24 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2169 1481 87"
+"angles" "0 -48 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2862 1445 150"
+"angles" "0 30 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3559 1760 222"
+"angles" "0 145 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2424 1871 398"
+"angles" "0 171 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2595 1574 470"
+"angles" "0 -45 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2408 612 470"
+"angles" "0 -111 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2066 -80 470"
+"angles" "0 -156 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1346 -248 470"
+"angles" "0 140 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1728 947 470"
+"angles" "0 26 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1030 1577 470"
+"angles" "0 133 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "610 682 470"
+"angles" "0 -165 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3058 -412 86"
+"angles" "0 73 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2626 -375 86"
+"angles" "0 0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3105 193 86"
+"angles" "0 15 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1431 -303 54"
+"angles" "0 -138 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1453 632 54"
+"angles" "0 99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "730 483 54"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3510 1863 478"
+"angles" "0 -98 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "2844 1790 638"
+"angles" "0 -175 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "1873 1750 638"
+"angles" "0 -176 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3082 1104 470"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3283 547 470"
+"angles" "0 -11 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3567 895 470"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "0"
+"count" "0"
+"origin" "3599 231 470"
+"angles" "0 174 0"
+}
+
+{
+"classname" "info_notnull"
+"origin" "-132 444 324"
+"targetname" "t16"
+}
+{
+"classname" "info_player_intermission"
+"origin" "-552 -480 622"
+"target" "t16"
+"angles" "0 45 0"
+}
+{
+"model" "*1"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "1000"
+"mins" "-2169 -2553 -897"
+"maxs" "5497 4601 -887"
+}
+{
+"model" "*2"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "3647 1539 227"
+"maxs" "3657 1661 333"
+}
+{
+"model" "*25"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "10 486 247"
+"maxs" "213 593 305"
+}
+{
+"classname" "target_location"
+"origin" "1896 216 56"
+"message" "Kitchen"
+"health" "1"
+}
+{
+"model" "*28"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-983 2019 227"
+"maxs" "-977 2141 341"
+}
+{
+"model" "*29"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "311 659 419"
+"maxs" "321 741 445"
+}
+{
+"model" "*30"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-13 639 323"
+"maxs" "109 649 437"
+}
+{
+"model" "*31"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "-317 639 323"
+"maxs" "-195 649 437"
+}
+{
+"model" "*32"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "511 -497 55"
+"maxs" "961 -279 65"
+}
+{
+"model" "*34"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "603 1653 -1217"
+"maxs" "609 1687 417"
+}
+{
+"model" "*35"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 711 -1217"
+"maxs" "3345 717 417"
+}
+{
+"model" "*36"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "3311 1203 -1217"
+"maxs" "3345 1209 417"
+}
+{
+"model" "*37"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "2585 1597 95"
+"maxs" "3395 1731 393"
+}
+{
+"model" "*38"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "675 1379 59"
+"maxs" "797 1501 65"
+}
+{
+"classname" "info_notnull"
+"origin" "2592 596 500"
+"targetname" "t4"
+}
+{
+"classname" "info_notnull"
+"origin" "3104 596 500"
+"targetname" "t3"
+}
+{
+"classname" "info_notnull"
+"origin" "2208 -300 500"
+"targetname" "t5"
+}
+{
+"classname" "info_notnull"
+"origin" "1632 -300 500"
+"targetname" "t6"
+}
+{
+"classname" "info_notnull"
+"origin" "368 -412 500"
+"targetname" "t7"
+}
+{
+"classname" "info_notnull"
+"origin" "544 596 500"
+"targetname" "t8"
+}
+{
+"classname" "info_notnull"
+"origin" "1248 596 500"
+"targetname" "t12"
+}
+{
+"classname" "info_notnull"
+"origin" "544 1396 500"
+"targetname" "t9"
+}
+{
+"classname" "info_notnull"
+"origin" "1248 1396 500"
+"targetname" "t10"
+}
+{
+"classname" "info_notnull"
+"origin" "1888 1332 500"
+"targetname" "t11"
+}
+{
+"classname" "info_notnull"
+"origin" "2656 1588 500"
+"targetname" "t1"
+}
+{
+"classname" "info_notnull"
+"origin" "3232 1588 500"
+"targetname" "t2"
+}
+{
+"classname" "info_notnull"
+"origin" "3476 632 500"
+"targetname" "t13"
+}
+{
+"classname" "info_notnull"
+"origin" "3476 1272 500"
+"targetname" "t14"
+}
+{
+"classname" "info_notnull"
+"origin" "3564 968 500"
+"targetname" "t15"
+}
+{
+"model" "*41"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "31 587 -1"
+"maxs" "65 593 305"
+}
+{
+"classname" "target_location"
+"origin" "744 72 56"
+"message" "Main Conference Hall"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-200 -56 56"
+"message" "Patio"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "760 1224 104"
+"message" "Entrance To Hall"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "728 1672 328"
+"message" "Small Elevator Shaft"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "2848 168 104"
+"message" "Back Kitchen Access"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "2856 -408 104"
+"message" "Security Elevator"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "2864 1000 184"
+"message" "Stairway Access"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "3328 960 304"
+"message" "Cargo Elevator"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "2135 1351 191"
+"message" "Main Hall East Side"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-377 1647 191"
+"message" "Main Hall West Side"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-704 1800 248"
+"message" "North Office"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-200 848 320"
+"message" "South Office"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "136 2760 248"
+"message" "Outside Building By North Scaffold"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "3856 512 248"
+"message" "Outside Building By East Scaffold"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "3528 1656 184"
+"message" "Main Roof Stairs"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "2176 1728 488"
+"message" "Main Roof Stairs Access"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "2840 1024 488"
+"message" "On Roof East Side"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "1992 976 488"
+"message" "On Roof Center"
+"health" "19"
+}
+{
+"classname" "target_location"
+"origin" "-280 1232 680"
+"message" "Helicopter Pad"
+"health" "20"
+}
+{
+"classname" "target_location"
+"origin" "1128 1088 488"
+"message" "Roof West"
+"health" "21"
+}
+{
+"classname" "target_location"
+"origin" "392 -368 488"
+"message" "Roff South West"
+"health" "22"
+}
+{
+"classname" "target_location"
+"origin" "3592 -368 488"
+"message" "Roof South East"
+"health" "23"
+}
+{
+"classname" "target_location"
+"origin" "1800 -112 488"
+"message" "Roof South"
+"health" "24"
+}
+{
+"classname" "target_location"
+"origin" "3528 2000 488"
+"message" "Roof North East"
+"health" "25"
+}
+{
+"classname" "target_location"
+"origin" "1416 1744 488"
+"message" "Roof North"
+"health" "26"
+}
+{
+"model" "*42"
+"classname" "func_glass"
+"speed" "100.0"
+"health" "1"
+"mins" "2787 -511 227"
+"maxs" "2909 -505 301"
+}
+{
+"model" "*47"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "15 491 251"
+"maxs" "209 525 255"
+}
+{
+"model" "*48"
+"classname" "func_static"
+"speed" "100.0"
+"mins" "79 523 251"
+"maxs" "209 589 255"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3742 1809 203"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3761 1809 224"
+"target" "jump_push5564"
+"wait" "0.5"
+"mins" "-7 -13 4"
+"maxs" "7 13 6"
+}
+{
+"classname" "target_push"
+"origin" "3777 1786 207"
+"speed" "1000.0"
+"target" "jump_pos5564"
+"targetname" "jump_push5564"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "-23 34 653"
+}
+{
+"classname" "target_position"
+"origin" "3758 1814 474"
+"targetname" "jump_pos5564"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3718 999 204"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3721 1002 207"
+"target" "jump_push4762"
+"wait" "0.5"
+"mins" "-12 -15 0"
+"maxs" "12 15 10"
+}
+{
+"classname" "target_push"
+"origin" "3783 978 207"
+"speed" "1000.0"
+"target" "jump_pos4762"
+"targetname" "jump_push4762"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 845"
+}
+{
+"classname" "target_position"
+"origin" "3783 978 654"
+"targetname" "jump_pos4762"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3410 1114 552"
+"angles" "0 -90 -90"
+"mins" "-16 -16 2"
+"maxs" "16 16 14"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3419 1114 559"
+"target" "jump_push4578"
+"wait" "0.5"
+"mins" "-12 -7 0"
+"maxs" "12 7 10"
+}
+{
+"classname" "target_push"
+"origin" "3428 1149 559"
+"speed" "1000.0"
+"target" "jump_pos4578"
+"targetname" "jump_push4578"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "3 -36 606"
+}
+{
+"classname" "target_position"
+"origin" "3431 1121 789"
+"targetname" "jump_pos4578"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3225 813 553"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3234 818 559"
+"target" "jump_push3959"
+"wait" "0.5"
+"mins" "-11 -13 0"
+"maxs" "11 13 10"
+}
+{
+"classname" "target_push"
+"origin" "3225 733 559"
+"speed" "1000.0"
+"target" "jump_pos3959"
+"targetname" "jump_push3959"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 591"
+}
+{
+"classname" "target_position"
+"origin" "3225 733 778"
+"targetname" "jump_pos3959"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3415 813 555"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3425 816 559"
+"target" "jump_push4176"
+"wait" "0.5"
+"mins" "-20 -18 0"
+"maxs" "20 18 10"
+}
+{
+"classname" "target_push"
+"origin" "3415 760 559"
+"speed" "1000.0"
+"target" "jump_pos4176"
+"targetname" "jump_push4176"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 623"
+}
+{
+"classname" "target_position"
+"origin" "3415 760 802"
+"targetname" "jump_pos4176"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3740 219 202"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3753 222 207"
+"target" "jump_push3986"
+"wait" "0.5"
+"mins" "-14 -16 0"
+"maxs" "14 16 10"
+}
+{
+"classname" "target_push"
+"origin" "3775 210 207"
+"speed" "1000.0"
+"target" "jump_pos3986"
+"targetname" "jump_push3986"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 611"
+}
+{
+"classname" "target_position"
+"origin" "3775 210 441"
+"targetname" "jump_pos3986"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "3480 230 410"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "3494 232 415"
+"target" "jump_push3740"
+"wait" "0.5"
+"mins" "-16 -12 0"
+"maxs" "16 12 10"
+}
+{
+"classname" "target_push"
+"origin" "3517 223 415"
+"speed" "1000.0"
+"target" "jump_pos3740"
+"targetname" "jump_push3740"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 598"
+}
+{
+"classname" "target_position"
+"origin" "3517 223 639"
+"targetname" "jump_pos3740"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "782 602 409"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "793 602 415"
+"target" "jump_push1490"
+"wait" "0.5"
+"mins" "-10 -6 0"
+"maxs" "10 6 10"
+}
+{
+"classname" "target_push"
+"origin" "803 687 415"
+"speed" "1000.0"
+"target" "jump_pos1490"
+"targetname" "jump_push1490"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "-4 0 771"
+}
+{
+"classname" "target_position"
+"origin" "799 687 787"
+"targetname" "jump_pos1490"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/common/search_light.md3"
+"classname" "nv_model"
+"origin" "196 361 -8"
+"angles" "0 -90 -90"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "trigger_multiple"
+"origin" "207 361 0"
+"target" "jump_push558"
+"wait" "0.5"
+"mins" "-19 -18 0"
+"maxs" "19 18 10"
+}
+{
+"classname" "target_push"
+"origin" "196 361 0"
+"speed" "1000.0"
+"target" "jump_pos558"
+"targetname" "jump_push558"
+"mins" "-50 -50 0"
+"maxs" "50 50 10"
+"origin2" "0 0 866"
+}
+{
+"classname" "target_position"
+"origin" "196 361 469"
+"targetname" "jump_pos558"
+"mins" "-50 -50 10"
+"maxs" "50 50 10"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"model2" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "pickup_backpack"
+"origin" "1574 1396 433"
+"angles" "0 -46 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1456 1011 433"
+"angles" "0 -6 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"model2" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "trigger_vip_beacon"
+"origin" "1190 1269 421"
+"spawnflags" "1"
+"angles" "0 -91 0"
+"mins" "-35 -35 0"
+"maxs" "35 35 70"
+}
+{
+"model" "models/objects/Hospital/carts/monitor_cart.md3"
+"model2" "models/objects/Hospital/carts/monitor_cart.md3"
+"classname" "trigger_vip_beacon"
+"origin" "2851 178 31"
+"spawnflags" "1"
+"angles" "0 -93 0"
+"mins" "-35 -35 0"
+"maxs" "35 35 70"
+}
+{
+"classname" "pickup_backpack"
+"origin" "3173 295 47"
+"angles" "0 22 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "3166 90 51"
+"angles" "0 -18 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "3541 211 484"
+"mins" "-97 -129 -65"
+"maxs" "129 161 193"
+"bspmodel" "INSTANCES/kamchatka/wall04"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "4002 979 208"
+"angles" "0 91 0"
+"mins" "-1217 -257 -64"
+"maxs" "1089 321 0"
+"bspmodel" "INSTANCES/test/bridge"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "pickup_backpack"
+"origin" "3506 135 433"
+"target" "jump_push4762"
+"angles" "0 178 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+"bspmodel" "INSTANCES/kamchatka/wall04"
+}

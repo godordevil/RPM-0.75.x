@@ -1,0 +1,497 @@
+
+{
+"classname" "worldspawn"
+"redteam" "marine"
+"blueteam"	"thug"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6187 -9212 70"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6316 -9205 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6369 -9208 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6373 -9081 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6292 -9078 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6244 -9076 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6197 -9073 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6201 -8990 70"
+"angles" "0 92 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6258 -8993 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6320 -8997 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6360 -8999 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6364 -8938 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6285 -8933 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6222 -8929 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6171 -8926 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6075 -8846 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6079 -8779 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6160 -8783 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6270 -8789 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6363 -8794 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6441 -8798 70"
+"angles" "0 93 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6252 -9197 70"
+"angles" "0 91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6481 -8863 70"
+"angles" "0 77 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6563 -8845 70"
+"angles" "0 78 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6552 -8728 70"
+"angles" "0 85 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6546 -8660 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"origin" "-6232 -8818 70"
+"angles" "0 90 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4865 -4738 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4952 -4735 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5040 -4732 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5137 -4727 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5213 -4723 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5210 -4643 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5144 -4645 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5064 -4647 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4986 -4649 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4903 -4651 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4902 -4569 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4983 -4568 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5063 -4568 70"
+"angles" "0 88 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5160 -4568 70"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5094 -4568 70"
+"angles" "0 89 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4932 -4458 70"
+"angles" "0 78 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4997 -4444 70"
+"angles" "0 78 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5060 -4432 70"
+"angles" "0 81 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5125 -4422 70"
+"angles" "0 82 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5202 -4412 70"
+"angles" "0 83 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5211 -4797 70"
+"angles" "0 86 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5137 -4801 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-5062 -4805 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4964 -4810 70"
+"angles" "0 87 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"origin" "-4876 -4813 70"
+"angles" "0 88 0"
+}
+
+{
+"classname" "info_player_intermission"
+"origin" "-7136 -2784 622"
+"target" "t1"
+}
+{
+"classname" "target_location"
+"origin" "-6752 -7936 160"
+"message" "front house"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "-6304 -7104 392"
+"message" "front balcony"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "-6392 -5776 96"
+"message" "right tunnel"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-8224 -6528 80"
+"message" "left tunnel"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "-7136 -3008 152"
+"message" "briefcase point"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "-7776 -5216 88"
+"message" "back patio left"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-6376 -8632 72"
+"message" "front gate"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "-6792 -6952 376"
+"message" "sec floor front"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "-6880 -7304 208"
+"message" "house entrance"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "-7248 -5848 208"
+"message" "kitchen"
+"health" "10"
+}
+{
+"classname" "target_position"
+"origin" "-7644 -7196 196"
+"message" "living room"
+}
+{
+"classname" "target_location"
+"origin" "-7136 -4144 72"
+"message" "pool"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "-5376 -5992 176"
+"message" "garage"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "-6624 -6272 376"
+"message" "sec floor front"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "-7776 -4352 88"
+"message" "back patio left"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "-6544 -4992 88"
+"message" "back patio left"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "-6544 -4672 88"
+"message" "back patio left"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "-8080 -6104 80"
+"message" "left tunnel"
+"health" "17"
+}
+{
+"classname" "target_location"
+"origin" "-6192 -5704 96"
+"message" "right tunnel"
+"health" "18"
+}
+{
+"classname" "target_location"
+"origin" "-6304 -6024 376"
+"message" "upper tunnel"
+"health" "19"
+}
+{
+"classname" "target_location"
+"origin" "-6192 -5616 360"
+"message" "upper tunnel"
+"health" "20"
+}
+{
+"classname" "target_location"
+"origin" "-6192 -4832 360"
+"message" "upper tunnel"
+"health" "21"
+}
+{
+"classname" "target_location"
+"origin" "-5976 -4512 360"
+"message" "upper tunnel"
+"health" "22"
+}
+{
+"classname" "target_location"
+"origin" "-6192 -5376 96"
+"message" "right tunnel"
+"health" "23"
+}
+{
+"classname" "target_location"
+"origin" "-6192 -4832 96"
+"message" "right tunnel"
+"health" "24"
+}
+{
+"classname" "target_location"
+"origin" "-8072 -5216 96"
+"message" "left tunnel"
+"health" "25"
+}
+{
+"classname" "target_location"
+"origin" "-5016 -4608 152"
+"message" "back guest house"
+"health" "26"
+}
+{
+"classname" "target_location"
+"origin" "-5128 -3456 152"
+"message" "back guest house"
+"health" "27"
+}
+{
+"classname" "info_notnull"
+"origin" "-7124 -3524 110"
+"targetname" "t1"
+"angles" "0 90 0"
+}

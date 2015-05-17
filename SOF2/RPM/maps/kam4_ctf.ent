@@ -1,0 +1,938 @@
+
+{
+"classname" "worldspawn"
+"redteam" "snow"
+"blueteam"	"snow"
+"nodrop" "-440"
+"doors" "0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "603 2880 -74"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "677 2874 -74"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "772 2864 -74"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "864 2856 -74"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "857 2792 -74"
+"angles" "0 -96 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "747 2796 -74"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "642 2804 -74"
+"angles" "0 -95 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "593 2737 -74"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "757 2717 -74"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "896 2712 -74"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "976 2643 -74"
+"angles" "0 -91 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "605 2540 -74"
+"angles" "0 -0 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "619 2468 -74"
+"angles" "0 -7 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "600 2345 -74"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "613 2194 -74"
+"angles" "0 -2 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1769 2474 -74"
+"angles" "0 -173 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1622 2568 -74"
+"angles" "0 -132 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1455 2655 -74"
+"angles" "0 -131 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "1270 2642 -74"
+"angles" "0 -119 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "1"
+"count" "0"
+"origin" "964 2389 -74"
+"angles" "0 1 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1570 1966 -74"
+"angles" "0 -97 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1445 1951 -74"
+"angles" "0 -97 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1799 1958 -22"
+"angles" "0 -72 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2029 2070 -74"
+"angles" "0 -103 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2080 2406 -27"
+"angles" "0 -94 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2363 2458 -19"
+"angles" "0 -73 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2462 2103 -74"
+"angles" "0 -17 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2291 2130 -74"
+"angles" "0 -40 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2229 1991 -74"
+"angles" "0 -39 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2280 1722 -74"
+"angles" "0 -8 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2157 1747 -74"
+"angles" "0 -28 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2024 1632 -74"
+"angles" "0 -24 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1999 1802 -74"
+"angles" "0 -25 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2216 1488 -25"
+"angles" "0 -17 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2022 1326 -48"
+"angles" "0 -6 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-2079 1937 -74"
+"angles" "0 -42 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1508 2057 -74"
+"angles" "0 -99 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1657 1826 -74"
+"angles" "0 -36 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1683 1560 -74"
+"angles" "0 -13 0"
+}
+{
+"classname" "gametype_player"
+"spawnflags" "2"
+"count" "0"
+"origin" "-1837 1608 -74"
+"angles" "0 -7 0"
+}
+
+{
+"model" "*13"
+"classname" "trigger_hurt"
+"spawnflags" "8"
+"dmg" "500"
+"mins" "-1537 -1441 -833"
+"maxs" "1873 561 -543"
+}
+{
+"model" "*16"
+"classname" "trigger_hurt"
+"dmg" "5"
+"mins" "-225 -4353 -101"
+"maxs" "-191 -4319 -63"
+}
+{
+"model" "*39"
+"classname" "door_rotating"
+"origin" "-1866 2516 -72"
+"spawnflags" "1"
+"speed" "400.0"
+"targetname" "fans_off"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -12 -2"
+"maxs" "2 2 6"
+}
+{
+"model" "*40"
+"classname" "door_rotating"
+"origin" "-1868 2872 12"
+"spawnflags" "4"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -3 -75"
+"maxs" "123 3 51"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-512 -704 -648"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-736 -320 -648"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-800 -624 -632"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-1152 -16 -536"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-896 -64 -648"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "-704 -848 -600"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-288 -592 -696"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "-320 -336 -680"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "832 -640 -456"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "928 -192 -456"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "512 0 -648"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "416 -368 -632"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "512 -960 -552"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "640 -208 -584"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "896 112 -472"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "512 -624 -600"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "1592 1648 24"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "1856 1280 72"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "1584 1264 16"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "1760 1888 8"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "1920 1840 24"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "1744 1488 48"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "768 1152 -8"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "336 1152 -8"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-272 1200 -8"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "-256 1024 8"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-1888 1448 16"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "-1792 1168 24"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-1936 752 24"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-1968 1152 24"
+}
+{
+"model" "models/objects/kamchatka/tree_med.md3"
+"classname" "client_model"
+"origin" "-2384 2312 16"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-2160 2160 24"
+}
+{
+"model" "models/objects/kamchatka/tree_lrg.md3"
+"classname" "client_model"
+"origin" "-2320 1872 24"
+}
+{
+"model" "models/objects/kamchatka/tree2.md3"
+"classname" "client_model"
+"origin" "-2288 1600 40"
+}
+{
+"model" "*46"
+"classname" "door_rotating"
+"origin" "1020 1822 -54"
+"spawnflags" "76"
+"speed" "400.0"
+"targetname" "t17"
+"team" "bar_doors"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -63 -59"
+"maxs" "3 3 55"
+}
+{
+"model" "*47"
+"classname" "door_rotating"
+"origin" "1020 1698 -54"
+"spawnflags" "76"
+"speed" "400.0"
+"team" "bar_doors"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -3 -59"
+"maxs" "3 63 55"
+}
+{
+"model" "*48"
+"classname" "door_rotating"
+"origin" "-698 1188 -38"
+"spawnflags" "76"
+"speed" "400.0"
+"team" "control_doors"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-63 -3 -59"
+"maxs" "3 3 55"
+}
+{
+"model" "*49"
+"classname" "door_rotating"
+"origin" "-822 1188 -38"
+"spawnflags" "76"
+"speed" "400.0"
+"team" "control_doors"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -3 -59"
+"maxs" "63 3 55"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1977 2287 -111"
+"angles" "0 -4 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"model" "*51"
+"classname" "door_rotating"
+"origin" "-262 -2560 -94"
+"spawnflags" "76"
+"speed" "400.0"
+"wait" "2.0"
+"dmg" "2"
+"mins" "-3 -3 -59"
+"maxs" "63 3 55"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "2512 -4544 40"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "2384 -4544 40"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "2640 -4544 40"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "3600 -4864 40"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "3472 -4864 40"
+}
+{
+"model" "models/objects/finca/lamps/lightbulb1.md3"
+"classname" "client_model"
+"origin" "3728 -4864 40"
+}
+{
+"classname" "gametype_item"
+"origin" "-1081 1382 -82"
+"targetname" "blue_flag"
+"angles" "0 179 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "-1081 1382 -82"
+"targetname" "blue_capture_point"
+"health" "201"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "-1081 1382 -128"
+"angles" "0 179 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "gametype_item"
+"origin" "1151 1753 -82"
+"targetname" "red_flag"
+"angles" "0 -5 0"
+"mins" "-5 -5 -10"
+"maxs" "5 5 10"
+}
+{
+"model" "NV_MODEL"
+"classname" "gametype_trigger"
+"origin" "1151 1753 -82"
+"targetname" "red_capture_point"
+"health" "200"
+"mins" "-15 -15 -15"
+"maxs" "15 15 30"
+}
+{
+"model" "models/objects/Common/beam.md3"
+"classname" "nv_model"
+"origin" "1151 1753 -128"
+"angles" "0 -5 0"
+"mins" "-16 -16 0"
+"maxs" "16 16 16"
+}
+{
+"classname" "pickup_backpack"
+"origin" "1966 2181 -111"
+"angles" "0 -3 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-1440 2064 -111"
+"angles" "0 88 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "-1603 2062 -111"
+"angles" "0 84 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "pickup_backpack"
+"origin" "91 1585 -143"
+"angles" "0 -94 0"
+"mins" "-15 -15 -15"
+"maxs" "15 15 15"
+}
+{
+"classname" "target_location"
+"origin" "-1467 1389 -82"
+"message" "Blue Base"
+"health" "1"
+}
+{
+"classname" "target_location"
+"origin" "75 949 94"
+"message" "Train Car"
+"health" "2"
+}
+{
+"classname" "target_location"
+"origin" "541 375 78"
+"message" "Red Tower"
+"health" "3"
+}
+{
+"classname" "target_location"
+"origin" "-344 375 78"
+"message" "Blue Tower"
+"health" "4"
+}
+{
+"classname" "target_location"
+"origin" "1310 2147 -82"
+"message" "Red Base"
+"health" "5"
+}
+{
+"classname" "target_location"
+"origin" "-813 3173 436"
+"message" "Center Roof"
+"health" "6"
+}
+{
+"classname" "target_location"
+"origin" "-466 2280 198"
+"message" "Watch Tower"
+"health" "7"
+}
+{
+"classname" "target_location"
+"origin" "95 2970 227"
+"message" "Vent System"
+"health" "8"
+}
+{
+"classname" "target_location"
+"origin" "-1555 2678 302"
+"message" "Blue Roof"
+"health" "9"
+}
+{
+"classname" "target_location"
+"origin" "76 2770 302"
+"message" "Red Roof"
+"health" "10"
+}
+{
+"classname" "target_location"
+"origin" "-2323 2174 -82"
+"message" "Blue Spawn"
+"health" "11"
+}
+{
+"classname" "target_location"
+"origin" "848 2792 -82"
+"message" "Red Spawn"
+"health" "12"
+}
+{
+"classname" "target_location"
+"origin" "1202 814 -114"
+"message" "Red Road"
+"health" "13"
+}
+{
+"classname" "target_location"
+"origin" "-1640 733 -82"
+"message" "Blue Road"
+"health" "14"
+}
+{
+"classname" "target_location"
+"origin" "-600 1374 -50"
+"message" "Comm Center"
+"health" "15"
+}
+{
+"classname" "target_location"
+"origin" "82 1676 -114"
+"message" "Tracks"
+"health" "16"
+}
+{
+"classname" "target_location"
+"origin" "79 -10 -114"
+"message" "Bridge"
+"health" "17"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "129 2995 137"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1105 1762 -223"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "129 2928 137"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "52 616 110"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "71 2921 137"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "119 3009 190"
+"angles" "0 88 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "71 2987 137"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1079 2256 -138"
+"angles" "0 -90 0"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-49 -112 -177"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "306 972 -45"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "205 -112 14"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-1105 1698 -223"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "418 972 -149"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "52 639 58"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "100 1095 55"
+"angles" "0 -118 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "30 1068 55"
+"angles" "0 -55 0"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "-50 -112 14"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "205 -112 -177"
+"mins" "-129 -3 -1"
+"maxs" "129 3 263"
+"bspmodel" "INSTANCES/generic/fence01"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "316 972 -97"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
+{
+"model" "BLOCKED_TRIGGER"
+"classname" "blocker"
+"origin" "316 972 -149"
+"mins" "-17 -13 -9"
+"maxs" "17 53 45"
+"bspmodel" "INSTANCES/kamchatka/npc_jump1"
+}
