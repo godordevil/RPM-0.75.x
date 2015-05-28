@@ -1,0 +1,12 @@
+Files used in the client side mod:
+-ui/*.*
+-sound/*.*
+-shaders/*.*
+-gfx/*.*
+-vm/sof2mp_ui.qvm
+-vm/sof2mp_cgame.qvm
+
+Files used in both server and client:
+-RPM_SoundPack1.pk3
+
+Everything else is used in the server side.

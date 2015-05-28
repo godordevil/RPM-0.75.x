@@ -1,0 +1,344 @@
+{
+	\\player_settings
+
+	menuDef 
+	{
+    	name		"rpm_settings"
+    	visible		0
+    	fullscreen	0
+    	rect		200 70 375 285
+
+		tooltipbackcolor	.49 .56 .27 1
+		tooltipforecolor	.12 .14 .08 1
+		tooltipfont			"hud"
+		tooltipscale		.39
+		tooltipdelay		900
+
+
+		itemDef 
+		{
+			name		rpm_hud
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		35 45 250 15
+			text		"RPM Hud:"
+			cvar		"cg_rpmHud"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Turn the RPM style hud on or off"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"On"	    1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "wait; wait; wait; wait; reloadhud";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpm_hud backcolor .12 .14 .08 1
+				setitemcolor rpm_hud forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor rpm_hud forecolor .12 .14 .08 1
+				setitemcolor rpm_hud backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpm_teammate_info
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		35 62 250 15
+			text		"Teammate info:"
+			cvar		"cg_drawTeamMateInfo"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Shows your teammates health and armor status when they are in your crosshair"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"On"	    1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpm_teammate_info backcolor .12 .14 .08 1
+				setitemcolor rpm_teammate_info forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor rpm_teammate_info forecolor .12 .14 .08 1
+				setitemcolor rpm_teammate_info backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		rpm_clock
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		35 79 250 15
+			text		"Clock:"
+			cvar		"cg_drawTime"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Set you on screen clock preference"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"Standard"	1
+				"Military"	2
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpm_clock backcolor .12 .14 .08 1
+				setitemcolor rpm_clock forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor rpm_clock forecolor .12 .14 .08 1
+				setitemcolor rpm_clock backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		rpm_HSmessage
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		35 96 250 15
+			text		"Headshot Text:"
+			cvar		"cg_headshotMessage"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Choose the headshot message displayed"
+			
+			cvarFloatList
+			{ 
+				"None"		0 
+				"Server"	1
+				"RPM Big"	2
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpm_HSmessage backcolor .12 .14 .08 1
+				setitemcolor rpm_HSmessage forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor rpm_HSmessage forecolor .12 .14 .08 1
+				setitemcolor rpm_HSmessage backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		rpm_headshotSound
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		35 113 250 15
+			text		"Headshot Sound:"
+			cvar		"cg_headshotSound"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Turns the Headshot voice on or off"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"On"		1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpm_headshotSound backcolor .12 .14 .08 1
+				setitemcolor rpm_headshotSound forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor rpm_headshotSound forecolor .12 .14 .08 1
+				setitemcolor rpm_headshotSound backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+   			name		crosshairnames_multi
+			style		WINDOW_STYLE_FILLED
+   			type		ITEM_TYPE_MULTI
+			text		"Draw Player Names:"
+			cvar		"cg_drawCrosshairNames"
+			rect		35 130 250 15
+      		textalign	ITEM_ALIGN_RIGHT
+      		textalignx	140
+      		textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+      		visible		1
+			tooltip		"Where to draw the Players names when they are in your crosshair"
+			
+			cvarFloatList
+			{ 
+				"Off"			0 
+				"Bottom"		1 
+				"Center"		2 
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor crosshairnames_multi backcolor .12 .14 .08 1
+				setitemcolor crosshairnames_multi forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor crosshairnames_multi forecolor .12 .14 .08 1
+				setitemcolor crosshairnames_multi backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+   			name		scoreboard_multi
+			style		WINDOW_STYLE_FILLED
+   			type		ITEM_TYPE_MULTI
+			text		"Scoreboard type:"
+			cvar		"cg_rpmScoreboard"
+			rect		35 147 250 15
+      		textalign	ITEM_ALIGN_RIGHT
+      		textalignx	140
+      		textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+      		visible		1
+			tooltip		"Select the scoreboard style you prefer."
+			
+			cvarFloatList
+			{ 
+				"Original"			0 
+				"RPM"				1 
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor scoreboard_multi backcolor .12 .14 .08 1
+				setitemcolor scoreboard_multi forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor scoreboard_multi forecolor .12 .14 .08 1
+				setitemcolor scoreboard_multi backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+   			name		teamscores_multi
+			style		WINDOW_STYLE_FILLED
+   			type		ITEM_TYPE_MULTI
+			text		"Draw team scores:"
+			cvar		"cg_drawTeamScores"
+			rect		35 164 250 15
+      		textalign	ITEM_ALIGN_RIGHT
+      		textalignx	140
+      		textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+      		visible		1
+			tooltip		"Select where you want the team scores drawn on the screen"
+			
+			cvarFloatList
+			{ 
+				"Don't Draw"		0 
+				"Bottom Right"		1 
+				"Top Right"			2
+				"Right"				3
+				"Above Radar"		4
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor teamscores_multi backcolor .12 .14 .08 1
+				setitemcolor teamscores_multi forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor teamscores_multi forecolor .12 .14 .08 1
+				setitemcolor teamscores_multi backcolor 0 0 0 0
+			}
+		}
+	}
+}

@@ -1,0 +1,220 @@
+{
+	// HUD CHOOSER MENU
+
+	menuDef 
+	{
+ 		name			"ingame_bspList"
+ 		visible			0
+ 		fullscreen		0
+		rect			200 100 400 200
+		disableColor	.1 .1 .1 .3
+
+
+		onOpen
+		{
+			uiScript	LoadBsps;
+			show		bsp_group;
+
+		}
+
+		///////////////
+		//  Dialog frame
+		///////////////
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_FILLED
+            rect		0 0 400 180
+			visible		1		
+			backcolor	.01 .01 .01 .92
+			visible		1
+			border		1
+			bordercolor	.02 .02 .02 1
+		}			
+
+		itemDef
+		{
+			name			Title
+			rect			10 2 0 15
+			text			"bsp Instance"
+			forecolor		.7 .7 .7 1
+			textalign		0
+			textfont		"hud"
+			textscale		.35
+			visible			1
+			decoration
+		}
+
+		itemDef 
+		{
+      		name			bsp_list
+			group			bsp_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_BSP
+			style			WINDOW_STYLE_FILLED
+       		rect			5 15 390 135
+			elementwidth	120
+			elementheight	15
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		.4 .4 .4 .5
+			forecolor		1 1 1 1
+			backcolor		.15 .15 .15 1
+			outlinecolor	0 0 0 .90
+			visible			0
+		}
+
+		itemDef 
+		{
+			name			bsp_ok_button
+			group			bsp_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			5 155 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				uiScript RunBsp; 
+				uiScript closeingame;
+				hide	 bsp_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor hud_ok_button forecolor .1 .1 .1 1;
+				setitemcolor hud_ok_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor hud_ok_button forecolor .2 .2 .2 1;
+				setitemcolor hud_ok_button backcolor .5 .5 .5 1;				
+			}
+		}
+				
+		itemDef 
+		{
+			name			bsp_cancel_button
+			group			bsp_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			65 155 50 20
+			text			"CLOSE"
+			textalign		1
+			textalignx		25
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide	 bsp_group;
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor hud_cancel_button forecolor .1 .1 .1 1;
+				setitemcolor hud_cancel_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor hud_cancel_button forecolor .2 .2 .2 1;
+				setitemcolor hud_cancel_button backcolor .5 .5 .5 1;				
+			}
+		}
+			
+		itemDef 
+		{
+			name			bsp_Maps_button
+			group			bsp_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			250 155 65 20
+			text			"Maps"
+			textalign		1
+			textalignx		30
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				uiScript	LoadBspsMaps;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor bsp_Maps_button forecolor .1 .1 .1 1;
+				setitemcolor bsp_Maps_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor bsp_Maps_button forecolor .2 .2 .2 1;
+				setitemcolor bsp_Maps_button backcolor .5 .5 .5 1;				
+			}
+		}
+		itemDef 
+		{
+			name			bsp_Instances_button
+			group			bsp_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			325 155 70 20
+			text			"Instances"
+			textalign		1
+			textalignx		35
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				uiScript	LoadBsps;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor bsp_Instances_button forecolor .1 .1 .1 1;
+				setitemcolor bsp_Instances_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor bsp_Instances_button forecolor .2 .2 .2 1;
+				setitemcolor bsp_Instances_button backcolor .5 .5 .5 1;				
+			}
+		}
+	}
+}

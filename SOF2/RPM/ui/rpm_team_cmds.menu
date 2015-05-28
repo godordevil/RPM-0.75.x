@@ -1,0 +1,685 @@
+{
+	\\team_cmds
+
+	menuDef 
+	{
+    	name		"rpm_Team_Cmds"
+    	visible		0
+    	fullscreen	0
+    	rect		200 70 375 285
+
+		tooltipbackcolor	.49 .56 .27 1
+		tooltipforecolor	.12 .14 .08 1
+		tooltipfont			"hud"
+		tooltipscale		.39
+		tooltipdelay		900
+		onOpen
+		{
+			hide invite_spec_group;
+			hide unInvite_spec_group;
+			hide team_back_button_group;
+
+			show rpm_team_group;
+		}
+
+		itemDef 
+		{
+			name		red_team_info_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 50 160 18
+			text		"Red Team Info"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See the Red teams player, spectator list and info"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd info red";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor red_team_info_button backcolor .12 .14 .08 1
+				setitemcolor red_team_info_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor red_team_info_button forecolor .12 .14 .08 1
+				setitemcolor red_team_info_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		blue_team_info_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 50 160 18
+			text		"Blue Team Info"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See the Blue teams player, spectator list and info"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd info blue";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor blue_team_info_button backcolor .12 .14 .08 1
+				setitemcolor blue_team_info_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor blue_team_info_button forecolor .12 .14 .08 1
+				setitemcolor blue_team_info_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		ready_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 73 160 18
+			text		"Ready Team"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Set your teams Ready status to start the match"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd ready";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ready_button backcolor .12 .14 .08 1
+				setitemcolor ready_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ready_button forecolor .12 .14 .08 1
+				setitemcolor ready_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		reset_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 73 160 18
+			text		"Reset Team"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Unlock and clear your teams ready status and invited spectators"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd reset";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor reset_button backcolor .12 .14 .08 1
+				setitemcolor reset_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor reset_button forecolor .12 .14 .08 1
+				setitemcolor reset_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		lock_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 96 160 18
+			text		"Lock Team"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Lock your team so no more players can join it"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd lock";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor lock_button backcolor .12 .14 .08 1
+				setitemcolor lock_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor lock_button forecolor .12 .14 .08 1
+				setitemcolor lock_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		unlock_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 96 160 18
+			text		"Unlock Team"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Unlock your team so players can join it"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd unlock";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor unlock_button backcolor .12 .14 .08 1
+				setitemcolor unlock_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor unlock_button forecolor .12 .14 .08 1
+				setitemcolor unlock_button backcolor 0 0 0 0
+			}
+		}
+		
+		itemDef 
+		{
+			name		invite_spec_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 119 160 18
+			text		"Invite a Spectator"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Invite a spectator to watch your team during the match"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide rpm_team_group;
+				hide unInvite_spec_group;
+
+				show invite_spec_group;
+				show team_back_button_group;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor invite_spec_button backcolor .12 .14 .08 1
+				setitemcolor invite_spec_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor invite_spec_button forecolor .12 .14 .08 1
+				setitemcolor invite_spec_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		unInvite_spec_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 119 160 18
+			text		"UnInvite Spectator"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Remove a Spectators invite so they can't watch your team anymore"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide rpm_team_group;
+				hide invite_spec_group;
+
+				show unInvite_spec_group;
+				show team_back_button_group;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor unInvite_spec_button backcolor .12 .14 .08 1
+				setitemcolor unInvite_spec_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor unInvite_spec_button forecolor .12 .14 .08 1
+				setitemcolor unInvite_spec_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		timeout_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 142 160 18
+			text		"Timeout"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Call a timeout for your team"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd timeout";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor timeout_button backcolor .12 .14 .08 1
+				setitemcolor timeout_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor timeout_button forecolor .12 .14 .08 1
+				setitemcolor timeout_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		timein_button
+			group		rpm_team_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 142 160 18
+			text		"Timein"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Resume from Timeout"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd timein";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor timein_button backcolor .12 .14 .08 1
+				setitemcolor timein_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor timein_button forecolor .12 .14 .08 1
+				setitemcolor timein_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		team_cmds_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		107 165 160 18
+			text		"Team Command List"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See the list of team commands"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tcmd ?";
+				exec "toggleconsole"
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor team_cmds_button backcolor .12 .14 .08 1
+				setitemcolor team_cmds_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor team_cmds_button forecolor .12 .14 .08 1
+				setitemcolor team_cmds_button backcolor 0 0 0 0
+			}
+		}
+
+		/////////////////////////////////////////////////////////////
+		//// INVITE SPECTATOR
+		/////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		invite_text
+			group		invite_spec_group
+			rect		67 35 110 20
+			text		"Invite Spectator:"
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+		}
+
+		itemDef 
+		{
+      		name			invite_list
+			group			invite_spec_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_PLAYER_LIST
+			style			WINDOW_STYLE_FILLED
+       		rect			62 55 250 170
+			elementwidth	120
+			elementheight	15
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		0 0 0 1
+			forecolor		1 1 1 1
+			backcolor		0 0 0 .25
+			outlinecolor	.12 .14 .08 1
+			visible			1
+			doubleClick
+			{ 
+				uiScript invitespec;  
+				uiScript closeingame; 
+			}
+		}
+
+		itemDef 
+		{
+			name			invite_ok_button
+			group			invite_spec_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			162 240 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				uiScript invitespec;
+				uiScript closeingame; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor invite_ok_button backcolor .12 .14 .08 1
+				setitemcolor invite_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor invite_ok_button forecolor .12 .14 .08 1
+				setitemcolor invite_ok_button backcolor 0 0 0 0
+			}
+		}
+
+		/////////////////////////////////////////////////////////////
+		//// UNINVITE SPECTATOR
+		/////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		uninvite_text
+			group		unInvite_spec_group
+			rect		67 35 110 20
+			text		"UnInvite Spectator:"
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+		}
+
+		itemDef 
+		{
+      		name			uninvite_list
+			group			unInvite_spec_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_PLAYER_LIST
+			style			WINDOW_STYLE_FILLED
+       		rect			62 55 250 170
+			elementwidth	120
+			elementheight	15
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		0 0 0 1
+			forecolor		1 1 1 1
+			backcolor		0 0 0 .25
+			outlinecolor	.12 .14 .08 1
+			visible			1
+			doubleClick
+			{ 
+				uiScript uninvitespec;  
+				uiScript closeingame; 
+			}
+		}
+
+		itemDef 
+		{
+			name			uninvite_ok_button
+			group			unInvite_spec_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			162 240 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				uiScript uninvitespec;
+				uiScript closeingame; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor uninvite_ok_button backcolor .12 .14 .08 1
+				setitemcolor uninvite_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor uninvite_ok_button forecolor .12 .14 .08 1
+				setitemcolor uninvite_ok_button backcolor 0 0 0 0
+			}
+		}
+
+		///////////////////////////////////////////////////////////////
+		///// BACK BUTTON
+		///////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		back_button
+			group		team_back_button_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		3 18 46 14
+			text		"<<Back"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	22
+			textaligny	0
+			textfont	"hud"
+			textscale	.35
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			border		1
+			bordercolor	0 0 0 1
+			tooltip     "Go back to Team Menu"
+			visible		1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ;
+				hide invite_spec_group;
+				hide unInvite_spec_group;
+				hide team_back_button_group;
+
+				show rpm_team_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor back_button backcolor .12 .14 .08 1
+				setitemcolor back_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor back_button forecolor .12 .14 .08 1
+				setitemcolor back_button backcolor 0 0 0 0
+			}
+			
+		}
+	}		
+}
+
+
+
+
+
+
+
+

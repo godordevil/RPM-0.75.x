@@ -1,0 +1,20 @@
+{
+	loadMenu { "ui/rpm_player_cmds.menu" }
+	loadMenu { "ui/rpm_admin_cmds.menu" }
+	loadMenu { "ui/rpm_ref_cmds.menu" }
+	loadMenu { "ui/rpm_team_cmds.menu" }
+	loadMenu { "ui/rpm_settings.menu" }
+	loadMenu { "ui/ingame_demos.menu" }
+
+	//serverlist
+	loadMenu { "ui/ingame_serverlist.menu" }
+
+
+	loadMenu { "ui/ingame_findplayer.menu" }
+	loadMenu { "ui/ingame_createfavorite.menu" }
+	loadMenu { "ui/ingame_serverinfo.menu" }
+	loadMenu { "ui/ingame_password.menu" }
+	
+	loadMenu { "ui/mapEditor/ingame_mapEditor.menu" } 
+	loadMenu { "ui/mapEditor/ingame_bspList.menu" }
+}

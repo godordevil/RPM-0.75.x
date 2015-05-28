@@ -1,0 +1,746 @@
+{
+	\\Admin_cmds
+
+	menuDef 
+	{
+    	name		"rpm_Admin_Cmds"
+    	visible		0
+    	fullscreen	0
+    	rect		200 70 375 285
+
+		tooltipbackcolor	.49 .56 .27 1
+		tooltipforecolor	.12 .14 .08 1
+		tooltipfont			"hud"
+		tooltipscale		.39
+		tooltipdelay		900
+
+		onOpen
+		{
+			hide admin_punishment_group;
+			hide adm_back_button_group;
+
+			show rpm_admin_group;
+		}
+		onClose
+		{
+			uiScript clearAdmPunishData;
+		}
+		onESC
+		{
+			uiScript clearAdmPunishData;
+		}
+
+		itemDef 
+		{
+			name		passvote_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 50 160 18
+			text		"Passvote"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Pass the current vote in progress"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm passvote";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor passvote_button backcolor .12 .14 .08 1
+				setitemcolor passvote_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor passvote_button forecolor .12 .14 .08 1
+				setitemcolor passvote_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		cancelvote_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 50 160 18
+			text		"Cancelvote"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Cancel the current vote in progress"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm cancelvote";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor cancelvote_button backcolor .12 .14 .08 1
+				setitemcolor cancelvote_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor cancelvote_button forecolor .12 .14 .08 1
+				setitemcolor cancelvote_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		punish_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 73 160 18
+			text		"Punish Player"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Punish a player"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide rpm_admin_group;
+
+				show admin_punishment_group;
+				show adm_back_button_group;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor punish_button backcolor .12 .14 .08 1
+				setitemcolor punish_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor punish_button forecolor .12 .14 .08 1
+				setitemcolor punish_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		suspend_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 73 160 18
+			text		"Suspend/Enable Admin"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Suspend/enable your Admin Powers"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm suspend";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor suspend_button backcolor .12 .14 .08 1
+				setitemcolor suspend_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor suspend_button forecolor .12 .14 .08 1
+				setitemcolor suspend_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		pause_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 96 160 18
+			text		"Pause"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Pause the game"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm pause";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor pause_button backcolor .12 .14 .08 1
+				setitemcolor pause_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor pause_button forecolor .12 .14 .08 1
+				setitemcolor pause_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		unpause_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 96 160 18
+			text		"Resume the Game"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Resume game from Pause"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm unpause";
+				uiScript closeingame;
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor unpause_button backcolor .12 .14 .08 1
+				setitemcolor unpause_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor unpause_button forecolor .12 .14 .08 1
+				setitemcolor unpause_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name			banlist_list_button
+			group			rpm_admin_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			17 119 160 18
+			text			"Banned List"
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		80
+			textaligny		0
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			visible			1
+			tooltip			"See A list of Banned players from the server"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm banlist";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor banlist_list_button backcolor .12 .14 .08 1
+				setitemcolor banlist_list_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor banlist_list_button forecolor .12 .14 .08 1
+				setitemcolor banlist_list_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		admin_command_list_button
+			group		rpm_admin_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 119 160 18
+			text		"Admin Command List"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"See A list of available Admin Commands"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd adm ?";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor admin_command_list_button backcolor .12 .14 .08 1
+				setitemcolor admin_command_list_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor admin_command_list_button forecolor .12 .14 .08 1
+				setitemcolor admin_command_list_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		9 157 100 18
+			text		"Admin Message:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+      		name			admin_message_field
+			group			rpm_admin_group
+      		type			ITEM_TYPE_EDITFIELD
+			cvar			"ui_authMessage"
+			style			WINDOW_STYLE_FILLED
+			maxChars		80
+			maxPaintChars	60
+			rect			4 173 365 18 
+			textalign		ITEM_ALIGN_LEFT
+			textalignx		5
+			textaligny		2
+			textfont		"hud"
+			textscale		.35
+     		forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1 
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+				setitemcolor admin_message_field backcolor .12 .14 .08 1
+				setitemcolor admin_message_field forecolor .49 .56 .27 1
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor admin_message_field backcolor .12 .14 .08 1
+				setitemcolor admin_message_field forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor admin_message_field forecolor .12 .14 .08 1
+				setitemcolor admin_message_field backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name			adm_message_all_button
+			group			rpm_admin_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			17 196 160 18
+			text			"Send to All"
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		80
+			textaligny		2
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript admAllMessage; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor adm_message_all_button backcolor .12 .14 .08 1
+				setitemcolor adm_message_all_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor adm_message_all_button forecolor .12 .14 .08 1
+				setitemcolor adm_message_all_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name			adm_message_admins_button
+			group			rpm_admin_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			196 196 160 18
+			text			"Send to Admins only"
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		80
+			textaligny		2
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript admOnlyMessage; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor adm_message_admins_button backcolor .12 .14 .08 1
+				setitemcolor adm_message_admins_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor adm_message_admins_button forecolor .12 .14 .08 1
+				setitemcolor adm_message_admins_button backcolor 0 0 0 0
+			}
+		}							
+
+		///////////////////////////////////////////////////////////////
+		///// BACK BUTTON
+		///////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		back_button
+			group		adm_back_button_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		3 18 46 14
+			text		"<<Back"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	22
+			textaligny	0
+			textfont	"hud"
+			textscale	.35
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			border		1
+			bordercolor	0 0 0 1
+			tooltip     "Go back to Admin Menu"
+			visible		1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ;
+				hide admin_punishment_group;
+				hide adm_back_button_group;
+
+				show rpm_admin_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor back_button backcolor .12 .14 .08 1
+				setitemcolor back_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor back_button forecolor .12 .14 .08 1
+				setitemcolor back_button backcolor 0 0 0 0
+			}
+			
+		}
+
+		////////////////////////////////////////////////////////////////////////
+		// 	PLAYER PUNISHMENTS 
+		////////////////////////////////////////////////////////////////////////
+
+		itemDef 
+		{
+			name		reason_text
+			group		admin_punishment_group
+			rect		9 83 45 18
+			text		"Reason:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible			1
+			decoration
+
+			cvarTest		"ui_admPunishCmd"
+			showCvar 
+			{ 
+				"7";
+				"8";
+			}
+		}
+
+		itemDef 
+		{
+      		name			reason_field
+			group			admin_punishment_group
+      		type			ITEM_TYPE_EDITFIELD
+			cvar			"ui_clientKickReason"
+			style			WINDOW_STYLE_FILLED
+			maxChars		60
+			maxPaintChars	60
+			rect			4 101 365 18 
+			textalign		ITEM_ALIGN_LEFT
+			textalignx		5
+			textaligny		2
+			textfont		"hud"
+			textscale		.35
+     		forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1 
+			visible			1
+
+			cvarTest		"ui_admPunishCmd"
+			showCvar 
+			{ 
+				"7";
+				"8";
+			}
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+				setitemcolor reason_field backcolor .12 .14 .08 1
+				setitemcolor reason_field forecolor .49 .56 .27 1
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor reason_field backcolor .12 .14 .08 1
+				setitemcolor reason_field forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor reason_field forecolor .12 .14 .08 1
+				setitemcolor reason_field backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		warning_text
+			group		admin_punishment_group
+			rect		4 125 370 90
+			visible			1
+			text		"^1Warning: ^7If you Ban a player they will NOT be able to return\nto the server! If you want to Un-Ban someone you will have\nto view the banlist, to get their ip, by using the button in the\nAdmin menu, or type:^1/adm banlist ^7in the console. Then type:\n^1/adm unban <their ip> ^7in the console to Un-Ban them."
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	0
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			decoration
+
+			cvarTest		"ui_admPunishCmd"
+			showCvar 
+			{ 
+				"8";
+			}
+		}
+
+		// These are here because the drop down list would not cover the warning text or
+		// Reason box if they were displayed, I later found that the problem could 
+		// be solved if the ui processed the warning text and reason box first
+		itemDef 
+		{
+			name		player_list_text
+			group		admin_punishment_group
+			rect		9 42 45 18
+			text		"Player:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name			player_list
+			group			admin_punishment_group
+			style			WINDOW_STYLE_FILLED
+			type			ITEM_TYPE_COMBOBOX
+			feeder			FEEDER_PLAYER_LIST
+			visible			1
+			rect			4 60 165 140
+			textfont		"hud"
+			textscale		.35
+			textaligny		-13
+			forecolor		.12 .14 .08 1
+			backcolor		0.59 0.68 0.41 1
+			elementheight	18
+			border			1
+			bordercolor		0 0 0 1
+			outlinecolor	0 0 0 .25
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+			}
+		}		
+		
+		itemDef 
+		{
+			name		player_punishment_text
+			group		admin_punishment_group
+			rect		179 42 80 18
+			text		"Punishment:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}		
+		
+		itemDef 
+		{
+			name			player_punishment_list
+			group			admin_punishment_group
+			style			WINDOW_STYLE_FILLED
+			type			ITEM_TYPE_COMBOBOX
+			feeder			FEEDER_PLAYER_PUNISHMENTS
+			visible			1
+			rect			175 60 150 140
+			textfont		"hud"
+			textscale		.35
+			textaligny		-13
+			forecolor		.12 .14 .08 1
+			backcolor		0.59 0.68 0.41 1
+			elementheight	18
+			border			1
+			bordercolor		0 0 0 1
+			outlinecolor	0 0 0 .25
+			
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+			}
+		}		
+
+		itemDef 
+		{
+			name			player_punishment_ok_button
+			group			admin_punishment_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			330 60 40 18
+			text			"OK"
+			textalign		1
+			textalignx		20
+			textaligny		0
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript playerPunish; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor player_punishment_ok_button backcolor .12 .14 .08 1
+				setitemcolor player_punishment_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor player_punishment_ok_button forecolor .12 .14 .08 1
+				setitemcolor player_punishment_ok_button backcolor 0 0 0 0
+			}
+		}
+	}
+}

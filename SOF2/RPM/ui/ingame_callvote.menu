@@ -1,0 +1,1285 @@
+{
+	\\ CALL VOTE MENU
+
+	menuDef 
+	{
+    	name		"ingame_callvote"
+    	visible		0
+    	fullscreen	0
+    	rect		20 50 600 410
+	//260 50 362 190
+
+	tooltipbackcolor	.49 .56 .27 1
+	tooltipforecolor	.12 .14 .08 1
+	tooltipfont			"hud"
+	tooltipscale		.39
+	tooltipdelay		900
+
+
+
+		////////////////////////////////////////////////////////////////////////
+		//  Dialog frame
+		////////////////////////////////////////////////////////////////////////
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 0 600 341
+			background	"gfx/menus/ingame/background.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 -5 8 8
+			background	"gfx/menus/ingame/frame_topleft.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 -5 600 8
+			background	"gfx/menus/ingame/frame_top.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		600 -5 8 8
+			background	"gfx/menus/ingame/frame_topright.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 341 8 8
+			background	"gfx/menus/ingame/frame_bottomleft.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 341 600 8
+			background	"gfx/menus/ingame/frame_bottom.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		600 341 8 8
+			background	"gfx/menus/ingame/frame_bottomright.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		600 0 8 341
+			background	"gfx/menus/ingame/frame_right.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 0 8 341
+			background	"gfx/menus/ingame/frame_left.png"
+			visible		1
+			decoration
+		}
+
+//*******************************************************************************************************************************************
+//							LEFT SIDE OF MENU
+//*******************************************************************************************************************************************
+
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		135 20 250 15
+			text		"MAIN"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+
+		itemDef 
+		{
+			name		thirdP
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 37 250 15
+			text		"Third person:"
+			cvar		"cg_thirdPersonSaved"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Turn third person mode on or off"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"On"		1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor thirdP backcolor .12 .14 .08 1
+				setitemcolor thirdP forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor thirdP forecolor .12 .14 .08 1
+				setitemcolor thirdP backcolor 0 0 0 0
+			}
+		}
+		
+		itemDef 
+		{
+			name		gamBr
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 54 250 15
+			text		"Brightness:"
+			cvar		"r_gamma"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Adjust the gamma"
+			
+			cvarFloatList
+			{ 
+				"Very low"	1.0
+				"Low"		1.5
+				"Medium"	2.0
+				"High"		2.5
+				"Very high"	3.0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor gamBr backcolor .12 .14 .08 1
+				setitemcolor gamBr forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor gamBr forecolor .12 .14 .08 1
+				setitemcolor gamBr backcolor 0 0 0 0
+			}
+		}
+
+
+		itemDef 
+		{
+			name		fieldOf
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 71 250 15
+			text		"Field of view:"
+			cvar		"cg_fov"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Adjust your field of view"
+			
+			cvarFloatList
+			{ 
+				"Very low"	80
+				"Low"		85
+				"Medium"	90
+				"High"		95
+				"Very high"	100
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor fieldOf backcolor .12 .14 .08 1
+				setitemcolor fieldOf forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor fieldOf forecolor .12 .14 .08 1
+				setitemcolor fieldOf backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		135 105 250 15
+			text		"CHAT"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		chatSize_multi
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 122 250 15
+			text		"Chat textsize:"
+			cvar		"cg_chatSize"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Adjust the size of the chat text"
+			
+			cvarFloatList
+			{ 
+				"Very large"			0 
+				"Very small"			1
+				"Small"				2
+				"Medium"			3
+				"Default"			4
+				"Large"				5
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor chatSize_multi backcolor .12 .14 .08 1
+				setitemcolor chatSize_multi forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor chatSize_multi forecolor .12 .14 .08 1
+				setitemcolor chatSize_multi backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		chatHeight
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 139 250 15
+			text		"Maximum chat lines:"
+			cvar		"cg_chatHeight"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Maximum number of chat lines"
+			
+			cvarFloatList
+			{ 
+				"Few (4)"		4
+				"Medium (6)"		6
+				"Lots (8)"		8
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor chatHeight backcolor .12 .14 .08 1
+				setitemcolor chatHeight forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor chatHeight forecolor .12 .14 .08 1
+				setitemcolor chatHeight backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		chatTime
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 156 250 15
+			text		"Chat time:"
+			cvar		"cg_chatTime"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Seconds before a chat line will disappear"
+			
+			cvarFloatList
+			{ 
+				"Very short (4)"	4000
+				"Short (6)"		6000
+				"Default (8)"		8000
+				"Long (10)"		10000
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor chatTime backcolor .12 .14 .08 1
+				setitemcolor chatTime forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor chatTime forecolor .12 .14 .08 1
+				setitemcolor chatTime backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		chatSmiley
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 173 250 15
+			text		"Smileys:"
+			cvar		"cg_drawSmile"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Allow smileys in the chat text"
+			
+			cvarFloatList
+			{ 
+				"On"		1
+				"Off"		0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor chatSmiley backcolor .12 .14 .08 1
+				setitemcolor chatSmiley forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor chatSmiley forecolor .12 .14 .08 1
+				setitemcolor chatSmiley backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		135 207 250 15
+			text		"DISPLAY"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		rpmHud
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 224 250 15
+			text		"RPM HUD:"
+			cvar		"cg_rpmHud"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Enable the RPM head up display"
+			
+			cvarFloatList
+			{ 
+				"On"		1
+				"Off"		0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+				exec "wait; wait; wait; wait; reloadhud";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmHud backcolor .12 .14 .08 1
+				setitemcolor rpmHud forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor rpmHud forecolor .12 .14 .08 1
+				setitemcolor rpmHud backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpmScore
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 241 250 15
+			text		"RPM scoreboard:"
+			cvar		"cg_rpmScoreboard"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Enable the RPM scoreboard"
+			
+			cvarFloatList
+			{ 
+				"Off"		0
+				"Clean"		1
+				"Full"		2
+								
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmScore backcolor .12 .14 .08 1
+				setitemcolor rpmScore forecolor .49 .56 .27 1
+			}
+      			mouseExit
+			{ 
+				setitemcolor rpmScore forecolor .12 .14 .08 1
+				setitemcolor rpmScore backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpmClock
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 258 250 15
+			text		"Show clock:"
+			cvar		"cg_drawTime"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Draw the clock at the right side of your screen"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"Standard"	1
+				"Military"	2
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmClock backcolor .12 .14 .08 1
+				setitemcolor rpmClock forecolor .49 .56 .27 1
+			}
+      			mouseExit
+			{ 
+				setitemcolor rpmClock forecolor .12 .14 .08 1
+				setitemcolor rpmClock backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpmFps
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 275 250 15
+			text		"Show FPS:"
+			cvar		"cg_drawFPS"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Show the frames per second on the right side of your screen"
+			
+			cvarFloatList
+			{ 
+				"On"		1
+				"Off"		0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmFps backcolor .12 .14 .08 1
+				setitemcolor rpmFps forecolor .49 .56 .27 1
+			}
+      			mouseExit
+			{ 
+				setitemcolor rpmFps forecolor .12 .14 .08 1
+				setitemcolor rpmFps backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpmRadar
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 292 250 15
+			text		"Show radar:"
+			cvar		"cg_drawRadar"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Show the radar on the top right side of your screen"
+			
+			cvarFloatList
+			{ 
+				"On"		2
+				"Off"		0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmRadar backcolor .12 .14 .08 1
+				setitemcolor rpmRadar forecolor .49 .56 .27 1
+			}
+      			mouseExit
+			{ 
+				setitemcolor rpmRadar forecolor .12 .14 .08 1
+				setitemcolor rpmRadar backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		rpmLago
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		20 307 250 15
+			text		"Show lagometer:"
+			cvar		"cg_lagometer"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Show the lagometer on the right lower side of your screen"
+			
+			cvarFloatList
+			{ 
+				"On"		1
+				"Off"		0
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor rpmLago backcolor .12 .14 .08 1
+				setitemcolor rpmLago forecolor .49 .56 .27 1
+			}
+      			mouseExit
+			{ 
+				setitemcolor rpmLago forecolor .12 .14 .08 1
+				setitemcolor rpmLago backcolor 0 0 0 0
+			}
+		}
+
+//*******************************************************************************************************************************************
+//							RIGHT SIDE OF MENU
+//*******************************************************************************************************************************************
+		
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		445 20 250 15
+			text		"CROSSHAIR"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		crossColor
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 37 250 15
+			text		"Crosshair color:"
+			cvar		"cg_crosshairColor"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Color of your crosshair"
+			
+			cvarFloatList
+			{ 
+				"Red"		0 
+				"Green"		1
+				"Blue"		2
+				"Yellow"	3
+				"Cyan"		4
+				"Purple"	5
+				"White"		6
+				"Black"		7
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor crossColor backcolor .12 .14 .08 1
+				setitemcolor crossColor forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor crossColor forecolor .12 .14 .08 1
+				setitemcolor crossColor backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+      			name		crosshair
+			style		WINDOW_STYLE_FILLED
+			text		"Crosshair:"
+			rect		320 54 250 15
+			ownerdraw	UI_CROSSHAIR
+      			textalign	ITEM_ALIGN_RIGHT
+      			textalignx	140
+      			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+      			visible		1
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor crosshair backcolor .12 .14 .08 1
+				setitemcolor crosshair forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor crosshair forecolor .12 .14 .08 1
+				setitemcolor crosshair backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		crossSize
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 71 250 15
+			text		"Crosshair size:"
+			cvar		"cg_crosshairSize"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Size of your crosshair"
+			
+			cvarFloatList
+			{ 
+				"Very small"	5
+				"Small"		10
+				"Normal"	15
+				"Big"		20
+				"Very big"	25
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor crossSize backcolor .12 .14 .08 1
+				setitemcolor crossSize forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor crossSize forecolor .12 .14 .08 1
+				setitemcolor crossSize backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+      			name		shotCrosshair
+			style		WINDOW_STYLE_FILLED
+			text		"Shotgun crosshair:"
+			rect		320 88 250 15
+			ownerdraw	UI_SHOTGUNCROSSHAIR
+      			textalign	ITEM_ALIGN_RIGHT
+      			textalignx	140
+      			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+      			visible		1
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor shotCrosshair backcolor .12 .14 .08 1
+				setitemcolor shotCrosshair forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor shotCrosshair forecolor .12 .14 .08 1
+				setitemcolor shotCrosshair backcolor 0 0 0 0
+			}
+		}
+
+
+		itemDef 
+		{
+			name		shotCrossSize
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 105 250 15
+			text		"Shotgun cross size:"
+			cvar		"cg_shotguncrosshairSize"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Size of your shotgun crosshair"
+			
+			cvarFloatList
+			{ 
+				"Very small"	5
+				"Small"		10
+				"Normal"	15
+				"Big"		20
+				"Very big"	25
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor shotCrossSize backcolor .12 .14 .08 1
+				setitemcolor shotCrossSize forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor shotCrossSize forecolor .12 .14 .08 1
+				setitemcolor shotCrossSize backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		crossName
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 122 250 15
+			text		"Crosshair names:"
+			cvar		"cg_drawCrosshairNames"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Position to draw name of a player who is in your crosshair"
+			
+			cvarFloatList
+			{ 
+				"Off"			0 
+				"Bottom"		1 
+				"Center"		2 
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor crossName backcolor .12 .14 .08 1
+				setitemcolor crossName forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor crossName forecolor .12 .14 .08 1
+				setitemcolor crossName backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		445 156 250 15
+			text		"TEAMMATE"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		drawFr
+			group		rpm_player_settings
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 173 250 15
+			text		"Teammate recognition:"
+			cvar		"cg_drawFriend"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"What to draw above teammates"
+			
+			cvarFloatList
+			{ 
+				"Off"			0 
+				"Name"			1 
+				"Beacon"		2 
+				"Name & Health"		3
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor drawFr backcolor .12 .14 .08 1
+				setitemcolor drawFr forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor drawFr forecolor .12 .14 .08 1
+				setitemcolor drawFr backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		drawFrscale
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 190 250 15
+			text		"Name size:"
+			cvar		"cg_drawFriendScale"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Size of teammates names"
+			
+			cvarFloatList
+			{ 
+				"Very small"		0.15
+				"Small"			0.20 
+				"Medium"		0.25
+				"Default"		0.30
+				"Big"			0.40
+				"Very big"		0.50
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor drawFrscale backcolor .12 .14 .08 1
+				setitemcolor drawFrscale forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor drawFrscale forecolor .12 .14 .08 1
+				setitemcolor drawFrscale backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		drawTrans
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 207 250 15
+			text		"Name transparency:"
+			cvar		"cg_friendlyNameAlpha"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Transparency of teammates names"
+			
+			cvarFloatList
+			{
+				"Default"		0.5
+				"Low"			0.4
+				"Medium"		0.3
+				"High"			0.2
+				"Very high"		0.1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor drawTrans backcolor .12 .14 .08 1
+				setitemcolor drawTrans forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor drawTrans forecolor .12 .14 .08 1
+				setitemcolor drawTrans backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		drawHeight
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 224 250 15
+			text		"Name height:"
+			cvar		"cg_friendlyNameHeight"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Height of teammates names"
+			
+			cvarFloatList
+			{ 
+				"Very high"		20
+				"High"			15
+				"Default"		10
+				"Medium"		5
+				"Low"			0
+				"Very low"		-5
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor drawHeight backcolor .12 .14 .08 1
+				setitemcolor drawHeight forecolor .49 .56 .27 1
+			}
+      			mouseExit 
+			{ 
+				setitemcolor drawHeight forecolor .12 .14 .08 1
+				setitemcolor drawHeight backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		445 258 250 15
+			text		"HEADSHOT"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0 0 0.3 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		hsMessage
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 275 250 15
+			text		"Headshot message:"
+			cvar		"cg_headshotMessage"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Choose the headshot message displayed"
+			
+			cvarFloatList
+			{ 
+				"None"		0 
+				"Server"	1
+				"Big"		2
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor hsMessage backcolor .12 .14 .08 1
+				setitemcolor hsMessage forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor hsMessage forecolor .12 .14 .08 1
+				setitemcolor hsMessage backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		hsSound
+			type		ITEM_TYPE_MULTI
+			style		WINDOW_STYLE_FILLED
+			rect		320 292 250 15
+			text		"Headshot sound:"
+			cvar		"cg_headshotSound"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	140
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Play the headshot sound"
+			
+			cvarFloatList
+			{ 
+				"Off"		0 
+				"On"		1
+			}
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor hsSound backcolor .12 .14 .08 1
+				setitemcolor hsSound forecolor .49 .56 .27 1
+			}
+      		mouseExit
+			{ 
+				setitemcolor hsSound forecolor .12 .14 .08 1
+				setitemcolor hsSound backcolor 0 0 0 0
+			}
+		}
+
+
+
+		
+		itemDef 
+		{
+			name		admin_message_text
+			group		rpm_admin_group
+			rect		595 325 250 15
+			text		"DEVELOPED BY 2K3SERVERS.COM"
+			textalign	ITEM_ALIGN_RIGHT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.30
+			forecolor	0.3 0 0 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+
+
+	}
+}

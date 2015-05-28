@@ -1,0 +1,380 @@
+{
+	// DEMO CHOOSER MENU
+
+	menuDef 
+	{
+ 		name			"ingame_demos"
+ 		visible			0
+ 		fullscreen		0
+		//rect			200 100 400 300
+		rect		112 40 375 285
+		disableColor	.1 .1 .1 .3
+
+
+		onOpen
+		{
+			uiScript	LoadDemos;
+			show		demos_group;
+			hide		playdemo_confirm_group;
+
+		}
+
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 0 375 305
+			background	"gfx/menus/ingame/background.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 -5 8 8
+			background	"gfx/menus/ingame/frame_topleft.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 -5 375 8
+			background	"gfx/menus/ingame/frame_top.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		375 -5 8 8
+			background	"gfx/menus/ingame/frame_topright.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 305 8 8
+			background	"gfx/menus/ingame/frame_bottomleft.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		0 305 375 8
+			background	"gfx/menus/ingame/frame_bottom.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		375 305 8 8
+			background	"gfx/menus/ingame/frame_bottomright.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		375 0 8 305
+			background	"gfx/menus/ingame/frame_right.png"
+			visible		1
+			decoration
+		}
+
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_SHADER
+			rect		-6 0 8 305
+			background	"gfx/menus/ingame/frame_left.png"
+			visible		1
+			decoration
+		}
+
+
+
+
+		///////////////
+		//  Dialog frame
+		///////////////
+				
+		itemDef
+		{
+			name			slot3_text
+			rect			10 2 0 15
+			group			demos_group
+			text			"Record or play demos"
+			forecolor		.7 .7 .7 1
+			textalign		0
+			textfont		"hud"
+			textscale		.35
+			visible			1
+			decoration
+		}
+		
+		itemDef 
+		{
+      		name			demos_list
+			group			demos_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_DEMOS
+			style			WINDOW_STYLE_FILLED
+       		rect			5 15 365 155
+			elementwidth	120
+			elementheight	15
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		.4 .4 .4 .5
+			forecolor		1 1 1 1
+			backcolor		.15 .15 .15 1
+			outlinecolor	0 0 0 .90
+			visible			0
+		}
+
+		itemDef 
+		{
+			name			demos_ok_button
+			group			demos_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			140 180 100 20
+			text			"Play Demo"
+			textalign		1
+			textalignx		50
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				//uiScript RunDemo; 
+				//uiScript closeingame;
+				hide	 demos_group;
+				show playdemo_confirm_group; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor demos_ok_button forecolor .1 .1 .1 1;
+				setitemcolor demos_ok_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor demos_ok_button forecolor .2 .2 .2 1;
+				setitemcolor demos_ok_button backcolor .5 .5 .5 1;				
+			}
+		}
+				
+		itemDef 
+		{
+			name			demos_record_button
+			group			demos_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			60 230 120 20
+			text			"Record Demo"
+			textalign		1
+			textalignx		60
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "g_synchronousclients 1; wait 50; record; wait 50; g_synchronousclients 0;";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor demos_record_button forecolor .1 .1 .1 1;
+				setitemcolor demos_record_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor demos_record_button forecolor .2 .2 .2 1;
+				setitemcolor demos_record_button backcolor .5 .5 .5 1;				
+			}
+		}
+		itemDef 
+		{
+			name			demos_stop_button
+			group			demos_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			210 230 120 20
+			text			"Stop Recording"
+			textalign		1
+			textalignx		60
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.2 .2 .2 1
+			backcolor		.5 .5 .5 1
+			border			1
+			bordercolor		0 0 0 1
+			visible			0
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				uiScript closeingame 
+				exec "stoprecord"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor demos_stop_button forecolor .1 .1 .1 1;
+				setitemcolor demos_stop_button backcolor .8 .8 .8 1;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor demos_stop_button forecolor .2 .2 .2 1;
+				setitemcolor demos_stop_button backcolor .5 .5 .5 1;				
+			}
+		}
+		
+		itemDef
+		{
+			name			slot3_text
+			rect			65 265 40 20
+			//group			demos_group
+			text			"^,Be sure to use the ^1DEMO^7FIXER ^,on the demo after recording it!"
+			forecolor		.7 .7 .7 1
+			textalign		0
+			textfont		"hud"
+			textscale		.28
+			visible			1
+			decoration
+		}
+		
+		// Confirm EXIT & PLAY
+		itemDef 
+		{
+     		name		window
+			group		playdemo_confirm_group
+     		text		"^3Exit Current game and play demo?"
+     		rect		120 80 128 20   
+     		textalign	1	
+     		textalignx	64
+    		textaligny	1
+			textfont	"hud"
+			textscale	.43
+      		forecolor	.5 .5 .5  .8
+      		visible		1
+			decoration
+    	}
+
+		itemDef 
+		{
+			name		demos_yes_button
+			group		playdemo_confirm_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		130 120 40 20
+			text		"Yes"
+			textfont	"hud"
+			textscale	.43
+			textalign	1
+			textalignx	20
+			textaligny	1
+      		forecolor	.5 .5 .5  .8
+			backcolor	0 0 0 0
+			visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				uiScript closeingame;				
+				uiScript RunDemo; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor demos_yes_button backcolor 0 0 0 .8;
+				setitemcolor demos_yes_button forecolor .9 .9 .9 1
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor demos_yes_button backcolor  0  0  0 .5;
+				setitemcolor demos_yes_button forecolor .5 .5 .5  1;
+			}
+		}
+
+		itemDef 
+		{
+			name		demos_no_button
+			group		playdemo_confirm_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			text		"No"
+			rect		180 120 40 20
+			textalign	1
+			textalignx	20
+			textaligny	1
+			textfont	"hud"
+			textscale	.43
+      		forecolor	.5 .5 .5  .8
+			backcolor	0 0 0 0
+			visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				hide playdemo_confirm_group; 
+				show demos_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor demos_no_button backcolor 0 0 0 .8;
+				setitemcolor demos_no_button forecolor .9 .9 .9 1
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor demos_no_button backcolor  0  0  0 .5;
+				setitemcolor demos_no_button forecolor .5 .5 .5  1;
+			}
+		}
+				
+	}
+}

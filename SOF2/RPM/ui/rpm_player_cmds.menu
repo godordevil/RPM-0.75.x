@@ -1,0 +1,810 @@
+{
+	\\player_cmds
+
+	menuDef 
+	{
+    	name		"rpm_Player_Cmds"
+    	visible		0
+    	fullscreen	0
+    	rect		200 70 375 285
+
+		tooltipbackcolor	.49 .56 .27 1
+		tooltipforecolor	.12 .14 .08 1
+		tooltipfont			"hud"
+		tooltipscale		.39
+		tooltipdelay		900
+
+		onopen
+		{
+			hide rpm_music_group;
+			hide rpm_stats_group;
+			hide plr_back_button_group;
+
+			show rpm_player_cmds;
+		}
+
+		itemDef 
+		{
+			name		music_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		107 33 160 18
+			text		"Change Music"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Change Background Music"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide rpm_player_cmds;
+				hide rpm_stats_group;
+
+				show rpm_music_group;
+				show plr_back_button_group;
+				uiScript loadSongs;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor music_button backcolor .12 .14 .08 1
+				setitemcolor music_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor music_button forecolor .12 .14 .08 1
+				setitemcolor music_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef
+		{
+			style		WINDOW_STYLE_FILLED
+			group		rpm_player_cmds
+			rect		44 62 286 1
+			backcolor	0 0 0 1
+			visible		1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name		sounds_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 73 160 18
+			text		"Sound List #1"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Shows the first list of chat sounds"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd sounds";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor sounds_button backcolor .12 .14 .08 1
+				setitemcolor sounds_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor sounds_button forecolor .12 .14 .08 1
+				setitemcolor sounds_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		sounds2_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 73 160 18
+			text		"Sound List #2"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Shows the second list of chat sounds"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd sounds2";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor sounds2_button backcolor .12 .14 .08 1
+				setitemcolor sounds2_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor sounds2_button forecolor .12 .14 .08 1
+				setitemcolor sounds2_button backcolor 0 0 0 0
+			}
+		}
+		
+		itemDef 
+		{
+			name		extra_sounds_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		107 96 160 18
+			text		"Servers Extra Sounds"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Shows the list of the servers extra chat sounds."
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd extrasounds";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor extra_sounds_button backcolor .12 .14 .08 1
+				setitemcolor extra_sounds_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor extra_sounds_button forecolor .12 .14 .08 1
+				setitemcolor extra_sounds_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef
+		{
+			style		WINDOW_STYLE_FILLED
+			group		rpm_player_cmds
+			rect		44 125 286 1
+			backcolor	0 0 0 1
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		stats_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 136 160 18
+			text		"My Stats"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See your stats"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd stats";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor stats_button backcolor .12 .14 .08 1
+				setitemcolor stats_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor stats_button forecolor .12 .14 .08 1
+				setitemcolor stats_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		refresh_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 136 160 18
+			text		"Refresh Stats"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Just like reconnecting, refreshes your stats to 0"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd refresh";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor refresh_button backcolor .12 .14 .08 1
+				setitemcolor refresh_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor refresh_button forecolor .12 .14 .08 1
+				setitemcolor refresh_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		others_stats_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		107 159 160 18
+			text		"Other Players Stats"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See another players stats"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				hide rpm_player_cmds;
+				hide rpm_music_group;
+
+				show rpm_stats_group;
+				show plr_back_button_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor others_stats_button backcolor .12 .14 .08 1
+				setitemcolor others_stats_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor others_stats_button forecolor .12 .14 .08 1
+				setitemcolor others_stats_button backcolor 0 0 0 0
+			}
+		}
+		
+		itemDef
+		{
+			style		WINDOW_STYLE_FILLED
+			group		rpm_player_cmds
+			rect		44 189 286 1
+			backcolor	0 0 0 1
+			visible		1
+			decoration
+		}
+
+		itemDef 
+		{
+			name		players_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 199 160 18
+			text		"View Player List"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Shows a list of players on the server"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd players";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor players_button backcolor .12 .14 .08 1
+				setitemcolor players_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor players_button forecolor .12 .14 .08 1
+				setitemcolor players_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		motd_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 199 160 18
+			text		"Message Of The Day"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "See the servers message of the day"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd motd";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor motd_button backcolor .12 .14 .08 1
+				setitemcolor motd_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor motd_button forecolor .12 .14 .08 1
+				setitemcolor motd_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		roundLimit_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 222 160 18
+			text		"Servers Round Limits"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"See the Timelimit/time left and Scorelimit on the server"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd roundlimits";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor roundLimit_button backcolor .12 .14 .08 1
+				setitemcolor roundLimit_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor roundLimit_button forecolor .12 .14 .08 1
+				setitemcolor roundLimit_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		ready_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 222 160 18
+			text		"Ready Up"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Set your status to ready, so a match game can start"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ready";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ready_button backcolor .12 .14 .08 1
+				setitemcolor ready_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ready_button forecolor .12 .14 .08 1
+				setitemcolor ready_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		tokens_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 245 160 18
+			text		"Chat Token List"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Shows the list of chat tokens"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd tokens";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor tokens_button backcolor .12 .14 .08 1
+				setitemcolor tokens_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor tokens_button forecolor .12 .14 .08 1
+				setitemcolor tokens_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		command_list_button
+			group		rpm_player_cmds
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 245 160 18
+			text		"Player Command List"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"See A list of available RPM Player Commands"
+			border			1
+			bordercolor		0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ?";
+				exec "toggleconsole";
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor command_list_button backcolor .12 .14 .08 1
+				setitemcolor command_list_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor command_list_button forecolor .12 .14 .08 1
+				setitemcolor command_list_button backcolor 0 0 0 0
+			}
+		}
+		
+		///////////////////////////////////////////////////////////////
+		/// MUSIC SELECTION
+		///////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		no_music_text
+			group		rpm_music_group
+			rect		60 14 365 36
+			text		"^1Attention:^7 To use this feature please add ^1MP3\n^7files to your ^1SOF2/RPM/RPM_Music ^7folder."
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			cvarTest	"ui_songCount"
+			showCvar 
+			{ 
+				"0";
+			}
+		}
+		
+		itemDef 
+		{
+			name		music_text
+			group		rpm_music_group
+			rect		67 40 110 20
+			text		"Select Song:"
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+		}
+
+		itemDef 
+		{
+      		name			music_list
+			group			rpm_music_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_SONG_LIST
+			style			WINDOW_STYLE_FILLED
+       		rect			62 60 250 175
+			elementwidth	220
+			elementheight	18
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		0 0 0 1
+			forecolor		1 1 1 1
+			backcolor		0 0 0 .25
+			outlinecolor	.12 .14 .08 1
+			visible			1
+			doubleClick
+			{ 
+				uiScript changeSong; 
+				uiScript closeingame;
+			}
+		}
+
+		itemDef 
+		{
+			name			music_ok_button
+			group			rpm_music_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			162 250 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				uiScript changeSong; 
+				uiScript closeingame; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor music_ok_button backcolor .12 .14 .08 1
+				setitemcolor music_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor music_ok_button forecolor .12 .14 .08 1
+				setitemcolor music_ok_button backcolor 0 0 0 0
+			}
+		}
+
+		/////////////////////////////////////////////////////////////
+		//// Player stats list
+		/////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		stats_text
+			group		rpm_stats_group
+			rect		67 35 110 20
+			text		"See stats for player:"
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+		}
+
+		itemDef 
+		{
+      		name			stats_list
+			group			rpm_stats_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_PLAYER_LIST
+			style			WINDOW_STYLE_FILLED
+       		rect			62 55 250 170
+			elementwidth	120
+			elementheight	15
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		0 0 0 1
+			forecolor		1 1 1 1
+			backcolor		0 0 0 .25
+			outlinecolor	.12 .14 .08 1
+			visible			1
+			doubleClick
+			{ 
+				uiScript playerStats ;
+				exec "toggleconsole";   
+				uiScript closeingame; 
+			}
+		}
+
+		itemDef 
+		{
+			name			stats_ok_button
+			group			rpm_stats_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			162 240 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				uiScript playerStats ;
+				exec "toggleconsole";   
+				uiScript closeingame; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor stats_ok_button backcolor .12 .14 .08 1
+				setitemcolor stats_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor stats_ok_button forecolor .12 .14 .08 1
+				setitemcolor stats_ok_button backcolor 0 0 0 0
+			}
+		}
+
+		///////////////////////////////////////////////////////////////
+		///// BACK BUTTON
+		///////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		back_button
+			group		plr_back_button_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		3 18 46 14
+			text		"<<Back"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	22
+			textaligny	0
+			textfont	"hud"
+			textscale	.35
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			border		1
+			bordercolor	0 0 0 1
+			tooltip     "Go back to Player Menu"
+			visible		1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ;
+				hide rpm_stats_group;
+				hide rpm_music_group;
+				hide plr_back_button_group;
+
+				show rpm_player_cmds;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor back_button backcolor .12 .14 .08 1
+				setitemcolor back_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor back_button forecolor .12 .14 .08 1
+				setitemcolor back_button backcolor 0 0 0 0
+			}
+			
+		}
+	}		
+}

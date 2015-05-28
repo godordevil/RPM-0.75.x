@@ -1,0 +1,809 @@
+{
+	\\Ref_cmds
+
+	menuDef 
+	{
+    	name		"rpm_Ref_Cmds"
+    	visible		0
+    	fullscreen	0
+    	rect		200 70 375 285
+
+		tooltipbackcolor	.49 .56 .27 1
+		tooltipforecolor	.12 .14 .08 1
+		tooltipfont			"hud"
+		tooltipscale		.39
+		tooltipdelay		900
+
+		onOpen
+		{
+			hide rpm_refkick_group;
+			hide ref_back_button_group;
+
+			show rpm_ref_group;
+		}
+		onClose
+		{
+			uiScript clearRefCmdData;
+		}
+		onESC
+		{
+			uiScript clearRefCmdData;
+		}
+
+		itemDef 
+		{
+			name		ref_tout_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 37 160 18
+			text		"Time Out"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Call a timeout"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ;
+				exec "cmd ref timeout";
+				uiScript closeingame 
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_tout_button backcolor .12 .14 .08 1
+				setitemcolor ref_tout_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_tout_button forecolor .12 .14 .08 1
+				setitemcolor ref_tout_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		ref_tin_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 37 160 18
+			text		"Time In"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip     "Resume game from a timeout"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ;
+				exec "cmd ref timein";
+				uiScript closeingame 
+			}
+
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_tin_button backcolor .12 .14 .08 1
+				setitemcolor ref_tin_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_tin_button forecolor .12 .14 .08 1
+				setitemcolor ref_tin_button backcolor 0 0 0 0
+			}
+		}
+		
+		itemDef 
+		{
+			name		lock_specs_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 60 160 18
+			text		"Lock Spectators"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Lock spectators from following players or moving"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ref lock spec";
+				uiScript closeingame
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor lock_specs_button backcolor .12 .14 .08 1
+				setitemcolor lock_specs_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor lock_specs_button forecolor .12 .14 .08 1
+				setitemcolor lock_specs_button backcolor 0 0 0 0
+			}
+		}
+		
+        itemDef 
+		{
+			name		unlock_specs_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 60 160 18
+			text		"Un-Lock Spectators"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Un-lock specs so they can watch the game"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ref unlock spec";
+				uiScript closeingame
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor unlock_specs_button backcolor .12 .14 .08 1
+				setitemcolor unlock_specs_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor unlock_specs_button forecolor .12 .14 .08 1
+				setitemcolor unlock_specs_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		kick_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 83 160 18
+			text		"Kick Player"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Kick a player off the server"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ;
+				hide rpm_ref_group;
+
+				show rpm_refkick_group; 
+				show ref_back_button_group;
+				
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor kick_button backcolor .12 .14 .08 1
+				setitemcolor kick_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor kick_button forecolor .12 .14 .08 1
+				setitemcolor kick_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		cmd_list_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 83 160 18
+			text		"Referee command list"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"See the list of Referee commands"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ref ?";
+				exec "toggleconsole";
+				uiScript closeingame	
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor cmd_list_button backcolor .12 .14 .08 1
+				setitemcolor cmd_list_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor cmd_list_button forecolor .12 .14 .08 1
+				setitemcolor cmd_list_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		ready_all_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		17 106 160 18
+			text		"Ready All"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Get all players ready for the match"
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ;
+				exec "cmd ref ready";
+				uiScript closeingame
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ready_all_button backcolor .12 .14 .08 1
+				setitemcolor ready_all_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ready_all_button forecolor .12 .14 .08 1
+				setitemcolor ready_all_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name		reset_all_button
+			group		rpm_ref_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		196 106 160 18
+			text		"Reset All"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	80
+			textaligny	0
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			tooltip		"Reset all players ready status etc.."
+			border		1
+			bordercolor	0 0 0 1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+				exec "cmd ref reset";
+				uiScript closeingame	
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor reset_all_button backcolor .12 .14 .08 1
+				setitemcolor reset_all_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor reset_all_button forecolor .12 .14 .08 1
+				setitemcolor reset_all_button backcolor 0 0 0 0
+			}
+		}
+
+		itemDef 
+		{
+			name		ref_message_text
+			group		rpm_ref_group
+			rect		9 132 90 18
+			text		"Referee Message:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+		}
+		itemDef 
+		{
+      		name			ref_message_field
+			group			rpm_ref_group
+      		type			ITEM_TYPE_EDITFIELD
+			cvar			"ui_authMessage"
+			style			WINDOW_STYLE_FILLED
+			maxChars		90
+			maxPaintChars	70
+			rect			4 148 365 18 
+			textalign		ITEM_ALIGN_LEFT
+			textalignx		5
+			textaligny		2
+			textfont		"hud"
+			textscale		.35
+     		forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1 
+			visible			1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+				setitemcolor ref_message_field backcolor .12 .14 .08 1
+				setitemcolor ref_message_field forecolor .49 .56 .27 1
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_message_field backcolor .12 .14 .08 1
+				setitemcolor ref_message_field forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_message_field forecolor .12 .14 .08 1
+				setitemcolor ref_message_field backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name			ref_message_send_all_button
+			group			rpm_ref_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			17 168 160 18
+			text			"Send to All"
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		80
+			textaligny		2
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript refAllMessage; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_message_send_all_button backcolor .12 .14 .08 1
+				setitemcolor ref_message_send_all_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_message_send_all_button forecolor .12 .14 .08 1
+				setitemcolor ref_message_send_all_button backcolor 0 0 0 0
+			}
+		}
+		itemDef 
+		{
+			name			ref_message_send_refs_button
+			group			rpm_ref_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			196 168 160 18
+			text			"Send to Refs only"
+			textalign		ITEM_ALIGN_CENTER
+			textalignx		80
+			textaligny		2
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript refOnlyMessage; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_message_send_refs_button backcolor .12 .14 .08 1
+				setitemcolor ref_message_send_refs_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_message_send_refs_button forecolor .12 .14 .08 1
+				setitemcolor ref_message_send_refs_button backcolor 0 0 0 0
+			}
+		}										
+
+		itemDef 
+		{
+			name		team_list_text
+			group		rpm_ref_group
+			rect		65 193 45 18
+			text		"Team:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+			cvarTest		"ui_info_teamgame"
+			hideCvar
+			{
+				"0";
+			}
+		}
+
+		itemDef
+		{
+			name			team_list
+			group			rpm_ref_group
+			style			WINDOW_STYLE_FILLED
+			type			ITEM_TYPE_COMBOBOX
+			feeder			FEEDER_TEAM_LIST
+			visible			1
+			rect			60 210 70 60
+			textfont		"hud"
+			textscale		.35
+			textaligny		-13
+			forecolor		.12 .14 .08 1
+			backcolor		0.59 0.68 0.41 1
+			elementheight	18
+			border			1
+			bordercolor		0 0 0 1
+			outlinecolor	0 0 0 .25
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+			}
+			cvarTest		"ui_info_teamgame"
+			hideCvar
+			{
+				"0";
+			}
+		}
+		
+		itemDef 
+		{
+			name		team_cmd_text
+			group		rpm_ref_group
+			rect		150 193 45 18
+			text		"Action:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+			decoration
+			cvarTest		"ui_info_teamgame"
+			hideCvar
+			{
+				"0";
+			}
+		}		
+		
+		itemDef 
+		{
+			name			team_cmd_list
+			group			rpm_ref_group
+			style			WINDOW_STYLE_FILLED
+			type			ITEM_TYPE_COMBOBOX
+			feeder			FEEDER_REF_TEAM_COMMANDS
+			visible			1
+			rect			145 210 110 75
+			textfont		"hud"
+			textscale		.35
+			textaligny		-13
+			forecolor		.12 .14 .08 1
+			backcolor		0.59 0.68 0.41 1
+			elementheight	18
+			border			1
+			bordercolor		0 0 0 1
+			outlinecolor	0 0 0 .25
+			cvarTest		"ui_info_teamgame"
+			hideCvar
+			{
+				"0";
+			}
+			
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+			}
+		}
+		itemDef 
+		{
+			name			ref_team_cmd_ok_button
+			group			rpm_ref_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			270 210 40 18
+			text			"OK"
+			textalign		1
+			textalignx		20
+			textaligny		0
+			textfont		"hud"
+			textscale		.40
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			cvarTest		"ui_info_teamgame"
+			hideCvar
+			{
+				"0";
+			}
+			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav" ; 
+
+				uiScript refTeamCommand; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_team_cmd_ok_button backcolor .12 .14 .08 1
+				setitemcolor ref_team_cmd_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_team_cmd_ok_button forecolor .12 .14 .08 1
+				setitemcolor ref_team_cmd_ok_button backcolor 0 0 0 0
+			}
+		}				
+
+
+		//////////////////////////////////////////////////////////////
+		///// REF KICK PLAYER
+		//////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		ref_kick_text
+			group		rpm_refkick_group
+			rect		67 35 110 20
+			text		"Kick Player:"
+			textalign	0
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.43
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible		1
+		}
+
+		itemDef 
+		{
+      		name			ref_kick_list
+			group			rpm_refkick_group
+			type			ITEM_TYPE_LISTBOX
+			feeder			FEEDER_PLAYER_LIST
+			style			WINDOW_STYLE_FILLED
+       		rect			62 55 250 130
+			elementwidth	220
+			elementheight	18
+			textaligny		-13
+			elementtype		LISTBOX_TEXT
+			textfont		"hud"
+			textscale		.43
+			border			1
+			bordercolor		0 0 0 1
+			forecolor		1 1 1 1
+			backcolor		0 0 0 .25
+			outlinecolor	.12 .14 .08 1
+			visible			1
+			doubleClick
+			{ 
+				uiscript refkick;
+				uiScript closeingame; 
+			}
+		}
+		itemDef 
+		{
+			name		reason_text
+			group		rpm_refkick_group
+			rect		9 190 45 18
+			text		"Reason:"
+			textalign	ITEM_ALIGN_LEFT
+			textalignx	0
+			textaligny	2
+			textfont	"hud"
+			textscale	.40
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			visible			1
+		}
+
+		itemDef 
+		{
+      		name			reason_field
+			group			rpm_refkick_group
+      		type			ITEM_TYPE_EDITFIELD
+			cvar			"ui_clientKickReason"
+			style			WINDOW_STYLE_FILLED
+			maxChars		60
+			maxPaintChars	60
+			rect			4 208 365 18 
+			textalign		ITEM_ALIGN_LEFT
+			textalignx		5
+			textaligny		2
+			textfont		"hud"
+			textscale		.35
+     		forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1 
+			visible			1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ; 
+				setitemcolor reason_field backcolor .12 .14 .08 1
+				setitemcolor reason_field forecolor .49 .56 .27 1
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor reason_field backcolor .12 .14 .08 1
+				setitemcolor reason_field forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor reason_field forecolor .12 .14 .08 1
+				setitemcolor reason_field backcolor 0 0 0 0
+			}
+		}				
+
+		itemDef 
+		{
+			name			ref_kick_ok_button
+			group			rpm_refkick_group
+			type			ITEM_TYPE_BUTTON
+			style			WINDOW_STYLE_FILLED
+			rect			162 240 50 20
+			text			"OK"
+			textalign		1
+			textalignx		23
+			textaligny		2
+			textfont		"hud"
+			textscale		.43
+			forecolor		.12 .14 .08 1
+			backcolor		0 0 0 0
+			border			1
+			bordercolor		0 0 0 1
+			visible			1
+			
+			action 
+			{ 
+				uiscript refkick;
+				uiScript closeingame; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor ref_kick_ok_button backcolor .12 .14 .08 1
+				setitemcolor ref_kick_ok_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor ref_kick_ok_button forecolor .12 .14 .08 1
+				setitemcolor ref_kick_ok_button backcolor 0 0 0 0
+			}
+		}
+
+		///////////////////////////////////////////////////////////////
+		///// BACK BUTTON
+		///////////////////////////////////////////////////////////////
+		itemDef 
+		{
+			name		back_button
+			group		ref_back_button_group
+			type		ITEM_TYPE_BUTTON
+			style		WINDOW_STYLE_FILLED
+			rect		3 18 46 14
+			text		"<<Back"
+			textalign	ITEM_ALIGN_CENTER
+			textalignx	22
+			textaligny	0
+			textfont	"hud"
+			textscale	.35
+			forecolor	.12 .14 .08 1
+			backcolor	0 0 0 0
+			border		1
+			bordercolor	0 0 0 1
+			tooltip     "Go back to Referee Menu"
+			visible		1
+
+			action
+			{
+				play "sound/misc/menus/select.wav" ;
+				hide rpm_refkick_group;
+				hide ref_back_button_group;
+
+				show rpm_ref_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor back_button backcolor .12 .14 .08 1
+				setitemcolor back_button forecolor .49 .56 .27 1
+			}
+      		mouseExit 
+			{ 
+				setitemcolor back_button forecolor .12 .14 .08 1
+				setitemcolor back_button backcolor 0 0 0 0
+			}
+			
+		}
+	}		
+}
+

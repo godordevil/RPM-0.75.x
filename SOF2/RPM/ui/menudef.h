@@ -79,7 +79,6 @@
 // GodOrDevil - 03.07.07 - 02:23pm #loadHuds
 #define FEEDER_BSP							24			// bsp list
 #define FEEDER_MODELS						25			// model List
-//#define FEEDER_FONTS						26			// model List
 // End - 03.07.07 - 02:23pm
 
 
@@ -198,8 +197,6 @@
 #define UI_OUTFITTING_SLOT_BACKGROUND	274
 
 #define UI_OBJECTIVE_PHOTOS				275
-
-#define UI_SHOTGUNCROSSHAIR				276
 
 #define VOICECHAT_GETFLAG			"getflag"				// command someone to get the flag
 #define VOICECHAT_OFFENSE			"offense"				// command someone to go on offense

@@ -1,0 +1,11 @@
+RPM 0.75.x is mini-mod for SOF2.  It is a heavily modified version of the RPM mod originally released by Ryan Powell a.k.a. Some Dude.
+ 
+
+The RPM 0.75 sdk is available to the public under the GPL at:
+https://github.com/godordevil/RPM-0.75.x
+-or-
+http://sof2.org
+
+
+
+

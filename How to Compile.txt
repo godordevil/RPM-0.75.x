@@ -1,7 +1,25 @@
-Right-clicking 'My Computer' 
-Properties > Advanced > Environmental Variables > Path
 
-;D:\Programming\Sources\bin
+To compile vm's, you will need to add the compiler tools (included in the ./bin/ directory) to your systems path.
+
+To add the path:
+-----------------------
+Windows Vista and above
+-----------------------
+Right-click on My Computer and select Properties then > Advanced system settings > Advanced > Environmental Variables
+
+-----------------------
+Windows XP
+-----------------------
+Right-click 'My Computer' and select Properties then Advanced > Environmental Variables
 
 
-Run the batch file for the project.
+Under 'system variables' locate the 'path' setting and add the full path to your 'bin' folder containing the compiler tools.
+Example:   ;C:\Programming\RPM-0.75.x\bin
+
+
+Run the batch file for the project you wish to compile.  If the mod compiles successful then the path was added correctly.
+
+The *.vm files are set to output to the './SOF2/RPM/vm/' folder relative to the 'Source Code - RPM 0.75.x' directory.  
+You can change the output directory in the *.bat file of the project you are compiling.
+
+

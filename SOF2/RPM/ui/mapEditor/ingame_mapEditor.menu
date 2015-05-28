@@ -1,0 +1,1834 @@
+{
+	\\ SERVER INFO MENU 
+
+	menuDef 
+	{
+ 		name			"ingame_mapEditor"
+ 		visible			0
+ 		fullscreen		0
+		rect			0 85 640 480
+		disableColor	.1 1 .1 .3
+        tooltipScale .3
+        tooltipDelay  1
+        forecolor		1 1 1 1
+        onopen 
+		{ 
+            hide gt_group;
+            hide spawn_group;
+            hide SaveMap_group;
+            hide health_group;
+            hide weapon_group;
+            hide misc_group;
+            hide location_group;
+            hide endTeleport_group;
+            hide startTeleport_group;
+            hide bsp_group;
+            hide model_group;
+		 close ingame_mod.menu
+          }
+		///////////////
+		//  Dialog frame
+		///////////////
+		itemDef
+		{
+			name		window
+			style		WINDOW_STYLE_FILLED
+            rect		0 10 40 240
+			visible		1		
+			backcolor	0 0 0 .9
+			border		1
+			bordercolor	.02 .02 .02 1
+		}	
+        
+        
+        ///////////////
+		//  Groups
+		//////////////  
+ 
+        /// Gametype - gt_group
+ 		itemDef
+		{
+			name		Gametype
+            group		gt_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 10 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 
+			{    
+                hide	 gt_group;
+			}
+		}	  
+		itemDef
+		{
+			name		arrow
+            group		gt_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 10 30 40
+			visible		1
+			decoration
+		}        
+		itemDef 
+		{
+			name		blueFlagGroup
+            group		gt_group
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		70 15 30 30
+			//text		"Blue\nFlag\nGroup"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Blue Item Group"
+            background  "gfx/menus/hud/flag_blue_small"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_about_gametypeShortName"
+            enableCvar
+            {
+            ctf;
+			sab;
+            }
+			*/
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem blueflaggroup"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor blueFlagGroup backcolor .1 .1 .1 .8;
+				setitemcolor blueFlagGroup forecolor .9 .9 .9 1;
+                setitemcolor blueFlagGroup bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor blueFlagGroup backcolor  0  0  0  0;
+				setitemcolor blueFlagGroup forecolor .5 .5 .5  1;	
+                setitemcolor blueFlagGroup bordercolor	.2 .2 .2 1                
+			}
+
+		}    
+        itemDef 
+		{
+			name		redFlagGroup
+            group		gt_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		105 15 30 30
+			//text		"Red\nFlag\nGroup"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Red Item Group"
+            background  "gfx/menus/hud/flag_red_small"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_about_gametypeShortName"
+			enableCvar
+            {
+            ctf;
+			inf;
+            }
+			*/
+            action
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem redflaggroup"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor redFlagGroup backcolor .1 .1 .1 .8;
+				setitemcolor redFlagGroup forecolor .9 .9 .9 1;
+                setitemcolor redFlagGroup bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor redFlagGroup backcolor  0  0  0  0;
+				setitemcolor redFlagGroup forecolor .5 .5 .5  1;	
+                setitemcolor redFlagGroup bordercolor	.2 .2 .2 1                
+			}
+		}    
+         itemDef 
+		{
+			name		briefcase
+            group		gt_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		140 15 30 30
+			//text		"Briefcase"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Briefcase"
+            background  "gfx/menus/hud/briefcase_small"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_about_gametypeShortName"
+            enableCvar
+            {
+            inf;
+            ctc;
+			sab;
+            }
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem case"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor briefcase backcolor .1 .1 .1 .8;
+				setitemcolor briefcase forecolor .9 .9 .9 1;
+                setitemcolor briefcase bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor briefcase backcolor  0  0  0  0;
+				setitemcolor briefcase forecolor .5 .5 .5  1;	
+                setitemcolor briefcase bordercolor	.2 .2 .2 1                
+			}
+		}    
+
+         /// Spawns - spawn_group
+		itemDef
+		{
+			name		spawnGroup
+            group		spawn_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 50 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 	
+            {   
+                hide	 spawn_group;
+            }
+		}	        
+		itemDef
+		{
+			name		arrow
+            group		spawn_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 50 30 40
+			visible		1
+			decoration
+		}  
+		itemDef 
+		{
+			name		blueSpawn
+            group		spawn_group
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		70 55 30 30
+			//text		"Blue\nSpawn"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Blue Spawn"
+            background  "gfx/menus/hud/team_blue"
+            
+           	cvarTest	"ui_info_teamgame"
+            enableCvar
+            {
+            1;
+            } 
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem blueSpawn"; 
+				uiScript closeingame;
+			}
+           	mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor blueSpawn backcolor .1 .1 .1 .8;
+				setitemcolor blueSpawn forecolor .9 .9 .9 1;
+                setitemcolor blueSpawn bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor blueSpawn backcolor  0  0  0  0;
+				setitemcolor blueSpawn forecolor .5 .5 .5  1;	
+                setitemcolor blueSpawn bordercolor	.2 .2 .2 1                
+			}
+
+		}    
+        itemDef 
+		{
+			name		redSpawn
+            group		spawn_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		105 55 30 30
+			//text		"Red\nSpawn"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Red Spawn"
+            background  "gfx/menus/hud/team_red"
+            cvarTest	"ui_info_teamgame"
+            enableCvar
+            {
+            1;
+            }
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem redspawn"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor redSpawn backcolor .1 .1 .1 .8;
+				setitemcolor redSpawn forecolor .9 .9 .9 1;
+                setitemcolor redSpawn bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor redSpawn backcolor  0  0  0  0;
+				setitemcolor redSpawn forecolor .5 .5 .5  1;	
+                setitemcolor redSpawn bordercolor	.2 .2 .2 1                
+			}
+		}            
+        itemDef 
+		{
+			name		freeSpawn
+            group		spawn_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		140 55 30 30
+			//text		"Free\nSpawn"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Spawn (no team)"
+            background  "gfx/menus/hud/team_free"
+           // cvarTest	"ui_info_teamgame"
+           // enableCvar
+          //  {
+          //  0;
+          //  }            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem spawn"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor freeSpawn backcolor .1 .1 .1 .8;
+				setitemcolor freeSpawn forecolor .9 .9 .9 1;
+                setitemcolor freeSpawn bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor freeSpawn backcolor  0  0  0  0;
+				setitemcolor freeSpawn forecolor .5 .5 .5  1;	
+                setitemcolor freeSpawn bordercolor	.2 .2 .2 1  
+            }                
+		}    
+        /// Health/Armor
+		itemDef
+		{
+			name		healthGroup
+            group		health_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 90 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 	
+            {   
+                hide	 health_group;
+            }
+		}	        
+		itemDef
+		{
+			name		arrow
+            group		health_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 90 30 40
+			visible		1
+			decoration
+		}  
+		itemDef 
+		{
+			name		BackPack
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		70 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Back Pack"
+            background  "gfx/menus/hud/weapon_icons/mp_universal_pickup_icon"
+            /* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+           	cvarTest	"ui_info_teamgame"
+            enableCvar
+            {
+            1;
+            } 
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem BackPack"; 
+				uiScript closeingame;
+			}
+           	mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor BackPack backcolor .1 .1 .1 .8;
+				setitemcolor BackPack forecolor .9 .9 .9 1;
+                setitemcolor BackPack bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor BackPack backcolor  0  0  0  0;
+				setitemcolor BackPack forecolor .5 .5 .5  1;	
+                setitemcolor BackPack bordercolor	.2 .2 .2 1                
+			}
+
+		}    
+        itemDef 
+		{
+			name		healthSmall
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		105 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Small Health"
+            background  "gfx/menus/hud/weapon_icons/health_small_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            } 
+			*/
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem healthSmall"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor healthSmall backcolor .1 .1 .1 .8;
+				setitemcolor healthSmall forecolor .9 .9 .9 1;
+                setitemcolor healthSmall bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor healthSmall backcolor  0  0  0  0;
+				setitemcolor healthSmall forecolor .5 .5 .5  1;	
+                setitemcolor healthSmall bordercolor	.2 .2 .2 1                
+			}
+		}            
+        itemDef 
+		{
+			name		healthBig
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		140 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Large Health"
+            background  "gfx/menus/hud/weapon_icons/health_large_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }      
+			*/			
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem healthBig"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor healthBig backcolor .1 .1 .1 .8;
+				setitemcolor healthBig forecolor .9 .9 .9 1;
+                setitemcolor healthBig bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor healthBig backcolor  0  0  0  0;
+				setitemcolor healthBig forecolor .5 .5 .5  1;	
+                setitemcolor healthBig bordercolor	.2 .2 .2 1  
+            }                
+		}    
+
+        itemDef 
+		{
+			name		armorsmall
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		175 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Small Armor"
+            background  "gfx/menus/hud/weapon_icons/armor_small_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }  
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem armorsmall"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor armorsmall backcolor .1 .1 .1 .8;
+				setitemcolor armorsmall forecolor .9 .9 .9 1;
+                setitemcolor armorsmall bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor armorsmall backcolor  0  0  0  0;
+				setitemcolor armorsmall forecolor .5 .5 .5  1;	
+                setitemcolor armorsmall bordercolor	.2 .2 .2 1  
+            }                
+		}    
+
+        itemDef 
+		{
+			name		armormedium
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		210 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Medium Armor"
+            background  "gfx/menus/hud/weapon_icons/armor_medium_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }   
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem armormedium"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor armormedium backcolor .1 .1 .1 .8;
+				setitemcolor armormedium forecolor .9 .9 .9 1;
+                setitemcolor armormedium bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor armormedium backcolor  0  0  0  0;
+				setitemcolor armormedium forecolor .5 .5 .5  1;	
+                setitemcolor armormedium bordercolor	.2 .2 .2 1  
+            }                
+		}    
+        itemDef 
+		{
+			name		armorBig
+            group		health_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		245 95 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Large Armor"
+            background  "gfx/menus/hud/weapon_icons/armor_large_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }  
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem armorBig"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor armorBig backcolor .1 .1 .1 .8;
+				setitemcolor armorBig forecolor .9 .9 .9 1;
+                setitemcolor armorBig bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor armorBig backcolor  0  0  0  0;
+				setitemcolor armorBig forecolor .5 .5 .5  1;	
+                setitemcolor armorBig bordercolor	.2 .2 .2 1  
+            }                
+		}   
+        
+        
+        /// weaponGroup - weapon_group
+		itemDef
+		{
+			name		weaponGroup
+            group		weapon_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 130 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 	
+            {   
+                hide	 weapon_group;
+            }
+		}	        
+		itemDef
+		{
+			name		arrow
+            group		weapon_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 130 30 40
+			visible		1
+			decoration
+		}  
+		itemDef 
+		{
+			name		Weapon
+            group		weapon_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		70 135 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Current Weapon (or choose)"
+            background  "gfx/menus/hud/weapon_icons/m15_icon_simple"
+            /* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            } 
+			*/
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				exec "additem weapon"; 
+				uiScript closeingame;
+			}
+           	mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Weapon backcolor .1 .1 .1 .8;
+				setitemcolor Weapon forecolor .9 .9 .9 1;
+                setitemcolor Weapon bordercolor 1 0 0 1;
+               ///show weaponList_group
+			}				 
+			mouseExit 
+			{             
+				setitemcolor Weapon backcolor  0  0  0  0;
+				setitemcolor Weapon forecolor .5 .5 .5  1;	
+                setitemcolor Weapon bordercolor	.2 .2 .2 1                
+			}
+
+		}    
+        itemDef 
+		{
+			name		Ammo
+            group		weapon_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		105 135 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Current Ammo (or choose)"
+            background  "gfx/menus/hud/weapon_icons/ammo_45_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem ammo"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Ammo backcolor .1 .1 .1 .8;
+				setitemcolor Ammo forecolor .9 .9 .9 1;
+                setitemcolor Ammo bordercolor 1 0 0 1;
+                ///show AmmoList_group
+			}				 
+			mouseExit 
+			{             
+				setitemcolor Ammo backcolor  0  0  0  0;
+				setitemcolor Ammo forecolor .5 .5 .5  1;	
+                setitemcolor Ammo bordercolor	.2 .2 .2 1  
+            }                
+		}   
+        itemDef 
+		{
+			name		altAmmo
+            group		weapon_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		140 135 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Current Alt Ammo (or choose)"
+            background  "gfx/menus/hud/weapon_icons/ammo_40mm_icon_simple"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest	"ui_info_pickupsdisabled"
+            enableCvar
+            {
+            0;
+            }
+			*/
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem altAmmo"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor altAmmo backcolor .1 .1 .1 .8;
+				setitemcolor altAmmo forecolor .9 .9 .9 1;
+                setitemcolor altAmmo bordercolor 1 0 0 1;
+                ///show altAmmoList_group
+			}				 
+			mouseExit 
+			{             
+				setitemcolor altAmmo backcolor  0  0  0  0;
+				setitemcolor altAmmo forecolor .5 .5 .5  1;	
+                setitemcolor altAmmo bordercolor	.2 .2 .2 1  
+            }                
+		}    
+        
+        
+        
+        
+        
+        
+        /// miscGroup - misc_group
+		itemDef
+		{
+			name		miscGroup
+            group		misc_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 175 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 	
+            {   
+                hide	 misc_group;
+            }
+		}	        
+		itemDef
+		{
+			name		arrow
+            group		misc_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 175 30 40
+			visible		1
+			decoration
+		}  
+		itemDef 
+		{
+			name		Location
+            group		misc_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		70 180 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Locaton Name"
+            background  "gfx/menus/icons/submenu_lang"
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+
+				//exec "additem locName"; 
+				//uiScript closeingame;
+                show location_group
+                setfocus locnameText   
+                hide misc_group
+			}
+           	mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Location backcolor .1 .1 .1 .8;
+				setitemcolor Location forecolor .9 .9 .9 1;
+                setitemcolor Location bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor Location backcolor  0  0  0  0;
+				setitemcolor Location forecolor .5 .5 .5  1;	
+                setitemcolor Location bordercolor	.2 .2 .2 1                
+			}
+
+		}    
+        itemDef 
+		{
+			name		startTeleport
+            group		misc_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		105 180 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5  .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Insert a Teleporter"
+            background  "gfx/menus/icons/submenu_loadauto"
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				//exec "additem startTeleport"; 
+				//uiScript closeingame;
+                show startTeleport_group
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor startTeleport backcolor .1 .1 .1 .8;
+				setitemcolor startTeleport forecolor .9 .9 .9 1;
+                setitemcolor startTeleport bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor startTeleport backcolor  0  0  0  0;
+				setitemcolor startTeleport forecolor .5 .5 .5  1;	
+                setitemcolor startTeleport bordercolor	.2 .2 .2 1                
+			}
+		}            
+        itemDef 
+		{
+			name		endTeleport
+            group		misc_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		140 180 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add a target location for teleporter(s)"
+            background  "gfx/menus/icons/icon_game"
+         
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                show endTeleport_group
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor endTeleport backcolor .1 .1 .1 .8;
+				setitemcolor endTeleport forecolor .9 .9 .9 1;
+                setitemcolor endTeleport bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor endTeleport backcolor  0  0  0  0;
+				setitemcolor endTeleport forecolor .5 .5 .5  1;	
+                setitemcolor endTeleport bordercolor	.2 .2 .2 1  
+            }                
+		}    
+
+        itemDef 
+		{
+			name		bsp
+            group		misc_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		175 180 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add a .BSP instance"
+            background  "gfx/menus/icons/submenu_rmg"
+          
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				///uiScript closeingame;
+               // uiScript	LoadBsps;
+               // show        bsp_group;
+                hide       misc_group;
+                open    ingame_bspList;
+
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor bsp backcolor .1 .1 .1 .8;
+				setitemcolor bsp forecolor .9 .9 .9 1;
+                setitemcolor bsp bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor bsp backcolor  0  0  0  0;
+				setitemcolor bsp forecolor .5 .5 .5  1;	
+                setitemcolor bsp bordercolor	.2 .2 .2 1  
+            }                
+		}    
+			
+		
+		itemDef 
+		{
+			name		model
+            group		misc_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		210 180 30 30
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			forecolor	.5 .5 .5 .8
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add a Model"
+            background  "gfx/menus/icons/submenu_maps"
+          
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                hide    misc_group;
+                open    ingame_modelList;
+
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor model backcolor .1 .1 .1 .8;
+				setitemcolor model forecolor .9 .9 .9 1;
+                setitemcolor model bordercolor 1 0 0 1;
+			}				 
+			mouseExit 
+			{             
+				setitemcolor model backcolor  0  0  0  0;
+				setitemcolor model forecolor .5 .5 .5  1;	
+                setitemcolor model bordercolor	.2 .2 .2 1  
+            }                
+		}    
+                
+        /// SaveMap - SaveMap_group
+         itemDef
+		{
+			name		SaveMapgroup
+            group		SaveMap_group
+			style		WINDOW_STYLE_FILLED
+            rect		0 210 300 40
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+           	mouseExit 	
+            {   
+                hide	 SaveMap_group;
+            }
+		}	
+        itemDef
+		{
+			name		arrow
+            group		SaveMap_group
+      		style		WINDOW_STYLE_SHADER
+			background	"gfx/menus/icons/submenu_join"
+			forecolor	1 1 0 1
+      		rect		40 210 30 40
+			visible		1
+			decoration
+		}  
+	
+		itemDef 
+		{
+			name		Save
+            group		SaveMap_group
+			type		ITEM_TYPE_BUTTON
+           	style		WINDOW_STYLE_SHADER
+			rect		70 215 30 30
+			forecolor	1 1 1 1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Save"
+            background  "gfx/menus/icons/submenu_cdkey"
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+				exec "additem save"; 
+				uiScript closeingame;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Save backcolor 1 1 1 1;
+				setitemcolor Save forecolor 1 0 0 1;
+                setitemcolor Save bordercolor 1 0 0 1;
+                //show ammoList_group
+			}				 
+			mouseExit 
+			{             
+				setitemcolor Save backcolor   0 0 0 0;
+				setitemcolor Save forecolor   1 1 1  1;	
+                setitemcolor Save bordercolor .2 .2 .2 1 
+            }
+		}            
+
+		///////////////
+		//  Buttons
+		//////////////
+		itemDef 
+		{
+			name		GametypeItems
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 15 30 30
+		//	text		"Game\nType\nItem"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0 1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Gametype Item"
+            background  "gfx/menus/hud/briefcase_small"
+			/* - had this testing for gametypes, but decided to use the server mod to do it 
+			// - for additonal gametypes that might be added later.
+            cvarTest    "ui_about_gametypeShortName"
+            enableCvar
+            {
+            ctf;
+            inf;
+            dem;
+            }
+			*/
+            
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor GametypeItems backcolor .1 .1 .1 .8;
+				setitemcolor GametypeItems forecolor .9 .9 .9 1;   
+                setitemcolor GametypeItems bordercolor 1 0 0 1;       
+                show gt_group;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor GametypeItems backcolor  0  0  0  1;
+				setitemcolor GametypeItems forecolor .5 .5 .5  1;	 
+                setitemcolor GametypeItems bordercolor .2 .2 .2 1;   
+			}
+		}
+                
+      	itemDef 
+		{
+			name		PlayerSpawns
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 55 30 30
+			//text		"Spawn\nPoints"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add Player Spawn Points"
+            background	"gfx/menus/icons/submenu_bots"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor PlayerSpawns backcolor .1 .1 .1 .8;
+				setitemcolor PlayerSpawns forecolor 1 1 1 1;   
+                setitemcolor PlayerSpawns bordercolor 1 0 0 1;  
+                show spawn_group;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor PlayerSpawns backcolor  0  0  0  1;
+				setitemcolor PlayerSpawns forecolor .5 .5 .5  1;
+                setitemcolor PlayerSpawns bordercolor .2 .2 .2 1;   
+				
+			}
+		}
+      
+        itemDef 
+		{
+			name		health
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 95 30 30
+			//text		"health\nItems"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  .8
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Add health & Armor"
+            //background  "gfx/menus/hud/bot_small"
+           // background  "gfx/menus/hud/crouch_jump.png"
+            background  "gfx/menus/hud/weapon_icons/mp_universal_pickup_icon"
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor health backcolor .1 .1 .1 .8;
+				setitemcolor health forecolor 1 1 1 1;   
+                setitemcolor health bordercolor 1 0 0 1;  
+                show health_group;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor health backcolor  0  0  0  1;
+				setitemcolor health forecolor .5 .5 .5  1;
+                setitemcolor health bordercolor .2 .2 .2 1;   
+				
+			}
+		} 
+        itemDef 
+		{
+			name		Weapons
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 135 30 30
+			//text		"Weapons"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Weapons & Ammo"
+            background  "gfx/menus/hud/weapon_icons/m67_icon"
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Weapons backcolor .1 .1 .1 .8;
+				setitemcolor Weapons forecolor 1 1 1 1;   
+                setitemcolor Weapons bordercolor 1 0 0 1;  
+                show weapon_group;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor Weapons backcolor  0  0  0  1;
+				setitemcolor Weapons forecolor .5 .5 .5  1;
+                setitemcolor Weapons bordercolor .2 .2 .2 1;   
+				
+			}
+		} 
+
+        itemDef 
+		{
+			name		Misc
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 175 30 30
+			//text		"Misc"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Misc. Items"
+            background  "gfx/menus/icons/submenu_misc"
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor Misc backcolor .1 .1 .1 .8;
+				setitemcolor Misc forecolor 1 1 1 1;   
+                setitemcolor Misc bordercolor 1 0 0 1;  
+                show Misc_group;
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor Misc backcolor  0  0  0  1;
+				setitemcolor Misc forecolor .5 .5 .5  1;
+                setitemcolor Misc bordercolor .2 .2 .2 1;   
+				
+			}
+		} 
+        itemDef 
+		{
+			name		SaveMap
+			type		ITEM_TYPE_BUTTON
+			//style		WINDOW_STYLE_FILLED
+           	style		WINDOW_STYLE_SHADER
+			rect		5 215 30 30
+			//text		"Save Map"
+			textalign	0
+			textalignx	2
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Save to File"
+            background  "gfx/menus/icons/submenu_save"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                 //show SaveMap_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor SaveMap backcolor .1 .1 .1 .8;
+				setitemcolor SaveMap forecolor 1 1 1 1;   
+                setitemcolor SaveMap bordercolor 1 0 0 1;  
+                show SaveMap_group;                
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor SaveMap backcolor  0  0  0  1;
+				setitemcolor SaveMap forecolor .5 .5 .5  1;
+                setitemcolor SaveMap bordercolor .2 .2 .2 1;   
+				
+			}
+		}  
+
+        
+
+        /// locationGroup - location_group
+          itemDef
+		{
+			name		locationGroup
+            group		location_group
+			style		WINDOW_STYLE_FILLED
+            rect		150 100 320 60
+            text		"^-location name:"			
+            textalign	0
+			textalignx	5
+			textaligny	2
+			textfont	"hud"
+			textscale	.34
+			forecolor	.5 .5 .5  1
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+            
+		}	
+
+        itemDef 
+		{
+			name		locname		   
+            group		location_group
+			type		ITEM_TYPE_BUTTON
+		    rect		155 135 30 18
+			text		"OK"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Set Location Name"
+           /// background  "gfx/menus/icons/submenu_save"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                hide location_group;
+                exec "additemText";
+                uiScript closeingame;
+                setcvar nv_mapEditorInput " "
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor locname backcolor .1 .1 .1 .8;
+				setitemcolor locname forecolor 1 1 1 1;   
+                setitemcolor locname bordercolor 1 0 0 1;  
+                setfocus locname   
+              
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor locname backcolor  0  0  0  1;
+				setitemcolor locname forecolor .5 .5 .5  1;
+                setitemcolor locname bordercolor .2 .2 .2 1;   
+				
+			}
+		}  
+        itemDef 
+		{
+			name		cancel		   
+            group		location_group
+			type		ITEM_TYPE_BUTTON
+		    rect		188 135 50 18
+			text		"Cancel"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Cancel"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+                setcvar nv_mapEditorInput "NULL" ; 
+                hide location_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor cancel backcolor .1 .1 .1 .8;
+				setitemcolor cancel forecolor 1 1 1 1;   
+                setitemcolor cancel bordercolor 1 0 0 1;  
+                setfocus locname   
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor cancel backcolor  0  0  0  1;
+				setitemcolor cancel forecolor .5 .5 .5  1;
+                setitemcolor cancel bordercolor .2 .2 .2 1;   				
+			}
+		}  
+
+		itemDef {            
+		    group		location_group
+			name		locnameText
+			textfont	"hud"
+			textscale	.35
+			type		ITEM_TYPE_EDITFIELD
+			cvar		"nv_mapEditorInput"
+			maxchars	28
+			maxPaintChars 28
+			rect		155 118 280 20
+			textstyle	1
+			textalignx	2
+			textaligny	1
+			forecolor	1 1 1 1
+			backcolor	1 0 0 .5
+			visible		1
+
+            mouseEnter 
+			{ 
+            setfocus locnameText
+            }
+		}
+
+
+        /// endTeleportGroup - endTeleport_group
+        itemDef
+		{
+			name		endTeleportGroup
+            group		endTeleport_group
+			style		WINDOW_STYLE_FILLED
+            rect		150 100 320 60
+            text		"^-Location Name:"			
+            textalign	0
+			textalignx	5
+			textaligny	2
+			textfont	"hud"
+			textscale	.34
+			forecolor	.5 .5 .5  1
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1
+            
+		}	
+
+        itemDef 
+		{
+			name		endTeleport         /// must be the name used in the hud editor command!		   
+            group		endTeleport_group
+			type		ITEM_TYPE_BUTTON
+		    rect		155 135 30 18
+			text		"OK"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Set Location Name"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                hide endTeleport_group;
+                exec "additemText";     ///does not execute this! setup to see if we need to do a custom cmd!
+                uiScript closeingame;
+                setcvar nv_mapEditorInput " "
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor endTeleport backcolor .1 .1 .1 .8;
+				setitemcolor endTeleport forecolor 1 1 1 1;   
+                setitemcolor endTeleport bordercolor 1 0 0 1;  
+              
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor endTeleport backcolor  0  0  0  1;
+				setitemcolor endTeleport forecolor .5 .5 .5  1;
+                setitemcolor endTeleport bordercolor .2 .2 .2 1;   
+				
+			}
+		}  
+        itemDef 
+		{
+			name		endTeleportCancel		   
+            group		endTeleport_group
+			type		ITEM_TYPE_BUTTON
+		    rect		188 135 50 18
+			text		"Cancel"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Cancel"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+                setcvar nv_mapEditorInput "NULL" ; 
+                hide endTeleport_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor endTeleportCancel backcolor .1 .1 .1 .8;
+				setitemcolor endTeleportCancel forecolor 1 1 1 1;   
+                setitemcolor endTeleportCancel bordercolor 1 0 0 1;  
+                setfocus endTeleport   
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor endTeleportCancel backcolor  0  0  0  1;
+				setitemcolor endTeleportCancel forecolor .5 .5 .5  1;
+                setitemcolor endTeleportCancel bordercolor .2 .2 .2 1;   				
+			}
+		}  
+
+		itemDef {            
+		    group		endTeleport_group
+			name		endTeleportText
+			textfont	"hud"
+			textscale	.35
+			type		ITEM_TYPE_EDITFIELD
+			cvar		"nv_mapEditorInput"
+			maxchars	28
+			maxPaintChars 28
+			rect		155 118 280 20
+			textstyle	1
+			textalignx	2
+			textaligny	1
+			forecolor	1 1 1 1
+			backcolor	1 0 0 .5
+			visible		1
+
+            mouseEnter 
+			{ 
+            setfocus endTeleportText
+            }
+		}
+        /// startTeleportGroup - endTeleport_group
+        itemDef
+		{
+			name		startTeleportGroup
+            group		startTeleport_group
+			style		WINDOW_STYLE_FILLED
+            rect		150 100 320 60
+            text		"^-Target name:"			
+            textalign	0
+			textalignx	5
+			textaligny	2
+			textfont	"hud"
+			textscale	.34
+			forecolor	.5 .5 .5  1
+			visible	    0		
+			backcolor	0 0 0 .8
+			border		1
+			bordercolor	.02 .02 .02 1            
+		}	
+
+        itemDef 
+		{
+			name		startTeleport         /// must be the name used in the hud editor command!		   
+            group		startTeleport_group
+			type		ITEM_TYPE_BUTTON
+		    rect		155 135 30 18
+			text		"OK"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Set Teleport Target"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav"; 
+                hide startTeleport_group;
+                exec "additemText";     ///does not execute this! setup to see if we need to do a custom cmd!
+                uiScript closeingame;
+                setcvar nv_mapEditorInput " "
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor startTeleport backcolor .1 .1 .1 .8;
+				setitemcolor startTeleport forecolor 1 1 1 1;   
+                setitemcolor startTeleport bordercolor 1 0 0 1;  
+              
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor startTeleport backcolor  0  0  0  1;
+				setitemcolor startTeleport forecolor .5 .5 .5  1;
+                setitemcolor startTeleport bordercolor .2 .2 .2 1;   
+				
+			}
+		}  
+        itemDef 
+		{
+			name		startTeleportCancel		   
+            group		startTeleport_group
+			type		ITEM_TYPE_BUTTON
+		    rect		188 135 50 18
+			text		"Cancel"
+			textalign	0
+			textalignx	6
+			textaligny	2
+			textfont	"hud"
+			textscale	.36
+			backcolor	0 0 0  1
+			forecolor	.5 .5 .5  1
+      		visible		1
+			border		1
+			bordercolor	.2 .2 .2 1
+            tooltip     "Cancel"
+			cvar		"nv_mapEditorInput"
+
+			action 
+			{ 
+				play "sound/misc/menus/select.wav";
+                setcvar nv_mapEditorInput "NULL" ; 
+                hide startTeleport_group;
+			}
+			mouseEnter 
+			{ 
+				play "sound/misc/menus/hilite1.wav" ; 
+				setitemcolor startTeleportCancel backcolor .1 .1 .1 .8;
+				setitemcolor startTeleportCancel forecolor 1 1 1 1;   
+                setitemcolor startTeleportCancel bordercolor 1 0 0 1;  
+                setfocus startTeleport   
+			}				 
+			mouseExit 
+			{ 
+				setitemcolor startTeleportCancel backcolor  0  0  0  1;
+				setitemcolor startTeleportCancel forecolor .5 .5 .5  1;
+                setitemcolor startTeleportCancel bordercolor .2 .2 .2 1;   				
+			}
+		}  
+
+		itemDef {            
+		    group		startTeleport_group
+			name		startTeleportText
+			textfont	"hud"
+			textscale	.35
+			type		ITEM_TYPE_EDITFIELD
+			cvar		"nv_mapEditorInput"
+			maxchars	28
+			maxPaintChars 28
+			rect		155 118 280 20
+			textstyle	1
+			textalignx	2
+			textaligny	1
+			forecolor	1 1 1 1
+			backcolor	1 0 0 .5
+			visible		1
+
+            mouseEnter 
+			{ 
+            setfocus startTeleportText
+            }
+		}
+    } 
+ }
